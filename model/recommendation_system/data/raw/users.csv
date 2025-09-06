@@ -1,0 +1,151 @@
+user_id,name,age,profession,education,experience_years,skills,learning_style,interests,country
+U1,Karen Phillips,26,Software Engineer,High School,13,"Python, C++",Self-paced,"Robotics, Manufacturing",India
+U2,John Fox,44,ML Engineer,PhD,8,"Cloud Computing, Machine Learning",Self-paced,"Finance, Robotics, Social Media",Japan
+U3,Kevin Long,39,Software Engineer,High School,12,"Blockchain, Data Science, Deep Learning",Self-paced,Robotics,UK
+U4,Rachel Johnson,42,Software Engineer,Master's,11,"Web Development, DevOps, Python, C++",Hybrid,"Manufacturing, Healthcare",USA
+U5,Laura Richardson,23,ML Engineer,High School,12,"Java, AI",Instructor-led,E-commerce,Germany
+U6,Shannon Mahoney,28,Business Analyst,Bachelor's,5,"Data Science, Computer Vision, NLP, Machine Learning",Instructor-led,"E-commerce, Healthcare, Manufacturing",Germany
+U7,Daniel Kaiser,20,Cybersecurity Specialist,PhD,8,"Cybersecurity, AI, Data Science, DevOps",Self-paced,Robotics,USA
+U8,Deborah Perez,26,ML Engineer,Master's,13,"AI, Machine Learning, Computer Vision, Cybersecurity, Cloud Computing, Blockchain",Hybrid,"Gaming, E-commerce",Germany
+U9,James Smith,25,Data Analyst,Bachelor's,13,"Cybersecurity, SQL, Web Development, Computer Vision",Hybrid,Finance,India
+U10,Jason Alexander,35,Cybersecurity Specialist,High School,9,"DevOps, Mobile Dev, Cybersecurity, Web Development, Deep Learning",Instructor-led,"Finance, Healthcare, Social Media",USA
+U11,Cindy Hawkins,24,Cloud Architect,Bachelor's,4,"Python, C++, NLP, Deep Learning, Web Development",Instructor-led,Manufacturing,Japan
+U12,Jaime Ball,41,Cloud Architect,Bachelor's,1,"Python, Mobile Dev, Data Science",Self-paced,"Finance, Healthcare",Canada
+U13,Kimberly Perez,26,Web Developer,Bachelor's,8,"SQL, C++",Hybrid,"Healthcare, Gaming",Japan
+U14,Megan Daniel,41,Web Developer,PhD,3,"Blockchain, Machine Learning, Web Development, DevOps, C++, NLP",Self-paced,"E-commerce, Autonomous Systems, Social Media",USA
+U15,Melissa Jones,32,Student,High School,1,"AI, Python",Self-paced,"Manufacturing, Robotics, E-commerce",India
+U16,Carrie Holloway,49,ML Engineer,Bachelor's,15,"AI, Java",Self-paced,"Robotics, E-commerce, Social Media",Japan
+U17,Jennifer Lee,44,Web Developer,High School,3,"Blockchain, Machine Learning, Java, Computer Vision, AI",Self-paced,"Social Media, Autonomous Systems",Germany
+U18,Austin Davis,29,Cloud Architect,PhD,7,"Machine Learning, Computer Vision, NLP, Blockchain",Self-paced,"Education, Gaming, Robotics",Germany
+U19,Rhonda Wolfe,44,Web Developer,PhD,6,"Machine Learning, Python, AI, Web Development, NLP, Java",Instructor-led,Gaming,India
+U20,Matthew Williamson,45,Business Analyst,PhD,4,"DevOps, Python, Cloud Computing",Self-paced,"Education, E-commerce",UK
+U21,Gina Bauer,21,Professor,PhD,5,"Java, Mobile Dev, C++",Self-paced,"Finance, Social Media, Manufacturing",Canada
+U22,Mary Fletcher,25,Professor,Bachelor's,1,"Data Science, Java",Hybrid,"Healthcare, Robotics, Education",India
+U23,Peter Deleon,43,Data Analyst,Master's,14,"AI, NLP, Deep Learning, Machine Learning, Computer Vision",Instructor-led,"Social Media, Robotics, Gaming",Japan
+U24,Matthew Herring,31,Business Analyst,Master's,4,"Python, Cybersecurity",Instructor-led,"Healthcare, Manufacturing, E-commerce",India
+U25,Megan Marshall,18,Business Analyst,Master's,3,"C++, Deep Learning, SQL",Self-paced,"Manufacturing, E-commerce",UK
+U26,Christopher Lopez,31,Cybersecurity Specialist,Bachelor's,8,"Machine Learning, C++",Hybrid,"Gaming, E-commerce, Manufacturing",Germany
+U27,Darrell Hatfield DDS,39,Data Analyst,Master's,5,"Java, Computer Vision, AI, Cloud Computing",Hybrid,"Finance, Manufacturing",Germany
+U28,Ashley Morris,27,Researcher,Bachelor's,1,"Blockchain, Web Development, Python, Java, DevOps, SQL",Instructor-led,"Finance, Social Media, E-commerce",UK
+U29,Debra Lopez,44,Professor,Bachelor's,7,"C++, Machine Learning",Self-paced,"Robotics, Healthcare, Gaming",Japan
+U30,Jennifer Stanley,33,Cloud Architect,Bachelor's,3,"Blockchain, Python, SQL",Instructor-led,"Social Media, Autonomous Systems, Education",Japan
+U31,Christine Fisher,40,Cloud Architect,Bachelor's,7,"Computer Vision, Machine Learning",Self-paced,Education,Australia
+U32,Hector Lara,40,Business Analyst,PhD,10,"DevOps, Data Science, Deep Learning",Self-paced,E-commerce,India
+U33,Matthew Daugherty,40,Cybersecurity Specialist,PhD,3,"Data Science, Mobile Dev, Deep Learning, Python",Instructor-led,Autonomous Systems,Canada
+U34,Lisa Diaz,41,Researcher,High School,10,"Web Development, Python, C++",Hybrid,"Finance, Robotics",UK
+U35,Daniel Estrada,43,Cloud Architect,Bachelor's,6,"Mobile Dev, Web Development",Instructor-led,"Autonomous Systems, Social Media",Australia
+U36,Timothy Perez,31,Researcher,Master's,14,"Data Science, Mobile Dev, NLP, Deep Learning, Cloud Computing",Instructor-led,"Finance, E-commerce, Gaming",Germany
+U37,Terri Foster,50,Professor,Master's,2,"Computer Vision, DevOps, NLP",Self-paced,"Gaming, Healthcare, Manufacturing",Australia
+U38,Scott Christensen,33,Web Developer,High School,14,"Cybersecurity, DevOps, Machine Learning, SQL",Instructor-led,Finance,Australia
+U39,Christina Murphy,18,Software Engineer,PhD,7,"Cloud Computing, C++, NLP, Computer Vision, Cybersecurity, DevOps",Self-paced,Gaming,Japan
+U40,Jessica Moreno,38,Web Developer,PhD,14,"NLP, Python, Web Development, Machine Learning, Java, Cybersecurity",Self-paced,Education,Australia
+U41,Brandon Sexton,33,Cloud Architect,PhD,2,"NLP, Deep Learning, DevOps, Machine Learning, AI",Hybrid,"Manufacturing, Education",UK
+U42,Sarah Rivera,32,Researcher,Bachelor's,6,"Web Development, Data Science, NLP",Self-paced,"Healthcare, Gaming, Manufacturing",Germany
+U43,Brian Larson,42,Professor,High School,12,"AI, Web Development, Cybersecurity, Cloud Computing, Python",Instructor-led,Autonomous Systems,India
+U44,Ryan Scott,32,Cloud Architect,PhD,15,"Mobile Dev, DevOps, Cloud Computing, Blockchain",Self-paced,"Manufacturing, Robotics, Education",Germany
+U45,Elizabeth Garcia,19,Researcher,High School,2,"DevOps, C++, SQL, Cybersecurity",Hybrid,Manufacturing,Germany
+U46,Mark Lawrence,31,Web Developer,Master's,10,"NLP, SQL, Python",Instructor-led,"Autonomous Systems, Social Media",UK
+U47,Miss Jennifer Brown,32,Software Engineer,High School,0,"Web Development, Blockchain, Java, Cybersecurity, Python",Self-paced,"Manufacturing, Finance, Gaming",USA
+U48,Mr. Dalton Schroeder,25,Professor,Bachelor's,14,"Deep Learning, Machine Learning",Hybrid,Education,UK
+U49,Erica Ray,24,Professor,High School,9,"Data Science, Mobile Dev, NLP, C++",Hybrid,"Healthcare, Gaming, Education",Australia
+U50,Jonathan Joyce,37,Professor,High School,1,"DevOps, C++, Machine Learning, Java, Mobile Dev",Instructor-led,"Robotics, Healthcare, Social Media",Canada
+U51,Kathryn Hunt,49,Software Engineer,PhD,11,"C++, Java, Web Development, AI, Data Science",Hybrid,Autonomous Systems,Japan
+U52,Rachel Johnson,45,Professor,Master's,10,"Deep Learning, Cloud Computing, SQL, C++, Web Development",Self-paced,"E-commerce, Education, Robotics",Japan
+U53,Larry Parsons,42,Cybersecurity Specialist,High School,15,"Web Development, NLP",Instructor-led,"Robotics, Education",USA
+U54,Mark Stephens DVM,30,Software Engineer,Bachelor's,13,"Cloud Computing, Data Science, DevOps, Deep Learning, NLP",Instructor-led,"E-commerce, Finance",Canada
+U55,Joseph Gutierrez,23,Cloud Architect,Bachelor's,12,"Computer Vision, AI, C++",Hybrid,"Education, Finance",USA
+U56,Patrick Cunningham,40,Web Developer,Master's,9,"C++, Cybersecurity, Web Development, Blockchain",Instructor-led,"Autonomous Systems, Social Media",USA
+U57,Matthew Kennedy,29,ML Engineer,Bachelor's,15,"Cloud Computing, Data Science",Instructor-led,Manufacturing,Australia
+U58,Erin Cochran,18,Business Analyst,Bachelor's,8,"Mobile Dev, Java, Blockchain, Machine Learning, Deep Learning, DevOps",Self-paced,"Gaming, E-commerce",India
+U59,Cindy Taylor,48,Web Developer,PhD,10,"Mobile Dev, C++, SQL, AI, Cybersecurity, Java",Self-paced,E-commerce,India
+U60,Briana Villa,21,Data Analyst,Bachelor's,9,"Computer Vision, Java, Blockchain, NLP",Self-paced,"Education, Healthcare",USA
+U61,Timothy Edwards,46,Cloud Architect,PhD,9,"Blockchain, Mobile Dev",Hybrid,"Robotics, Autonomous Systems, Manufacturing",Canada
+U62,Stephanie Marsh,34,Software Engineer,Bachelor's,7,"Machine Learning, DevOps",Self-paced,Robotics,Canada
+U63,Sandra Berg,36,Student,Bachelor's,9,"Data Science, Python",Hybrid,"Education, Manufacturing",UK
+U64,Samuel Cross,32,Data Analyst,Master's,4,"SQL, AI, Machine Learning, Deep Learning, NLP",Self-paced,"Robotics, Autonomous Systems, Finance",India
+U65,Gary Gallagher,47,Cloud Architect,PhD,8,"Mobile Dev, Computer Vision, C++",Hybrid,"E-commerce, Education, Finance",Canada
+U66,Michael Edwards,23,ML Engineer,High School,8,"NLP, Java, Mobile Dev, Python, Cloud Computing",Hybrid,"Social Media, E-commerce, Finance",India
+U67,Bobby Edwards,45,Web Developer,High School,15,"Computer Vision, Web Development, AI",Instructor-led,"E-commerce, Gaming",Germany
+U68,Julia Trevino,36,Researcher,High School,14,"AI, Computer Vision, Java, SQL",Self-paced,"Autonomous Systems, Education",UK
+U69,Lawrence Phillips,21,ML Engineer,Master's,15,"AI, Java, DevOps, Cloud Computing",Hybrid,"Finance, Education, Robotics",Germany
+U70,Terri Allison,49,Software Engineer,High School,7,"Cloud Computing, Deep Learning",Hybrid,"Gaming, E-commerce, Robotics",USA
+U71,Daniel Watts,47,Software Engineer,Bachelor's,15,"Python, Web Development, Cloud Computing, Java",Hybrid,Healthcare,UK
+U72,David Lopez,42,ML Engineer,Bachelor's,2,"Web Development, Cloud Computing, Blockchain, Cybersecurity, DevOps, Machine Learning",Instructor-led,"Manufacturing, Gaming",Japan
+U73,Janice Brown,37,Professor,PhD,4,"AI, NLP, DevOps, Web Development, Deep Learning",Instructor-led,E-commerce,Canada
+U74,Curtis Johnson,30,ML Engineer,PhD,7,"C++, Data Science, Web Development, DevOps, Blockchain",Instructor-led,"Education, Social Media",India
+U75,Jill Armstrong,20,Data Analyst,Master's,3,"Computer Vision, C++, DevOps, Cloud Computing",Instructor-led,"Gaming, Education",India
+U76,Courtney Landry,48,Cloud Architect,Master's,12,"NLP, Python, C++, SQL, Cloud Computing, AI",Hybrid,Healthcare,India
+U77,Joseph Moran,22,ML Engineer,Master's,7,"DevOps, Data Science, AI, C++",Hybrid,"Manufacturing, Finance",India
+U78,Danny Shelton,19,Student,Master's,1,"Machine Learning, DevOps, AI, C++, Java",Instructor-led,"Gaming, E-commerce",UK
+U79,Barbara Blevins,29,Software Engineer,PhD,7,"Blockchain, SQL, Machine Learning, Web Development",Instructor-led,"Gaming, Manufacturing",Canada
+U80,Courtney Lynch,18,Web Developer,Master's,5,"Cybersecurity, Computer Vision, AI",Self-paced,"Education, E-commerce",Germany
+U81,Michael Jones,30,Researcher,PhD,3,"Mobile Dev, AI, Cloud Computing, C++",Self-paced,"Education, E-commerce",Germany
+U82,Kayla Perry,21,Professor,PhD,9,"C++, Mobile Dev, Deep Learning, Computer Vision, Blockchain, Python",Self-paced,"Autonomous Systems, E-commerce, Finance",Canada
+U83,Alexander Roy,20,Cloud Architect,PhD,1,"Cybersecurity, AI, Machine Learning, Mobile Dev",Hybrid,"Gaming, Healthcare",UK
+U84,Jason Bell,30,Data Analyst,Master's,8,"SQL, NLP, Deep Learning",Self-paced,"Autonomous Systems, Gaming",UK
+U85,Ashley Herrera,32,Researcher,Master's,2,"Mobile Dev, C++, Blockchain, Data Science, Java",Instructor-led,"Healthcare, Gaming",India
+U86,Doris Garcia,41,Software Engineer,Bachelor's,15,"Machine Learning, Cybersecurity, Data Science, AI",Self-paced,"E-commerce, Autonomous Systems, Education",Canada
+U87,Gregory Rivera,44,Software Engineer,Bachelor's,1,"AI, NLP, Mobile Dev, Machine Learning, Computer Vision, Java",Self-paced,"Education, E-commerce, Social Media",UK
+U88,Robert Logan,44,Professor,Bachelor's,13,"Machine Learning, Java, Computer Vision, Web Development, SQL",Hybrid,"Education, Social Media",India
+U89,Benjamin King,46,ML Engineer,Master's,3,"Blockchain, Deep Learning, Python, C++, Data Science",Hybrid,Education,UK
+U90,Jacob Griffith,19,Student,Master's,7,"C++, Python, Cloud Computing, Deep Learning, Machine Learning, Java",Self-paced,"Healthcare, Robotics",Japan
+U91,Patrick Hawkins,27,Professor,High School,8,"Cloud Computing, Java, Blockchain, DevOps, Web Development, Machine Learning",Self-paced,"Robotics, Manufacturing, Gaming",USA
+U92,Lisa Lewis,40,ML Engineer,Master's,0,"Web Development, DevOps, SQL, Java, AI, Python",Self-paced,Finance,UK
+U93,Gary Harris,22,Web Developer,PhD,11,"Deep Learning, C++",Hybrid,"Manufacturing, Healthcare",Canada
+U94,Anthony Wong,37,Web Developer,High School,1,"NLP, Web Development",Instructor-led,Finance,Japan
+U95,Martin Obrien,38,Professor,Bachelor's,2,"Blockchain, AI, Java, Cybersecurity, C++",Self-paced,"Healthcare, Manufacturing",UK
+U96,Alexander Bailey,25,Business Analyst,Bachelor's,13,"AI, Cloud Computing, Mobile Dev, Web Development, Deep Learning, Cybersecurity",Instructor-led,"Autonomous Systems, Healthcare, Manufacturing",USA
+U97,Mark Herman,38,Cloud Architect,Master's,4,"AI, Blockchain, Cybersecurity, Cloud Computing, DevOps",Hybrid,"Healthcare, Social Media, Robotics",Germany
+U98,John Jackson,45,Software Engineer,Master's,4,"SQL, Blockchain",Hybrid,Healthcare,India
+U99,Juan Charles,37,Cybersecurity Specialist,High School,6,"AI, Computer Vision, Java, Cloud Computing, Data Science, NLP",Self-paced,"Finance, E-commerce",Australia
+U100,Mrs. Katherine Howell,32,Researcher,High School,8,"Cybersecurity, Blockchain, Java, Data Science, Web Development",Self-paced,"Healthcare, E-commerce",USA
+U101,Kristin Johnson,27,Professor,PhD,2,"Mobile Dev, NLP, Data Science, Blockchain",Self-paced,Gaming,Australia
+U102,Linda Smith,47,Cybersecurity Specialist,Bachelor's,11,"SQL, C++",Instructor-led,"Robotics, Autonomous Systems, Manufacturing",Australia
+U103,Chelsea Duncan,23,Cloud Architect,PhD,13,"SQL, NLP, Python, Computer Vision",Instructor-led,Finance,Canada
+U104,Mike Orozco,45,Software Engineer,Master's,15,"Blockchain, Deep Learning, Machine Learning, DevOps, Web Development",Hybrid,Social Media,Australia
+U105,Kathy Gutierrez,31,Cloud Architect,Bachelor's,4,"Java, Machine Learning, Cloud Computing, Mobile Dev",Instructor-led,Finance,UK
+U106,Michael Alvarez,42,Business Analyst,Bachelor's,11,"Machine Learning, Python, Cybersecurity, C++",Self-paced,"Gaming, Manufacturing",Germany
+U107,Alexander Hayes,45,Professor,PhD,13,"Blockchain, Python",Instructor-led,"Healthcare, Social Media",India
+U108,Jenna Austin,45,Software Engineer,Bachelor's,13,"Python, Data Science, SQL, DevOps, Mobile Dev",Hybrid,"Social Media, Healthcare",Germany
+U109,John Johnson,28,Software Engineer,High School,6,"SQL, Cloud Computing, Blockchain, Deep Learning, C++, Data Science",Instructor-led,Social Media,UK
+U110,Robert Johnson,27,Software Engineer,Bachelor's,15,"Cybersecurity, Java, SQL",Instructor-led,"Robotics, Gaming",Japan
+U111,Beth Sanchez,46,Software Engineer,PhD,14,"NLP, AI, Mobile Dev, Computer Vision, DevOps, Blockchain",Hybrid,"Social Media, Gaming",UK
+U112,Christina Santos,20,Student,Master's,9,"Java, Data Science, Web Development, Computer Vision",Self-paced,"Education, Manufacturing",Australia
+U113,Heather Pope,30,Cybersecurity Specialist,PhD,4,"DevOps, Cybersecurity",Self-paced,"Manufacturing, Finance, Robotics",Germany
+U114,Nancy Johnson,29,Student,Bachelor's,14,"AI, C++",Instructor-led,Manufacturing,Canada
+U115,Barbara Hansen,22,Cybersecurity Specialist,High School,12,"Data Science, Computer Vision, NLP, Deep Learning, Cloud Computing, C++",Instructor-led,"Finance, Social Media",UK
+U116,Matthew Ramirez,26,Professor,High School,9,"Deep Learning, Data Science, Java, Mobile Dev, AI, SQL",Hybrid,"E-commerce, Autonomous Systems",Germany
+U117,Allison Jennings,45,Business Analyst,Master's,0,"Deep Learning, AI, C++, Blockchain",Instructor-led,"Manufacturing, Healthcare, Social Media",UK
+U118,Renee Johnson,26,Data Analyst,High School,9,"Cloud Computing, Data Science, DevOps",Self-paced,"Robotics, Manufacturing",Canada
+U119,Matthew Copeland,29,Professor,Bachelor's,14,"Java, AI, Data Science, DevOps, Mobile Dev, SQL",Self-paced,"Autonomous Systems, Gaming, Healthcare",Germany
+U120,Lori Bartlett,33,Cloud Architect,PhD,6,"Cybersecurity, Computer Vision, Mobile Dev, Deep Learning",Instructor-led,"Education, Robotics, E-commerce",Australia
+U121,Craig Gutierrez,30,Professor,Bachelor's,8,"NLP, Cybersecurity, DevOps, Deep Learning, Cloud Computing, Web Development",Self-paced,"Autonomous Systems, Gaming, Manufacturing",Australia
+U122,Denise Livingston,23,Data Analyst,Master's,14,"C++, Web Development, Java, Computer Vision, NLP",Hybrid,E-commerce,USA
+U123,Luis Flores,21,Researcher,Master's,7,"SQL, NLP, Machine Learning, Cybersecurity, Data Science",Instructor-led,Autonomous Systems,India
+U124,Judy Pittman,20,Cloud Architect,PhD,4,"Cybersecurity, Python, Data Science, Java",Hybrid,"Social Media, Gaming, Healthcare",Germany
+U125,Alyssa Nguyen,45,Software Engineer,Master's,7,"Python, NLP, Java, Computer Vision, Deep Learning",Instructor-led,Gaming,India
+U126,Beverly Arnold,49,Professor,High School,7,"Cybersecurity, Cloud Computing",Hybrid,"Education, Healthcare, Finance",USA
+U127,Brittany Lamb,29,Software Engineer,Master's,2,"Blockchain, Python, Mobile Dev, Data Science",Hybrid,Autonomous Systems,Canada
+U128,Patricia Ayers,19,Cybersecurity Specialist,High School,11,"Python, Cloud Computing, Blockchain, Cybersecurity, Computer Vision, AI",Self-paced,"Social Media, E-commerce",Australia
+U129,Tonya Ford,39,Data Analyst,PhD,15,"AI, SQL",Hybrid,Social Media,USA
+U130,Elijah Shea,30,Student,Bachelor's,1,"SQL, C++, DevOps",Instructor-led,"Finance, E-commerce",UK
+U131,Allison Medina,21,Cybersecurity Specialist,Master's,3,"DevOps, Blockchain, Web Development, Cybersecurity, Deep Learning, Python",Instructor-led,"Robotics, E-commerce, Gaming",Germany
+U132,Shannon Chambers,35,Software Engineer,PhD,2,"NLP, Computer Vision, Cloud Computing, Data Science, SQL",Instructor-led,"Education, Social Media",Canada
+U133,Chad Reyes,36,Cloud Architect,PhD,13,"Mobile Dev, Data Science, Java",Self-paced,Social Media,Australia
+U134,Andrew Mitchell,21,Software Engineer,PhD,11,"C++, Cybersecurity, Python, Computer Vision, Data Science",Hybrid,"Autonomous Systems, E-commerce, Social Media",Japan
+U135,Rachel Washington,22,ML Engineer,Master's,11,"Python, SQL, Blockchain",Instructor-led,"Education, Finance, Healthcare",Canada
+U136,Jeremy Cochran,46,Software Engineer,Bachelor's,11,"Deep Learning, AI",Instructor-led,"Social Media, Manufacturing",UK
+U137,Sara Anderson,42,Business Analyst,High School,8,"Cybersecurity, Java, Python, C++",Instructor-led,Education,Australia
+U138,Sheila Martin,26,Software Engineer,PhD,5,"Cloud Computing, Mobile Dev, Deep Learning, C++, Cybersecurity",Hybrid,Healthcare,Germany
+U139,William Wilson,37,Data Analyst,Bachelor's,11,"AI, Computer Vision",Hybrid,"Healthcare, E-commerce",USA
+U140,Mitchell Hunt,49,Student,Master's,11,"Cloud Computing, DevOps",Instructor-led,Robotics,Japan
+U141,Deborah Trujillo,44,Professor,High School,4,"Deep Learning, Mobile Dev, Java, Blockchain, Computer Vision, Cloud Computing",Instructor-led,"Education, Autonomous Systems, Manufacturing",Australia
+U142,Kelly Schmidt,29,Data Analyst,PhD,1,"NLP, Cybersecurity",Self-paced,"Manufacturing, Social Media, Healthcare",Canada
+U143,Judith Johnson,36,Software Engineer,Master's,6,"Mobile Dev, SQL, NLP",Hybrid,"Robotics, Social Media",Canada
+U144,Connie Becker,27,Data Analyst,Master's,1,"Deep Learning, AI, Computer Vision, Mobile Dev",Self-paced,"Healthcare, Gaming, E-commerce",India
+U145,Jamie Green,19,Web Developer,Master's,9,"Web Development, AI",Instructor-led,Autonomous Systems,USA
+U146,Melissa Lane,44,Web Developer,PhD,6,"Mobile Dev, Cybersecurity, Java, C++, Python",Instructor-led,Education,Canada
+U147,Ricky White,26,Cybersecurity Specialist,High School,10,"AI, Blockchain, C++",Self-paced,"Social Media, Autonomous Systems",Germany
+U148,Cole Bell,24,Student,Master's,12,"Web Development, Cybersecurity",Hybrid,Gaming,Germany
+U149,Rachel Reese,28,Web Developer,PhD,15,"Data Science, Blockchain, Computer Vision",Instructor-led,"Social Media, Robotics, Autonomous Systems",Germany
+U150,Katrina Nelson,40,Student,High School,9,"SQL, Cloud Computing",Instructor-led,"Education, Robotics, Healthcare",Canada

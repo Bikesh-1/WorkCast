@@ -1,0 +1,1846 @@
+user_id,course_id,rating,completed,time_spent,clicks,progress,enrolled_on,review,engagement_score
+U1,C13,2,1,41,6,23,2024-01-01,Very interactive and engaging.,9.1
+U1,C57,4,0,48,20,25,2025-03-07,"Outdated content, needs refresh.",13.5
+U1,C58,5,1,25,1,90,2025-07-23,Challenging but rewarding.,29.7
+U1,C41,2,1,49,23,8,2023-10-17,"Too basic, but good for beginners.",8.0
+U1,C9,5,0,24,11,25,2023-12-12,"Outdated content, needs refresh.",12.2
+U1,C39,1,1,43,28,62,2024-10-22,Needs more real-world examples.,24.7
+U1,C6,5,1,40,13,75,2023-12-21,"Too basic, but good for beginners.",27.6
+U1,C15,3,1,55,15,79,2023-11-30,Well-structured and practical.,28.2
+U1,C3,3,0,44,5,40,2024-04-06,"Too basic, but good for beginners.",14.5
+U1,C44,2,1,8,6,47,2024-04-08,Well-structured and practical.,16.3
+U1,C14,5,1,27,20,17,2025-02-18,Very interactive and engaging.,11.6
+U1,C22,4,0,32,21,68,2025-04-11,Well-structured and practical.,26.599999999999998
+U1,C32,5,0,32,10,17,2025-06-19,Well-structured and practical.,9.6
+U1,C67,3,1,40,2,45,2024-07-18,"Great course, learned a lot!",15.4
+U1,C23,4,0,13,27,49,2024-01-26,"Outdated content, needs refresh.",22.1
+U1,C21,4,1,27,23,56,2024-12-28,"Outdated content, needs refresh.",23.400000000000002
+U1,C43,2,0,37,1,97,2024-03-15,Challenging but rewarding.,30.299999999999997
+U1,C36,3,0,18,8,68,2024-08-24,Loved the instructor's style.,23.5
+U1,C28,2,1,37,24,98,2025-04-08,"Outdated content, needs refresh.",35.2
+U1,C30,5,0,37,4,34,2024-08-22,Needs more real-world examples.,13.5
+U2,C57,3,0,29,9,44,2025-08-03,"Too basic, but good for beginners.",16.5
+U2,C70,4,0,50,26,30,2024-09-22,Challenging but rewarding.,16.2
+U2,C28,5,1,56,23,78,2024-04-04,Very interactive and engaging.,30.5
+U2,C55,2,0,51,7,26,2025-05-28,"Great course, learned a lot!",10.2
+U2,C14,5,1,35,9,76,2024-07-07,Well-structured and practical.,27.1
+U2,C32,3,1,19,19,34,2024-04-19,"Too basic, but good for beginners.",15.5
+U3,C53,4,1,10,19,80,2024-12-06,Loved the instructor's style.,29.8
+U3,C8,4,1,29,3,81,2025-01-09,"Too basic, but good for beginners.",26.900000000000002
+U3,C36,4,1,45,30,47,2025-04-15,"Outdated content, needs refresh.",22.1
+U3,C17,4,1,38,1,99,2024-04-09,"Too basic, but good for beginners.",31.9
+U3,C77,4,1,55,3,68,2025-02-15,Very interactive and engaging.,23.0
+U3,C32,2,1,53,7,63,2025-05-09,Loved the instructor's style.,21.299999999999997
+U3,C19,3,1,22,18,73,2025-08-29,Well-structured and practical.,27.0
+U3,C42,5,1,51,11,87,2024-08-30,"Great course, learned a lot!",30.799999999999997
+U3,C75,1,0,41,26,58,2025-02-22,"Great course, learned a lot!",23.099999999999998
+U4,C21,2,1,6,21,46,2023-12-20,Loved the instructor's style.,19.0
+U4,C57,1,1,43,29,83,2025-05-17,Well-structured and practical.,31.2
+U4,C59,1,1,41,10,92,2024-07-25,Challenging but rewarding.,30.099999999999998
+U4,C1,4,0,46,4,0,2024-01-15,Challenging but rewarding.,2.8
+U4,C55,4,0,9,19,28,2024-09-17,"Outdated content, needs refresh.",14.200000000000001
+U4,C26,1,0,45,11,15,2025-01-24,Very interactive and engaging.,7.2
+U4,C17,2,1,5,8,49,2025-05-04,"Too basic, but good for beginners.",17.3
+U4,C39,1,0,21,12,38,2024-06-13,Well-structured and practical.,14.3
+U5,C18,1,1,23,14,40,2023-10-19,Well-structured and practical.,15.3
+U5,C19,2,1,42,3,31,2025-04-03,Loved the instructor's style.,10.899999999999999
+U5,C9,1,1,14,17,77,2025-02-27,Challenging but rewarding.,27.0
+U5,C68,4,1,42,2,100,2024-04-20,Challenging but rewarding.,32.4
+U5,C73,4,1,8,8,63,2025-06-12,"Too basic, but good for beginners.",22.5
+U5,C2,5,0,24,30,40,2025-01-27,Well-structured and practical.,20.5
+U5,C22,4,1,24,18,87,2024-03-16,Well-structured and practical.,31.699999999999996
+U5,C57,4,0,2,19,8,2024-10-17,"Great course, learned a lot!",8.200000000000001
+U5,C45,3,0,3,30,7,2023-10-14,Very interactive and engaging.,9.6
+U5,C28,5,1,41,23,64,2024-07-22,Very interactive and engaging.,26.3
+U5,C20,4,1,6,21,68,2023-11-25,Well-structured and practical.,26.599999999999998
+U5,C53,3,0,20,3,65,2024-04-25,Challenging but rewarding.,21.6
+U5,C76,2,1,26,19,81,2024-07-22,"Too basic, but good for beginners.",29.1
+U5,C71,3,1,47,28,30,2023-12-17,"Great course, learned a lot!",16.1
+U5,C12,2,0,60,14,14,2025-08-15,"Outdated content, needs refresh.",8.0
+U5,C13,5,0,20,22,94,2024-05-30,Well-structured and practical.,35.1
+U5,C80,1,0,46,5,89,2024-01-07,"Great course, learned a lot!",28.2
+U6,C64,1,1,52,14,34,2024-10-11,"Too basic, but good for beginners.",13.5
+U6,C45,3,0,32,15,65,2025-05-05,Needs more real-world examples.,24.0
+U6,C67,1,1,55,19,21,2024-04-13,Needs more real-world examples.,10.600000000000001
+U6,C78,2,1,50,4,73,2024-12-11,"Too basic, but good for beginners.",23.7
+U6,C34,2,0,3,28,1,2024-09-16,Challenging but rewarding.,6.9
+U6,C22,1,1,24,13,19,2025-03-02,Well-structured and practical.,8.8
+U6,C48,1,1,15,11,31,2025-08-20,Very interactive and engaging.,12.0
+U6,C17,3,1,53,3,73,2025-01-26,Needs more real-world examples.,24.0
+U6,C35,1,0,12,8,66,2024-10-17,"Great course, learned a lot!",21.900000000000002
+U6,C16,4,0,57,15,36,2024-06-22,Loved the instructor's style.,15.799999999999999
+U7,C12,2,0,60,14,3,2025-02-19,Challenging but rewarding.,4.7
+U7,C71,5,1,41,27,88,2023-10-08,"Great course, learned a lot!",34.3
+U7,C59,3,0,49,22,48,2024-10-29,Loved the instructor's style.,20.299999999999997
+U7,C2,1,0,34,8,53,2024-06-28,"Outdated content, needs refresh.",18.0
+U7,C48,1,0,46,9,11,2024-09-11,"Great course, learned a lot!",5.6
+U7,C26,2,1,45,29,47,2024-11-13,"Outdated content, needs refresh.",20.9
+U7,C38,1,0,33,5,81,2024-08-14,Very interactive and engaging.,25.8
+U7,C73,1,0,28,22,16,2024-08-16,Challenging but rewarding.,9.7
+U7,C39,3,1,55,11,50,2025-01-27,Needs more real-world examples.,18.7
+U7,C32,3,1,18,8,9,2025-02-17,Challenging but rewarding.,5.8
+U7,C60,2,0,10,4,21,2024-05-16,"Outdated content, needs refresh.",8.1
+U7,C76,4,1,27,4,68,2025-08-25,Needs more real-world examples.,23.2
+U7,C64,2,1,20,15,33,2024-08-04,"Too basic, but good for beginners.",13.9
+U7,C75,1,0,52,22,38,2025-02-12,"Great course, learned a lot!",16.3
+U7,C79,2,1,10,3,91,2024-10-28,Challenging but rewarding.,28.900000000000002
+U8,C51,1,0,54,25,28,2024-10-15,Well-structured and practical.,13.9
+U8,C66,2,1,24,22,80,2024-03-08,"Too basic, but good for beginners.",29.4
+U8,C7,5,1,59,27,9,2024-10-07,"Great course, learned a lot!",10.6
+U8,C39,1,0,58,21,56,2025-05-10,Well-structured and practical.,21.5
+U8,C34,1,1,8,2,59,2024-09-13,"Great course, learned a lot!",18.599999999999998
+U8,C23,2,1,53,24,50,2024-04-07,"Outdated content, needs refresh.",20.8
+U8,C4,1,1,44,14,22,2024-11-05,Needs more real-world examples.,9.9
+U8,C52,2,0,18,9,57,2024-09-26,Well-structured and practical.,19.9
+U8,C58,1,0,42,10,63,2025-04-14,Very interactive and engaging.,21.4
+U8,C71,5,1,4,3,35,2024-03-18,Very interactive and engaging.,13.6
+U8,C32,2,1,13,21,67,2024-05-30,Challenging but rewarding.,25.299999999999997
+U8,C13,5,0,25,26,91,2025-04-10,Needs more real-world examples.,35.0
+U8,C60,4,1,23,30,72,2024-02-20,Needs more real-world examples.,29.599999999999998
+U8,C14,4,1,12,1,40,2023-12-21,Challenging but rewarding.,14.2
+U8,C18,1,1,4,26,60,2024-10-30,Needs more real-world examples.,23.7
+U8,C16,5,0,11,4,31,2024-07-07,Challenging but rewarding.,12.599999999999998
+U9,C69,5,0,37,7,63,2024-01-21,Loved the instructor's style.,22.799999999999997
+U9,C8,2,1,3,3,7,2024-02-20,Challenging but rewarding.,3.7
+U9,C29,5,0,2,17,61,2025-05-21,"Great course, learned a lot!",24.200000000000003
+U9,C74,3,0,52,5,43,2024-10-30,Well-structured and practical.,15.4
+U9,C50,3,0,2,5,75,2024-09-08,Well-structured and practical.,25.0
+U9,C46,1,1,5,12,90,2025-08-01,Very interactive and engaging.,29.9
+U9,C23,5,0,22,10,41,2024-09-09,Well-structured and practical.,16.799999999999997
+U9,C77,2,1,51,21,62,2025-05-18,Needs more real-world examples.,23.799999999999997
+U9,C31,2,1,15,22,75,2025-08-14,Well-structured and practical.,27.9
+U9,C41,4,1,47,23,37,2024-10-05,Well-structured and practical.,17.7
+U9,C75,2,0,45,19,50,2024-03-01,"Great course, learned a lot!",19.8
+U9,C4,2,1,59,26,78,2024-02-18,Challenging but rewarding.,29.599999999999998
+U9,C70,5,0,60,16,18,2025-03-20,Needs more real-world examples.,11.1
+U10,C31,1,1,14,8,88,2024-05-19,"Too basic, but good for beginners.",28.5
+U10,C45,3,1,51,4,92,2025-06-02,"Great course, learned a lot!",29.9
+U10,C41,1,1,29,24,53,2023-11-19,Well-structured and practical.,21.2
+U10,C22,4,1,57,13,44,2024-02-13,Very interactive and engaging.,17.799999999999997
+U10,C12,1,1,51,28,73,2024-11-24,Challenging but rewarding.,28.0
+U10,C43,2,1,5,26,4,2024-10-15,Loved the instructor's style.,7.4
+U10,C58,1,1,17,4,9,2024-01-23,Needs more real-world examples.,4.0
+U11,C49,5,1,11,2,12,2024-05-04,Needs more real-world examples.,6.5
+U11,C21,2,0,27,23,70,2024-04-20,Loved the instructor's style.,26.6
+U11,C10,3,1,16,4,6,2025-06-24,Very interactive and engaging.,4.1
+U11,C71,5,1,10,2,46,2024-01-05,"Great course, learned a lot!",16.7
+U11,C12,4,0,19,27,84,2023-11-09,"Outdated content, needs refresh.",32.6
+U11,C44,2,0,2,7,21,2023-09-23,Loved the instructor's style.,8.7
+U11,C62,1,1,55,4,39,2024-01-30,Very interactive and engaging.,13.0
+U11,C4,4,1,58,22,33,2025-03-07,"Too basic, but good for beginners.",16.3
+U11,C56,5,1,12,12,48,2025-07-03,Needs more real-world examples.,19.299999999999997
+U11,C22,2,1,3,9,56,2025-05-15,"Outdated content, needs refresh.",19.6
+U12,C29,5,1,35,22,60,2024-10-28,Challenging but rewarding.,24.9
+U12,C35,4,1,6,13,91,2024-12-13,"Great course, learned a lot!",31.9
+U12,C73,5,0,8,25,57,2024-04-14,Well-structured and practical.,24.599999999999998
+U12,C8,2,0,52,7,16,2025-03-16,"Great course, learned a lot!",7.2
+U12,C20,4,0,44,14,25,2024-01-16,Well-structured and practical.,12.3
+U12,C13,5,1,21,30,93,2025-05-04,"Too basic, but good for beginners.",36.4
+U12,C11,1,1,36,13,70,2024-12-09,Needs more real-world examples.,24.1
+U12,C45,3,1,59,28,1,2025-07-31,Very interactive and engaging.,7.4
+U12,C70,1,1,10,5,72,2024-03-11,"Too basic, but good for beginners.",23.099999999999998
+U12,C53,1,0,51,10,68,2024-12-09,Needs more real-world examples.,22.9
+U12,C30,4,1,25,21,62,2025-04-23,"Outdated content, needs refresh.",24.799999999999997
+U12,C77,1,0,18,13,18,2024-04-03,Very interactive and engaging.,8.5
+U12,C50,1,1,57,29,42,2024-05-09,Challenging but rewarding.,18.9
+U13,C61,3,1,54,16,89,2024-12-11,"Too basic, but good for beginners.",31.4
+U13,C35,2,0,20,24,56,2024-07-11,Needs more real-world examples.,22.6
+U13,C48,3,1,39,21,11,2025-03-20,Challenging but rewarding.,9.0
+U13,C3,4,0,59,27,52,2025-02-01,"Outdated content, needs refresh.",23.0
+U13,C44,5,1,53,2,65,2025-08-04,Well-structured and practical.,22.4
+U13,C39,1,1,46,17,51,2024-01-12,Well-structured and practical.,19.2
+U14,C23,1,1,4,30,46,2025-08-25,Challenging but rewarding.,20.299999999999997
+U14,C25,3,1,53,15,64,2024-02-18,Very interactive and engaging.,23.7
+U14,C26,1,0,16,12,62,2025-07-20,"Outdated content, needs refresh.",21.5
+U14,C8,2,1,38,18,44,2024-03-27,Needs more real-world examples.,17.799999999999997
+U14,C32,2,1,48,27,88,2024-05-03,"Too basic, but good for beginners.",32.8
+U15,C4,4,0,42,6,76,2023-11-06,"Great course, learned a lot!",26.0
+U15,C50,2,1,39,26,39,2024-02-29,Loved the instructor's style.,17.9
+U15,C7,4,1,55,12,58,2024-05-07,Loved the instructor's style.,21.799999999999997
+U15,C21,2,1,20,22,66,2024-05-23,Very interactive and engaging.,25.200000000000003
+U15,C74,5,0,1,17,84,2024-11-13,Needs more real-world examples.,31.1
+U15,C28,5,1,20,22,13,2024-06-23,"Outdated content, needs refresh.",10.8
+U15,C29,1,1,18,21,41,2024-11-06,Loved the instructor's style.,17.0
+U15,C76,3,1,13,5,66,2025-04-04,Challenging but rewarding.,22.3
+U15,C27,1,1,43,11,87,2024-11-29,Well-structured and practical.,28.799999999999997
+U15,C35,1,1,19,9,53,2025-08-13,Very interactive and engaging.,18.2
+U15,C53,4,0,38,23,73,2024-01-28,Challenging but rewarding.,28.5
+U15,C66,3,0,44,18,81,2025-03-07,"Outdated content, needs refresh.",29.4
+U15,C3,3,1,55,6,84,2024-03-30,Well-structured and practical.,27.9
+U15,C2,3,0,31,5,94,2025-06-05,Loved the instructor's style.,30.7
+U16,C43,5,1,30,28,15,2024-09-06,"Outdated content, needs refresh.",12.600000000000001
+U16,C12,1,0,31,29,24,2024-06-21,"Too basic, but good for beginners.",13.5
+U16,C29,4,1,27,2,19,2025-03-11,Well-structured and practical.,8.1
+U16,C46,2,1,27,19,58,2024-04-26,Well-structured and practical.,22.2
+U16,C78,3,0,50,3,62,2024-01-13,Needs more real-world examples.,20.7
+U16,C40,2,1,41,2,0,2024-10-08,"Outdated content, needs refresh.",1.4
+U16,C54,3,0,49,25,21,2024-05-09,Well-structured and practical.,12.8
+U16,C80,4,0,9,20,55,2024-09-23,Very interactive and engaging.,22.5
+U16,C48,4,1,31,13,0,2024-05-03,"Great course, learned a lot!",4.6
+U16,C34,5,0,47,12,1,2025-07-15,Needs more real-world examples.,5.2
+U17,C3,2,0,53,2,38,2023-09-27,Loved the instructor's style.,12.8
+U17,C1,4,1,28,29,87,2023-11-03,Well-structured and practical.,33.9
+U17,C32,3,1,23,25,24,2024-11-23,Well-structured and practical.,13.7
+U17,C29,4,0,15,8,93,2024-05-29,Well-structured and practical.,31.5
+U17,C45,2,0,38,17,21,2025-04-23,"Too basic, but good for beginners.",10.7
+U17,C40,3,0,25,29,81,2024-10-11,Loved the instructor's style.,31.6
+U17,C17,5,0,39,2,84,2023-10-14,"Too basic, but good for beginners.",28.099999999999998
+U17,C14,1,0,45,4,53,2024-11-08,"Outdated content, needs refresh.",17.2
+U17,C50,4,0,36,9,60,2023-11-11,Well-structured and practical.,21.8
+U17,C65,2,0,20,14,84,2024-03-13,"Too basic, but good for beginners.",29.0
+U17,C75,5,1,40,20,89,2023-11-09,Well-structured and practical.,33.2
+U18,C14,4,0,45,30,61,2024-09-28,Needs more real-world examples.,26.3
+U18,C66,2,0,1,22,11,2024-08-05,"Too basic, but good for beginners.",8.7
+U18,C16,5,1,10,3,99,2024-05-30,"Too basic, but good for beginners.",32.8
+U18,C37,1,1,42,8,58,2024-07-20,Loved the instructor's style.,19.5
+U18,C15,3,1,4,4,22,2025-03-13,"Great course, learned a lot!",8.899999999999999
+U18,C80,3,1,52,22,40,2024-06-24,Very interactive and engaging.,17.9
+U18,C64,1,0,55,25,5,2025-08-14,"Great course, learned a lot!",7.0
+U18,C26,2,0,22,12,56,2025-01-31,Loved the instructor's style.,20.200000000000003
+U18,C73,1,1,53,11,23,2025-04-11,"Too basic, but good for beginners.",9.6
+U18,C34,4,1,30,9,49,2025-01-18,"Outdated content, needs refresh.",18.5
+U18,C67,4,0,8,5,89,2025-05-29,"Great course, learned a lot!",29.7
+U18,C72,2,0,27,30,75,2024-05-30,"Outdated content, needs refresh.",29.5
+U18,C46,5,1,12,20,48,2025-04-22,Needs more real-world examples.,20.9
+U18,C53,5,0,56,22,93,2024-12-01,Well-structured and practical.,34.8
+U18,C38,4,1,8,29,52,2025-02-03,"Outdated content, needs refresh.",23.4
+U18,C21,1,0,17,21,40,2024-11-16,"Great course, learned a lot!",16.7
+U18,C6,5,0,43,28,43,2023-09-17,"Too basic, but good for beginners.",21.0
+U18,C36,4,0,31,12,84,2025-04-07,Very interactive and engaging.,29.6
+U19,C72,1,1,21,8,42,2024-08-27,Loved the instructor's style.,14.7
+U19,C79,1,0,36,21,48,2025-08-08,Very interactive and engaging.,19.099999999999998
+U19,C7,2,0,30,15,73,2023-09-26,"Outdated content, needs refresh.",25.9
+U19,C2,1,1,29,11,15,2025-06-28,"Outdated content, needs refresh.",7.2
+U19,C21,1,0,26,14,4,2024-07-06,"Great course, learned a lot!",4.5
+U19,C65,1,1,57,17,71,2025-01-11,Challenging but rewarding.,25.200000000000003
+U19,C61,4,1,24,27,6,2024-01-01,Challenging but rewarding.,9.2
+U19,C64,4,1,36,25,79,2025-05-07,"Outdated content, needs refresh.",30.7
+U19,C22,3,1,8,4,97,2023-12-20,Challenging but rewarding.,31.4
+U20,C44,3,0,3,29,21,2024-02-23,"Outdated content, needs refresh.",13.600000000000001
+U20,C46,2,1,7,9,78,2025-04-06,Challenging but rewarding.,26.2
+U20,C38,2,0,60,28,50,2025-08-16,Challenging but rewarding.,21.6
+U20,C71,4,0,46,11,13,2025-01-15,Very interactive and engaging.,8.1
+U20,C67,1,0,50,29,57,2024-09-27,"Outdated content, needs refresh.",23.4
+U21,C64,5,0,47,27,16,2023-10-09,"Too basic, but good for beginners.",12.7
+U21,C1,4,1,33,29,49,2023-12-31,Very interactive and engaging.,22.5
+U21,C68,5,0,18,13,43,2025-02-20,Loved the instructor's style.,18.0
+U21,C7,4,0,9,14,77,2025-06-04,Loved the instructor's style.,27.9
+U21,C71,5,1,46,24,70,2024-06-17,Challenging but rewarding.,28.3
+U21,C56,2,0,40,23,37,2025-04-22,Needs more real-world examples.,16.7
+U21,C62,2,0,33,18,88,2023-10-05,Needs more real-world examples.,31.0
+U21,C66,1,1,36,16,74,2025-03-24,Very interactive and engaging.,25.9
+U21,C23,5,1,57,28,54,2025-03-01,"Great course, learned a lot!",24.3
+U22,C4,3,1,10,27,7,2025-06-27,Loved the instructor's style.,9.0
+U22,C49,2,0,23,27,57,2024-06-20,"Too basic, but good for beginners.",23.5
+U22,C19,5,0,48,21,71,2025-02-10,Very interactive and engaging.,28.0
+U22,C7,2,1,45,22,6,2024-02-03,Very interactive and engaging.,7.2
+U22,C8,4,1,51,22,40,2024-10-23,"Great course, learned a lot!",18.4
+U22,C26,1,1,13,20,99,2024-04-25,"Outdated content, needs refresh.",34.2
+U22,C35,2,1,49,19,69,2025-08-15,Challenging but rewarding.,25.5
+U22,C21,2,1,29,6,87,2025-04-02,"Too basic, but good for beginners.",28.299999999999997
+U23,C23,2,1,1,11,59,2025-02-15,Well-structured and practical.,20.9
+U23,C66,1,0,60,11,76,2024-12-10,"Great course, learned a lot!",25.5
+U23,C16,5,1,32,26,73,2024-02-04,Needs more real-world examples.,29.599999999999998
+U23,C49,1,1,34,8,23,2023-10-21,"Too basic, but good for beginners.",9.0
+U23,C6,5,0,27,18,68,2024-05-15,Very interactive and engaging.,26.5
+U23,C55,1,1,15,29,27,2025-06-13,Needs more real-world examples.,14.4
+U23,C36,3,1,19,7,96,2025-07-03,"Outdated content, needs refresh.",31.699999999999996
+U23,C72,5,0,8,22,44,2024-08-25,"Outdated content, needs refresh.",20.1
+U23,C34,2,0,3,22,41,2024-07-19,Very interactive and engaging.,17.7
+U23,C17,1,1,17,18,92,2025-08-20,Loved the instructor's style.,31.699999999999996
+U24,C67,1,1,58,21,24,2025-01-08,Needs more real-world examples.,11.899999999999999
+U24,C48,5,0,7,6,98,2025-05-01,"Great course, learned a lot!",33.1
+U24,C66,1,0,43,21,99,2023-11-04,Challenging but rewarding.,34.4
+U24,C58,4,0,14,18,89,2024-05-27,Very interactive and engaging.,32.3
+U24,C63,1,0,2,15,91,2024-12-21,Needs more real-world examples.,30.8
+U25,C12,1,0,59,9,52,2025-04-18,Very interactive and engaging.,17.9
+U25,C10,4,1,28,11,2,2024-08-08,Very interactive and engaging.,4.8
+U25,C7,1,0,42,24,79,2023-09-06,"Too basic, but good for beginners.",29.0
+U25,C23,5,0,45,28,9,2023-12-15,Needs more real-world examples.,10.8
+U25,C33,5,0,19,26,87,2024-12-10,Loved the instructor's style.,33.8
+U25,C72,5,0,19,25,56,2024-12-24,Very interactive and engaging.,24.3
+U26,C4,5,1,35,18,10,2025-06-07,Loved the instructor's style.,9.1
+U26,C61,2,1,14,14,82,2025-01-14,Well-structured and practical.,28.4
+U26,C21,2,0,15,20,32,2024-10-17,Challenging but rewarding.,14.6
+U26,C69,1,0,43,26,72,2024-11-09,"Great course, learned a lot!",27.299999999999997
+U26,C29,5,1,42,18,9,2024-07-05,Loved the instructor's style.,8.799999999999999
+U26,C18,1,1,7,7,92,2024-02-12,"Outdated content, needs refresh.",29.499999999999996
+U26,C51,3,1,9,22,83,2025-05-07,Challenging but rewarding.,30.799999999999997
+U26,C70,1,1,40,3,24,2024-01-29,Needs more real-world examples.,8.299999999999999
+U26,C38,4,1,22,20,84,2024-05-29,Loved the instructor's style.,31.2
+U26,C19,5,0,37,19,46,2024-04-30,Needs more real-world examples.,20.1
+U26,C39,4,0,1,11,31,2025-08-12,Challenging but rewarding.,13.5
+U26,C48,4,1,54,12,17,2024-03-27,Needs more real-world examples.,9.5
+U26,C2,4,1,29,12,99,2024-12-22,Loved the instructor's style.,34.1
+U26,C71,4,0,12,21,77,2024-09-07,"Too basic, but good for beginners.",29.299999999999997
+U26,C16,3,0,58,18,25,2023-10-05,Loved the instructor's style.,12.6
+U26,C6,1,0,58,1,64,2024-12-27,"Great course, learned a lot!",19.9
+U26,C1,5,1,50,19,27,2025-05-15,"Great course, learned a lot!",14.4
+U27,C70,4,1,33,1,84,2023-10-15,Challenging but rewarding.,27.4
+U27,C80,5,0,49,17,17,2025-03-12,"Outdated content, needs refresh.",11.0
+U27,C61,2,0,37,19,84,2024-06-15,Well-structured and practical.,30.0
+U27,C20,4,1,3,8,97,2025-01-04,"Outdated content, needs refresh.",32.699999999999996
+U27,C47,2,0,17,12,29,2025-05-20,"Great course, learned a lot!",12.1
+U27,C51,2,1,25,16,58,2025-08-14,"Great course, learned a lot!",21.599999999999998
+U27,C29,1,1,7,23,66,2024-07-11,Loved the instructor's style.,24.900000000000002
+U27,C38,3,0,25,21,48,2025-03-08,Needs more real-world examples.,20.099999999999998
+U27,C18,5,0,34,9,48,2025-01-07,Challenging but rewarding.,18.7
+U27,C60,5,1,23,27,44,2024-07-11,"Outdated content, needs refresh.",21.1
+U27,C65,4,0,33,29,17,2025-07-12,"Outdated content, needs refresh.",12.9
+U27,C66,2,0,5,17,82,2025-02-21,Loved the instructor's style.,29.0
+U27,C12,2,0,12,6,46,2025-04-14,"Too basic, but good for beginners.",16.0
+U28,C54,2,0,9,21,65,2024-12-19,"Great course, learned a lot!",24.7
+U28,C43,5,0,4,6,33,2024-03-08,Well-structured and practical.,13.600000000000001
+U28,C15,5,1,39,19,81,2025-06-15,"Great course, learned a lot!",30.6
+U28,C62,3,0,14,15,77,2024-12-15,"Outdated content, needs refresh.",27.599999999999998
+U28,C77,4,0,15,27,52,2023-12-16,Well-structured and practical.,23.0
+U28,C76,5,0,40,22,65,2024-05-26,Loved the instructor's style.,26.4
+U28,C27,2,1,60,15,76,2024-04-26,"Too basic, but good for beginners.",26.8
+U28,C21,2,1,25,5,13,2024-04-23,"Great course, learned a lot!",5.9
+U28,C53,2,1,53,5,77,2025-04-20,"Too basic, but good for beginners.",25.099999999999998
+U28,C3,2,1,58,20,76,2023-09-06,"Great course, learned a lot!",27.8
+U28,C32,5,0,6,16,84,2024-10-30,Well-structured and practical.,30.9
+U28,C6,5,0,58,25,86,2024-03-26,Very interactive and engaging.,33.3
+U29,C48,2,0,46,24,0,2024-04-17,"Too basic, but good for beginners.",5.800000000000001
+U29,C6,5,0,25,21,26,2025-04-18,Needs more real-world examples.,14.5
+U29,C68,4,1,7,5,54,2024-10-30,Loved the instructor's style.,19.2
+U29,C55,3,1,37,12,78,2024-09-18,Loved the instructor's style.,27.299999999999997
+U29,C30,4,0,27,18,100,2024-07-22,"Outdated content, needs refresh.",35.6
+U29,C62,2,1,36,18,61,2024-03-14,Loved the instructor's style.,22.9
+U29,C49,3,1,50,23,50,2025-02-25,Well-structured and practical.,21.1
+U29,C45,1,0,29,26,89,2024-08-05,Well-structured and practical.,32.4
+U29,C13,1,0,33,13,100,2024-09-17,Needs more real-world examples.,33.1
+U29,C77,5,0,11,13,81,2025-03-21,"Great course, learned a lot!",29.4
+U29,C18,1,0,31,30,76,2024-06-24,Very interactive and engaging.,29.3
+U29,C33,1,0,17,8,47,2024-04-18,"Too basic, but good for beginners.",16.2
+U29,C75,5,0,47,13,51,2025-06-19,Loved the instructor's style.,20.4
+U29,C76,5,0,50,27,22,2023-10-18,"Outdated content, needs refresh.",14.5
+U29,C11,4,0,13,28,84,2025-05-18,Loved the instructor's style.,32.8
+U29,C37,2,0,51,20,65,2025-04-25,Challenging but rewarding.,24.5
+U29,C53,5,0,44,2,46,2024-04-27,Challenging but rewarding.,16.7
+U29,C17,1,0,6,9,99,2024-12-24,Very interactive and engaging.,32.0
+U30,C51,4,0,17,6,52,2024-07-10,"Too basic, but good for beginners.",18.8
+U30,C52,5,0,33,10,43,2024-02-08,"Too basic, but good for beginners.",17.4
+U30,C76,5,1,57,18,73,2025-04-20,Loved the instructor's style.,28.0
+U30,C26,4,1,37,16,98,2024-01-21,Challenging but rewarding.,34.6
+U30,C67,3,1,44,15,75,2025-06-03,"Great course, learned a lot!",27.0
+U30,C2,4,0,17,3,48,2023-12-03,Challenging but rewarding.,17.0
+U30,C9,2,1,27,12,66,2025-03-03,"Great course, learned a lot!",23.200000000000003
+U30,C12,3,0,19,3,51,2025-03-06,Needs more real-world examples.,17.4
+U30,C71,1,0,31,11,45,2024-08-04,Challenging but rewarding.,16.2
+U30,C37,5,1,12,24,87,2024-11-06,Challenging but rewarding.,33.4
+U30,C45,4,0,16,24,30,2024-08-03,Loved the instructor's style.,15.8
+U30,C70,2,0,13,27,31,2024-10-04,Needs more real-world examples.,15.7
+U30,C36,2,0,8,30,10,2024-09-17,"Outdated content, needs refresh.",10.0
+U30,C29,5,0,49,28,69,2023-12-15,"Great course, learned a lot!",28.8
+U30,C25,4,1,40,11,63,2024-12-14,Loved the instructor's style.,23.099999999999998
+U30,C59,4,0,49,30,65,2024-07-29,Loved the instructor's style.,27.5
+U31,C29,1,0,44,7,48,2024-03-06,"Too basic, but good for beginners.",16.299999999999997
+U31,C74,3,1,40,28,33,2024-06-10,Well-structured and practical.,17.0
+U31,C17,5,1,16,9,60,2025-05-15,Needs more real-world examples.,22.3
+U31,C7,3,0,32,14,26,2025-02-18,Very interactive and engaging.,12.100000000000001
+U31,C68,3,1,55,13,35,2025-04-20,"Outdated content, needs refresh.",14.6
+U31,C55,2,0,37,22,29,2025-05-19,"Too basic, but good for beginners.",14.1
+U31,C62,3,0,36,14,48,2024-05-08,Challenging but rewarding.,18.7
+U31,C70,2,0,31,26,1,2023-10-22,Well-structured and practical.,6.5
+U31,C5,4,1,9,29,80,2025-05-24,Needs more real-world examples.,31.8
+U31,C65,4,1,17,18,72,2024-10-28,"Great course, learned a lot!",27.199999999999996
+U31,C45,4,0,45,6,7,2024-09-30,Challenging but rewarding.,5.300000000000001
+U31,C51,3,1,54,21,12,2025-08-10,"Outdated content, needs refresh.",9.3
+U31,C23,3,1,24,12,71,2024-10-06,Loved the instructor's style.,25.200000000000003
+U31,C59,3,0,27,4,44,2024-07-09,Challenging but rewarding.,15.5
+U31,C16,5,0,50,10,45,2024-05-18,Needs more real-world examples.,18.0
+U31,C67,5,1,50,24,57,2024-07-14,"Too basic, but good for beginners.",24.4
+U31,C41,4,1,30,21,18,2024-01-16,Well-structured and practical.,11.6
+U32,C54,4,1,48,19,66,2024-01-29,"Outdated content, needs refresh.",25.6
+U32,C79,4,0,12,28,2,2025-03-01,Well-structured and practical.,8.200000000000001
+U32,C74,2,1,48,23,95,2024-10-11,"Too basic, but good for beginners.",34.1
+U32,C52,2,0,26,4,12,2023-12-01,"Too basic, but good for beginners.",5.3999999999999995
+U32,C10,4,0,2,25,50,2024-11-04,"Too basic, but good for beginners.",22.0
+U32,C11,1,1,40,5,10,2024-10-25,Very interactive and engaging.,4.5
+U32,C21,3,0,16,24,36,2025-04-26,"Outdated content, needs refresh.",17.1
+U32,C44,2,0,34,27,21,2023-11-01,"Great course, learned a lot!",12.7
+U32,C30,1,1,56,30,41,2025-05-08,"Outdated content, needs refresh.",18.799999999999997
+U32,C41,4,1,36,15,17,2024-03-04,Well-structured and practical.,10.1
+U32,C71,5,1,41,24,81,2023-10-20,Very interactive and engaging.,31.6
+U32,C38,5,1,59,12,61,2024-09-17,Challenging but rewarding.,23.200000000000003
+U32,C35,1,1,20,12,52,2023-10-31,Loved the instructor's style.,18.5
+U32,C51,2,1,1,1,66,2025-08-08,Well-structured and practical.,21.0
+U32,C68,3,1,31,18,1,2024-08-23,"Outdated content, needs refresh.",5.3999999999999995
+U33,C39,2,1,19,21,95,2024-07-30,Loved the instructor's style.,33.7
+U33,C2,4,0,55,3,23,2025-02-15,Well-structured and practical.,9.5
+U33,C56,3,0,41,15,79,2025-05-12,"Outdated content, needs refresh.",28.2
+U33,C38,3,1,13,11,2,2023-09-24,Well-structured and practical.,4.3
+U33,C30,1,0,12,4,36,2024-10-12,Loved the instructor's style.,12.1
+U33,C1,2,1,47,1,29,2023-09-30,"Too basic, but good for beginners.",9.899999999999999
+U33,C71,2,0,32,7,43,2025-01-01,Very interactive and engaging.,15.3
+U33,C48,3,1,24,15,89,2023-11-08,"Great course, learned a lot!",31.2
+U33,C25,3,0,54,25,18,2024-03-21,"Great course, learned a lot!",11.899999999999999
+U33,C53,3,1,5,18,60,2025-08-07,Well-structured and practical.,23.1
+U33,C78,2,1,53,13,1,2024-05-28,"Too basic, but good for beginners.",3.9
+U33,C51,2,1,50,15,31,2024-04-29,"Great course, learned a lot!",13.299999999999999
+U33,C32,2,1,48,25,12,2025-04-01,Challenging but rewarding.,9.6
+U33,C21,4,1,44,10,41,2024-01-30,Well-structured and practical.,16.299999999999997
+U33,C50,1,0,17,16,81,2025-03-05,Loved the instructor's style.,28.0
+U33,C49,2,1,57,2,85,2023-09-21,Challenging but rewarding.,26.9
+U33,C29,1,0,41,14,41,2025-06-10,"Great course, learned a lot!",15.6
+U33,C17,2,1,38,4,50,2024-10-07,Challenging but rewarding.,16.8
+U33,C6,1,0,38,26,88,2024-08-19,"Outdated content, needs refresh.",32.1
+U33,C28,5,0,24,25,11,2023-11-27,Challenging but rewarding.,10.8
+U34,C64,4,0,21,18,100,2024-04-27,Needs more real-world examples.,35.6
+U34,C12,4,0,2,23,48,2024-10-02,Needs more real-world examples.,21.0
+U34,C44,2,1,58,2,62,2025-07-06,"Outdated content, needs refresh.",19.999999999999996
+U34,C8,5,1,35,23,62,2024-09-03,Challenging but rewarding.,25.7
+U34,C77,5,0,35,12,41,2025-04-22,"Outdated content, needs refresh.",17.2
+U34,C46,3,0,5,17,19,2024-12-28,"Outdated content, needs refresh.",10.600000000000001
+U34,C20,3,1,35,12,58,2024-06-01,"Great course, learned a lot!",21.299999999999997
+U34,C69,5,1,47,6,2,2024-10-25,Needs more real-world examples.,4.3
+U34,C14,5,0,21,24,8,2024-02-21,Very interactive and engaging.,9.700000000000001
+U34,C17,2,1,50,18,19,2024-08-25,Loved the instructor's style.,10.3
+U35,C53,1,1,43,16,67,2025-07-16,Loved the instructor's style.,23.799999999999997
+U35,C42,1,1,15,20,91,2025-03-24,"Too basic, but good for beginners.",31.8
+U35,C15,1,0,42,16,10,2023-11-27,"Outdated content, needs refresh.",6.7
+U35,C13,1,1,36,24,53,2024-06-16,Needs more real-world examples.,21.2
+U35,C67,1,1,34,2,93,2023-09-06,"Too basic, but good for beginners.",28.799999999999997
+U35,C9,3,0,14,17,12,2024-10-06,"Too basic, but good for beginners.",8.5
+U35,C6,2,1,13,7,67,2023-12-24,Challenging but rewarding.,22.5
+U35,C17,5,0,36,24,71,2023-09-16,Very interactive and engaging.,28.6
+U35,C23,1,1,44,15,89,2023-11-01,Very interactive and engaging.,30.2
+U35,C5,1,0,51,6,70,2024-08-29,Very interactive and engaging.,22.7
+U35,C26,5,1,43,6,68,2024-04-08,"Outdated content, needs refresh.",24.099999999999998
+U35,C14,3,1,36,11,47,2025-05-18,Very interactive and engaging.,17.8
+U35,C63,4,1,39,8,72,2024-10-20,Challenging but rewarding.,25.2
+U35,C25,4,1,24,15,57,2024-06-23,Very interactive and engaging.,22.099999999999998
+U35,C77,1,0,19,20,2,2024-01-23,Well-structured and practical.,5.1
+U36,C1,2,0,17,12,74,2024-08-13,Challenging but rewarding.,25.6
+U36,C39,2,1,52,10,11,2023-11-18,Very interactive and engaging.,6.3
+U36,C29,5,0,47,3,92,2025-08-17,Needs more real-world examples.,30.7
+U36,C28,4,0,32,27,88,2025-05-29,"Too basic, but good for beginners.",33.8
+U36,C41,5,1,3,24,73,2024-12-21,Very interactive and engaging.,29.2
+U36,C3,1,0,59,25,42,2024-06-06,Needs more real-world examples.,18.1
+U36,C36,4,1,60,28,15,2024-02-07,Challenging but rewarding.,12.100000000000001
+U36,C71,5,0,41,25,80,2024-01-17,Very interactive and engaging.,31.5
+U36,C66,1,1,34,2,40,2025-01-05,Well-structured and practical.,12.9
+U36,C20,3,0,10,2,86,2025-05-25,Very interactive and engaging.,27.7
+U36,C13,4,0,15,14,37,2024-04-20,Very interactive and engaging.,15.9
+U36,C5,2,0,22,3,60,2024-07-20,"Great course, learned a lot!",19.6
+U36,C59,5,1,17,3,51,2025-01-04,Very interactive and engaging.,18.4
+U36,C46,2,0,31,18,25,2023-12-20,"Outdated content, needs refresh.",12.1
+U37,C74,3,1,39,21,3,2024-01-01,Loved the instructor's style.,6.6
+U37,C26,2,1,40,27,56,2024-10-24,Well-structured and practical.,23.200000000000003
+U37,C72,4,0,60,27,29,2023-12-25,Challenging but rewarding.,16.1
+U37,C68,3,0,49,24,10,2024-09-13,"Too basic, but good for beginners.",9.3
+U37,C32,1,0,40,30,18,2025-07-14,Loved the instructor's style.,11.899999999999999
+U37,C76,1,1,45,26,14,2023-11-27,Loved the instructor's style.,9.9
+U37,C10,4,1,2,11,26,2024-06-05,Challenging but rewarding.,12.0
+U37,C35,2,1,36,16,79,2024-03-21,Well-structured and practical.,27.9
+U37,C56,1,1,38,29,84,2025-05-07,"Great course, learned a lot!",31.5
+U37,C42,3,0,4,10,25,2024-06-26,Loved the instructor's style.,11.0
+U37,C12,1,1,42,1,8,2025-01-07,Very interactive and engaging.,3.0999999999999996
+U37,C15,3,1,56,4,2,2024-11-15,Loved the instructor's style.,2.9
+U37,C53,4,0,25,17,90,2025-04-21,"Too basic, but good for beginners.",32.4
+U37,C55,3,1,56,20,68,2024-03-28,"Too basic, but good for beginners.",25.9
+U37,C47,2,0,33,15,71,2023-09-22,"Great course, learned a lot!",25.3
+U37,C45,1,0,60,17,39,2025-03-21,Needs more real-world examples.,15.6
+U37,C25,4,1,48,6,2,2025-06-14,Needs more real-world examples.,3.8000000000000003
+U38,C46,4,0,27,8,73,2024-01-20,Well-structured and practical.,25.5
+U38,C39,4,1,59,20,42,2024-11-06,"Outdated content, needs refresh.",18.6
+U38,C31,5,0,14,21,17,2024-10-31,Challenging but rewarding.,11.8
+U38,C65,2,1,45,23,67,2024-04-30,Well-structured and practical.,25.7
+U38,C36,4,0,42,30,72,2025-08-03,Well-structured and practical.,29.599999999999998
+U38,C8,3,0,36,18,92,2023-09-09,"Too basic, but good for beginners.",32.699999999999996
+U38,C33,2,1,54,29,18,2024-12-12,"Great course, learned a lot!",12.2
+U38,C50,3,1,27,10,56,2024-04-17,Loved the instructor's style.,20.3
+U38,C4,2,0,7,5,23,2025-02-23,"Great course, learned a lot!",8.899999999999999
+U38,C76,5,1,39,19,78,2025-08-06,Challenging but rewarding.,29.7
+U38,C29,5,0,15,22,3,2024-11-05,Needs more real-world examples.,7.800000000000001
+U38,C20,1,1,9,17,77,2023-10-10,"Outdated content, needs refresh.",27.0
+U38,C44,3,0,55,13,62,2024-07-05,"Outdated content, needs refresh.",22.699999999999996
+U38,C51,2,0,13,8,4,2024-01-16,Very interactive and engaging.,3.8
+U38,C18,1,1,27,8,95,2024-06-13,Challenging but rewarding.,30.6
+U38,C12,2,0,12,30,56,2025-04-12,"Outdated content, needs refresh.",23.8
+U39,C59,1,0,34,18,50,2024-01-05,"Great course, learned a lot!",19.1
+U39,C32,5,1,34,25,80,2025-04-04,"Great course, learned a lot!",31.5
+U39,C55,2,1,29,13,38,2025-01-12,Loved the instructor's style.,15.0
+U39,C52,4,0,28,10,78,2024-06-20,"Great course, learned a lot!",27.4
+U39,C6,5,0,30,27,82,2023-11-19,"Outdated content, needs refresh.",32.5
+U39,C49,1,0,12,25,74,2024-05-26,Well-structured and practical.,27.7
+U39,C41,4,1,21,15,3,2025-09-02,Well-structured and practical.,5.9
+U39,C51,4,0,57,15,11,2025-06-04,Loved the instructor's style.,8.3
+U39,C69,3,0,46,24,15,2024-02-09,"Too basic, but good for beginners.",10.8
+U39,C68,1,1,41,12,10,2024-12-01,Very interactive and engaging.,5.9
+U39,C5,5,0,25,18,48,2024-02-09,"Great course, learned a lot!",20.5
+U39,C67,2,1,37,28,84,2025-07-15,Well-structured and practical.,31.8
+U39,C14,2,0,12,25,91,2023-11-19,"Great course, learned a lot!",33.3
+U39,C58,4,1,20,24,98,2024-06-27,"Outdated content, needs refresh.",36.2
+U39,C80,3,0,8,29,16,2025-08-31,Challenging but rewarding.,12.100000000000001
+U40,C80,4,0,39,29,63,2024-04-16,Challenging but rewarding.,26.7
+U40,C33,2,1,30,14,56,2024-09-06,"Too basic, but good for beginners.",20.6
+U40,C2,5,0,16,29,70,2024-07-29,Loved the instructor's style.,29.3
+U40,C59,5,0,4,6,18,2023-10-13,"Great course, learned a lot!",9.1
+U40,C64,3,0,10,28,4,2025-04-24,Loved the instructor's style.,8.3
+U41,C12,3,1,53,3,97,2024-06-12,Very interactive and engaging.,31.2
+U41,C7,5,0,19,16,17,2024-04-22,"Too basic, but good for beginners.",10.8
+U41,C14,3,1,34,14,67,2025-08-13,Challenging but rewarding.,24.4
+U41,C54,2,0,7,19,93,2023-12-15,"Too basic, but good for beginners.",32.7
+U41,C23,4,1,28,20,40,2024-10-29,Loved the instructor's style.,18.0
+U41,C21,5,1,60,5,78,2024-08-31,"Outdated content, needs refresh.",26.9
+U41,C37,5,1,32,26,23,2024-02-18,Challenging but rewarding.,14.6
+U41,C72,3,0,1,4,3,2024-08-20,"Outdated content, needs refresh.",3.1999999999999997
+U41,C76,1,0,52,20,53,2025-08-01,Very interactive and engaging.,20.4
+U41,C59,1,1,23,18,81,2025-03-20,Challenging but rewarding.,28.4
+U41,C47,1,0,45,10,32,2025-02-16,"Too basic, but good for beginners.",12.1
+U41,C5,3,1,33,18,41,2025-01-10,"Great course, learned a lot!",17.4
+U41,C80,1,1,22,13,92,2024-02-27,"Great course, learned a lot!",30.7
+U41,C39,2,0,22,27,43,2025-02-01,"Outdated content, needs refresh.",19.3
+U41,C42,4,0,42,5,61,2024-09-07,Well-structured and practical.,21.3
+U42,C69,3,1,41,18,21,2025-08-25,Very interactive and engaging.,11.399999999999999
+U42,C43,2,0,56,26,96,2023-11-23,Loved the instructor's style.,35.0
+U42,C60,3,0,18,14,11,2025-02-01,"Outdated content, needs refresh.",7.6000000000000005
+U42,C53,2,1,29,27,38,2024-11-19,Challenging but rewarding.,17.8
+U42,C8,5,1,12,4,47,2025-04-09,"Great course, learned a lot!",17.4
+U42,C67,2,0,29,17,3,2023-10-24,"Outdated content, needs refresh.",5.300000000000001
+U42,C39,5,0,13,11,61,2025-03-28,Loved the instructor's style.,23.0
+U42,C73,3,0,50,28,12,2025-08-13,Well-structured and practical.,10.7
+U42,C41,2,0,30,13,91,2025-03-31,"Too basic, but good for beginners.",30.900000000000002
+U42,C80,1,1,60,2,87,2024-12-02,"Too basic, but good for beginners.",26.999999999999996
+U42,C3,3,1,57,2,13,2024-07-11,Loved the instructor's style.,5.8
+U42,C27,1,1,41,29,26,2024-03-12,Needs more real-world examples.,14.100000000000001
+U42,C79,2,0,19,9,68,2024-05-19,Needs more real-world examples.,23.2
+U42,C46,4,0,18,5,20,2024-08-15,Loved the instructor's style.,9.0
+U42,C9,1,0,40,18,65,2024-04-04,"Too basic, but good for beginners.",23.6
+U42,C20,2,1,36,11,34,2024-10-31,Well-structured and practical.,13.399999999999999
+U42,C36,3,0,11,3,39,2023-09-09,Needs more real-world examples.,13.799999999999999
+U42,C54,5,1,4,5,3,2023-09-15,"Outdated content, needs refresh.",4.4
+U42,C2,1,0,25,2,11,2024-10-27,Very interactive and engaging.,4.2
+U43,C23,4,1,15,8,18,2023-09-10,Loved the instructor's style.,9.0
+U43,C77,3,1,12,23,85,2024-11-29,Needs more real-world examples.,31.6
+U43,C76,3,1,32,1,8,2025-01-29,"Outdated content, needs refresh.",4.1
+U43,C58,1,1,31,15,21,2024-11-15,Loved the instructor's style.,9.8
+U43,C46,3,0,33,4,51,2023-10-25,"Too basic, but good for beginners.",17.599999999999998
+U43,C40,3,0,51,10,68,2025-06-06,"Outdated content, needs refresh.",23.9
+U43,C43,4,1,16,20,31,2024-10-17,Well-structured and practical.,15.299999999999999
+U43,C26,4,1,5,11,26,2024-01-05,Very interactive and engaging.,12.0
+U43,C69,4,1,35,23,30,2024-09-09,Well-structured and practical.,15.600000000000001
+U43,C11,1,1,8,19,76,2025-01-18,"Outdated content, needs refresh.",27.1
+U43,C60,3,0,53,15,22,2024-05-23,Loved the instructor's style.,11.1
+U43,C17,4,0,39,4,87,2024-06-23,Very interactive and engaging.,28.9
+U43,C12,3,1,42,22,7,2024-02-27,"Too basic, but good for beginners.",8.0
+U43,C70,2,0,57,19,96,2025-01-09,"Great course, learned a lot!",33.599999999999994
+U43,C13,2,0,29,18,37,2025-07-30,Very interactive and engaging.,15.7
+U43,C59,5,1,13,7,87,2024-09-22,Needs more real-world examples.,30.0
+U43,C75,3,1,59,30,55,2025-01-04,Needs more real-world examples.,24.0
+U44,C75,3,0,1,23,71,2024-11-09,Needs more real-world examples.,27.400000000000002
+U44,C2,1,1,56,1,30,2024-07-11,Very interactive and engaging.,9.7
+U44,C66,5,1,41,11,91,2023-10-16,Very interactive and engaging.,32.0
+U44,C52,4,1,28,18,27,2025-07-09,Well-structured and practical.,13.7
+U44,C17,4,0,13,18,49,2023-10-01,Needs more real-world examples.,20.299999999999997
+U44,C38,4,0,19,28,85,2025-04-14,Well-structured and practical.,33.1
+U44,C8,2,0,5,21,2,2024-03-09,Well-structured and practical.,5.8
+U45,C56,4,0,46,17,34,2025-04-05,Very interactive and engaging.,15.6
+U45,C18,5,1,3,2,72,2025-07-22,"Outdated content, needs refresh.",24.499999999999996
+U45,C11,3,0,38,16,88,2025-07-24,"Too basic, but good for beginners.",31.099999999999998
+U45,C79,2,1,30,17,10,2025-02-23,"Too basic, but good for beginners.",7.4
+U45,C54,2,1,41,24,84,2024-11-03,"Too basic, but good for beginners.",31.0
+U45,C59,5,1,40,2,43,2024-07-03,"Great course, learned a lot!",15.8
+U45,C55,4,1,33,29,60,2025-04-14,Needs more real-world examples.,25.8
+U45,C24,4,1,52,10,37,2024-11-25,Well-structured and practical.,15.1
+U45,C75,1,1,47,26,72,2024-02-28,Loved the instructor's style.,27.299999999999997
+U45,C66,1,1,38,6,73,2023-09-15,"Great course, learned a lot!",23.599999999999998
+U45,C74,3,0,19,16,10,2023-12-11,Well-structured and practical.,7.7
+U45,C58,5,0,55,26,35,2023-11-18,Loved the instructor's style.,18.2
+U45,C50,2,1,18,28,32,2024-08-31,"Great course, learned a lot!",16.2
+U45,C46,1,0,59,19,94,2024-11-05,Well-structured and practical.,32.5
+U45,C29,4,1,52,6,33,2024-10-01,Challenging but rewarding.,13.100000000000001
+U45,C73,4,0,52,17,4,2024-11-27,Needs more real-world examples.,6.6000000000000005
+U45,C70,1,0,39,30,19,2023-09-25,"Outdated content, needs refresh.",12.2
+U45,C39,4,1,16,22,56,2024-04-21,Well-structured and practical.,23.200000000000003
+U45,C1,2,1,4,21,33,2024-03-31,"Too basic, but good for beginners.",15.100000000000001
+U45,C37,1,0,30,13,60,2025-05-02,Loved the instructor's style.,21.1
+U46,C69,5,1,22,9,34,2023-11-01,"Too basic, but good for beginners.",14.5
+U46,C30,3,1,30,25,86,2024-07-11,Challenging but rewarding.,32.3
+U46,C49,5,0,34,11,86,2024-10-18,Well-structured and practical.,30.5
+U46,C50,3,0,44,1,8,2023-12-26,"Great course, learned a lot!",4.1
+U46,C61,4,0,34,4,87,2024-12-09,"Outdated content, needs refresh.",28.9
+U46,C34,3,0,47,10,32,2024-12-10,Challenging but rewarding.,13.1
+U46,C19,1,0,40,3,7,2024-07-08,Challenging but rewarding.,3.2
+U46,C68,5,0,46,4,11,2024-11-14,Well-structured and practical.,6.6
+U46,C56,4,0,58,4,89,2024-04-30,Well-structured and practical.,29.5
+U46,C2,3,1,30,22,9,2025-01-05,"Outdated content, needs refresh.",8.6
+U46,C37,3,1,45,29,85,2023-09-07,Needs more real-world examples.,32.8
+U46,C58,3,0,50,3,35,2024-09-11,"Great course, learned a lot!",12.6
+U46,C78,4,1,22,2,33,2025-04-03,Loved the instructor's style.,12.3
+U46,C41,2,1,5,16,25,2025-04-28,Very interactive and engaging.,11.7
+U46,C6,2,1,7,5,69,2025-02-26,Very interactive and engaging.,22.7
+U46,C13,2,0,59,15,91,2024-12-21,Loved the instructor's style.,31.3
+U46,C46,1,0,5,3,73,2024-11-20,Loved the instructor's style.,23.0
+U46,C62,4,0,58,16,19,2024-01-27,"Great course, learned a lot!",10.9
+U46,C55,1,1,18,5,89,2024-04-27,Needs more real-world examples.,28.2
+U46,C28,4,0,33,23,98,2024-12-08,"Outdated content, needs refresh.",36.0
+U47,C56,1,1,49,25,37,2025-05-09,Challenging but rewarding.,16.6
+U47,C52,2,0,25,22,24,2023-12-24,Loved the instructor's style.,12.6
+U47,C9,4,0,41,23,45,2025-04-23,"Outdated content, needs refresh.",20.1
+U47,C70,1,1,48,7,17,2024-02-28,"Great course, learned a lot!",7.0
+U47,C29,2,0,47,19,30,2025-03-21,"Outdated content, needs refresh.",13.8
+U47,C1,4,0,51,18,82,2023-11-13,Loved the instructor's style.,30.199999999999996
+U47,C50,4,1,2,2,43,2025-06-04,"Great course, learned a lot!",15.3
+U47,C62,3,0,26,4,27,2025-06-30,"Outdated content, needs refresh.",10.399999999999999
+U47,C16,5,0,48,19,29,2024-10-08,"Too basic, but good for beginners.",15.0
+U47,C69,1,0,32,21,2,2025-01-31,"Outdated content, needs refresh.",5.3
+U47,C46,5,0,16,23,83,2024-11-29,Well-structured and practical.,32.0
+U47,C43,1,0,41,2,39,2024-11-29,"Too basic, but good for beginners.",12.6
+U47,C39,4,0,54,19,8,2024-07-27,"Too basic, but good for beginners.",8.200000000000001
+U47,C79,1,1,39,26,78,2024-10-02,Challenging but rewarding.,29.099999999999998
+U47,C8,1,0,28,11,94,2024-02-08,Very interactive and engaging.,30.9
+U47,C12,3,0,44,19,69,2023-09-24,Well-structured and practical.,26.0
+U47,C47,3,0,49,2,75,2025-01-26,Well-structured and practical.,24.4
+U47,C35,3,0,8,9,18,2024-09-08,Very interactive and engaging.,8.7
+U47,C55,2,1,36,6,56,2024-09-15,Challenging but rewarding.,19.0
+U47,C22,5,0,9,4,80,2024-03-17,Very interactive and engaging.,27.3
+U48,C3,2,0,10,21,34,2025-01-23,"Outdated content, needs refresh.",15.399999999999999
+U48,C63,4,0,12,20,88,2024-12-28,"Great course, learned a lot!",32.4
+U48,C11,5,0,46,16,78,2024-06-02,"Too basic, but good for beginners.",29.099999999999998
+U48,C1,3,1,27,1,71,2024-03-21,Challenging but rewarding.,23.0
+U48,C77,2,0,34,4,79,2025-07-16,Needs more real-world examples.,25.5
+U48,C23,5,0,30,25,80,2024-10-10,Challenging but rewarding.,31.5
+U48,C12,3,0,13,4,19,2023-10-05,"Outdated content, needs refresh.",8.0
+U48,C37,4,0,11,22,5,2025-06-29,"Great course, learned a lot!",7.9
+U48,C54,3,1,14,14,32,2024-11-02,Needs more real-world examples.,13.9
+U48,C61,5,1,3,4,94,2025-07-15,"Great course, learned a lot!",31.5
+U49,C21,2,1,15,25,14,2023-12-09,Needs more real-world examples.,10.2
+U49,C4,2,0,16,24,52,2023-10-14,Challenging but rewarding.,21.4
+U49,C63,4,0,5,16,74,2024-07-22,"Outdated content, needs refresh.",27.4
+U49,C66,1,1,10,7,78,2024-08-19,"Outdated content, needs refresh.",25.299999999999997
+U49,C15,2,1,24,5,58,2024-02-11,Challenging but rewarding.,19.4
+U49,C10,3,1,13,11,16,2024-12-21,"Great course, learned a lot!",8.5
+U49,C31,5,0,18,5,14,2025-01-28,"Outdated content, needs refresh.",7.7
+U49,C57,4,1,11,25,43,2024-11-03,Challenging but rewarding.,19.9
+U49,C42,3,0,51,26,81,2024-03-24,Well-structured and practical.,31.0
+U49,C54,5,0,6,14,66,2024-09-13,"Outdated content, needs refresh.",25.1
+U50,C76,5,0,59,19,0,2024-11-21,Very interactive and engaging.,6.300000000000001
+U50,C61,1,0,31,24,98,2024-05-29,"Great course, learned a lot!",34.7
+U50,C60,4,1,31,26,89,2025-04-28,"Too basic, but good for beginners.",33.9
+U50,C36,4,1,16,3,71,2023-12-12,"Great course, learned a lot!",23.900000000000002
+U50,C2,4,0,9,12,37,2023-09-16,Challenging but rewarding.,15.5
+U50,C55,1,0,31,22,39,2023-11-19,Well-structured and practical.,16.6
+U50,C32,4,0,30,15,98,2024-03-24,Well-structured and practical.,34.4
+U50,C74,4,0,51,28,47,2024-09-04,"Outdated content, needs refresh.",21.7
+U50,C42,1,0,25,29,88,2024-10-03,Needs more real-world examples.,32.7
+U50,C56,5,0,19,14,96,2025-06-15,Loved the instructor's style.,34.099999999999994
+U50,C29,5,0,51,22,10,2025-07-08,Needs more real-world examples.,9.9
+U51,C66,4,0,24,12,22,2023-10-05,"Too basic, but good for beginners.",11.0
+U51,C47,5,0,9,11,30,2023-10-02,"Too basic, but good for beginners.",13.7
+U51,C7,4,0,49,24,97,2023-09-07,Challenging but rewarding.,35.9
+U51,C15,3,1,58,9,64,2025-06-07,Very interactive and engaging.,22.5
+U51,C50,3,0,5,12,44,2024-08-04,"Outdated content, needs refresh.",17.1
+U51,C79,4,0,31,23,68,2024-08-23,Loved the instructor's style.,27.0
+U52,C80,2,0,19,14,87,2023-10-02,Well-structured and practical.,29.9
+U52,C48,4,1,27,15,94,2025-03-26,"Great course, learned a lot!",33.2
+U52,C9,3,0,5,1,29,2025-08-12,Needs more real-world examples.,10.399999999999999
+U52,C25,4,1,42,21,100,2025-03-29,Needs more real-world examples.,36.2
+U52,C59,4,1,30,10,72,2024-01-21,Well-structured and practical.,25.599999999999998
+U52,C12,3,0,51,9,29,2024-03-09,"Outdated content, needs refresh.",12.0
+U52,C11,3,1,50,28,6,2024-03-19,Well-structured and practical.,8.9
+U52,C51,3,1,30,6,79,2024-01-19,Well-structured and practical.,26.4
+U52,C23,5,1,12,6,90,2025-07-29,Well-structured and practical.,30.7
+U52,C37,2,0,8,2,40,2025-06-01,Well-structured and practical.,13.4
+U52,C10,4,1,24,6,26,2023-12-27,"Great course, learned a lot!",11.0
+U52,C14,3,1,10,12,57,2024-03-20,Well-structured and practical.,21.0
+U52,C22,5,1,8,30,3,2025-05-01,Very interactive and engaging.,9.4
+U52,C36,4,0,30,30,40,2024-03-29,Well-structured and practical.,20.0
+U52,C15,1,1,42,23,37,2024-09-19,"Outdated content, needs refresh.",16.2
+U52,C19,3,0,52,19,93,2023-11-26,"Outdated content, needs refresh.",33.2
+U52,C64,3,0,47,16,5,2024-12-18,Well-structured and practical.,6.2
+U52,C70,5,0,20,1,51,2024-03-30,Challenging but rewarding.,18.0
+U52,C56,4,1,6,11,7,2024-11-23,Challenging but rewarding.,6.300000000000001
+U53,C36,5,0,59,22,46,2023-10-12,Very interactive and engaging.,20.7
+U53,C26,2,1,24,13,47,2024-06-22,"Great course, learned a lot!",17.7
+U53,C3,3,1,23,10,57,2025-02-01,"Too basic, but good for beginners.",20.599999999999998
+U53,C11,2,1,48,14,56,2025-07-21,Loved the instructor's style.,20.6
+U53,C69,2,1,47,29,53,2023-11-25,Well-structured and practical.,22.7
+U53,C58,5,0,10,7,38,2025-02-01,"Outdated content, needs refresh.",15.3
+U53,C12,5,1,5,30,75,2025-05-22,Very interactive and engaging.,31.0
+U53,C66,1,0,27,21,34,2025-06-10,Very interactive and engaging.,14.899999999999999
+U53,C51,2,1,46,19,96,2025-04-12,Well-structured and practical.,33.599999999999994
+U53,C25,2,0,54,13,37,2025-07-14,"Outdated content, needs refresh.",14.7
+U53,C63,1,1,54,19,38,2024-01-31,"Outdated content, needs refresh.",15.700000000000001
+U53,C41,5,1,15,1,0,2025-07-07,Well-structured and practical.,2.7
+U54,C39,5,1,38,16,72,2025-08-11,Very interactive and engaging.,27.299999999999997
+U54,C61,3,1,45,27,15,2024-06-12,Needs more real-world examples.,11.4
+U54,C16,5,0,55,9,20,2024-12-24,"Great course, learned a lot!",10.3
+U54,C37,2,1,30,29,88,2025-05-06,Well-structured and practical.,33.2
+U54,C54,3,0,4,9,46,2025-03-20,Very interactive and engaging.,17.099999999999998
+U54,C23,3,0,19,10,67,2024-11-18,"Too basic, but good for beginners.",23.599999999999998
+U54,C63,5,0,50,21,23,2025-04-06,"Too basic, but good for beginners.",13.6
+U54,C32,5,0,35,11,40,2023-10-03,Loved the instructor's style.,16.7
+U54,C4,3,1,7,18,74,2024-04-23,Needs more real-world examples.,27.299999999999997
+U54,C78,2,0,9,17,36,2023-11-28,Needs more real-world examples.,15.2
+U54,C36,4,1,22,30,20,2024-11-26,"Too basic, but good for beginners.",14.0
+U54,C64,2,0,33,8,24,2023-09-18,"Too basic, but good for beginners.",9.799999999999999
+U54,C9,4,1,59,3,14,2024-06-29,Well-structured and practical.,6.800000000000001
+U55,C62,4,1,12,23,38,2025-02-11,"Great course, learned a lot!",18.0
+U55,C45,1,0,9,28,88,2025-03-20,Well-structured and practical.,32.5
+U55,C40,2,1,9,7,16,2024-01-17,"Too basic, but good for beginners.",7.2
+U55,C47,4,0,5,1,99,2024-09-23,"Outdated content, needs refresh.",31.9
+U55,C18,4,0,13,4,4,2024-09-22,"Great course, learned a lot!",4.0
+U56,C16,5,0,33,19,8,2025-04-17,"Too basic, but good for beginners.",8.700000000000001
+U56,C33,5,0,34,7,91,2024-07-17,Challenging but rewarding.,31.200000000000003
+U56,C6,3,0,58,25,68,2023-12-14,"Great course, learned a lot!",26.9
+U56,C9,1,0,59,17,90,2024-12-24,"Outdated content, needs refresh.",30.9
+U56,C39,3,0,29,22,13,2024-04-29,Well-structured and practical.,9.8
+U56,C2,3,1,28,7,65,2025-07-05,Challenging but rewarding.,22.4
+U56,C13,4,0,49,11,15,2024-10-01,"Outdated content, needs refresh.",8.7
+U56,C80,1,0,32,25,46,2025-06-21,Loved the instructor's style.,19.299999999999997
+U56,C27,5,0,6,11,63,2025-01-10,"Too basic, but good for beginners.",23.599999999999998
+U56,C26,4,1,30,20,94,2025-08-08,Loved the instructor's style.,34.2
+U56,C24,4,0,36,14,37,2023-12-11,Very interactive and engaging.,15.9
+U56,C45,2,0,58,27,60,2025-04-28,Needs more real-world examples.,24.4
+U56,C4,2,0,44,16,86,2024-04-02,"Too basic, but good for beginners.",30.0
+U56,C12,4,1,34,22,86,2025-02-19,"Too basic, but good for beginners.",32.2
+U56,C19,1,0,26,13,88,2025-06-23,"Too basic, but good for beginners.",29.5
+U56,C36,2,0,24,7,43,2024-10-16,Challenging but rewarding.,15.3
+U56,C69,5,1,8,8,54,2025-05-02,"Outdated content, needs refresh.",20.299999999999997
+U56,C23,3,1,49,26,82,2024-12-05,Very interactive and engaging.,31.299999999999997
+U56,C11,3,1,43,20,51,2025-04-07,"Outdated content, needs refresh.",20.799999999999997
+U56,C55,5,1,10,25,58,2024-02-24,"Too basic, but good for beginners.",24.9
+U57,C33,1,1,44,1,22,2024-06-27,Very interactive and engaging.,7.3
+U57,C63,5,1,10,10,79,2023-11-26,"Too basic, but good for beginners.",28.2
+U57,C64,1,1,51,15,25,2023-09-06,Loved the instructor's style.,11.0
+U57,C30,4,1,33,9,69,2025-08-21,Needs more real-world examples.,24.5
+U57,C18,5,0,49,2,55,2025-03-29,"Too basic, but good for beginners.",19.4
+U57,C4,4,1,21,28,48,2024-01-24,"Outdated content, needs refresh.",22.0
+U57,C13,4,0,3,6,71,2024-03-24,Loved the instructor's style.,24.5
+U57,C7,2,1,28,5,39,2024-03-19,Very interactive and engaging.,13.7
+U58,C15,1,0,38,2,16,2024-02-10,Needs more real-world examples.,5.7
+U58,C73,3,0,49,29,80,2025-04-24,Needs more real-world examples.,31.3
+U58,C63,4,0,28,12,45,2025-06-19,Very interactive and engaging.,17.9
+U58,C71,3,0,43,8,31,2025-08-22,Challenging but rewarding.,12.399999999999999
+U58,C70,3,0,59,23,8,2024-02-17,Loved the instructor's style.,8.5
+U58,C74,1,1,11,1,68,2024-06-08,Needs more real-world examples.,21.099999999999998
+U58,C61,1,1,43,28,54,2024-08-15,Very interactive and engaging.,22.3
+U58,C75,3,0,45,16,75,2025-02-02,"Great course, learned a lot!",27.2
+U58,C72,3,1,37,13,41,2024-07-08,"Too basic, but good for beginners.",16.4
+U58,C21,4,0,45,22,26,2024-09-21,Needs more real-world examples.,14.2
+U58,C65,4,1,11,20,38,2024-09-16,Needs more real-world examples.,17.4
+U58,C8,4,0,32,21,100,2024-01-26,"Too basic, but good for beginners.",36.2
+U58,C51,5,0,19,9,6,2025-02-10,Loved the instructor's style.,6.1
+U58,C34,5,1,52,8,79,2024-08-27,"Too basic, but good for beginners.",27.799999999999997
+U58,C64,5,0,38,11,34,2025-08-16,"Too basic, but good for beginners.",14.899999999999999
+U58,C49,5,1,28,7,44,2025-06-14,"Too basic, but good for beginners.",17.1
+U58,C46,3,1,28,22,69,2024-09-28,Needs more real-world examples.,26.6
+U58,C50,2,1,26,9,79,2025-04-07,"Outdated content, needs refresh.",26.5
+U58,C19,5,0,57,1,80,2025-05-31,Well-structured and practical.,26.7
+U58,C77,5,1,14,22,95,2023-10-03,"Outdated content, needs refresh.",35.4
+U59,C69,4,1,21,28,8,2023-11-20,Challenging but rewarding.,10.0
+U59,C79,4,1,53,10,82,2023-12-04,Well-structured and practical.,28.599999999999998
+U59,C56,3,0,26,8,14,2024-01-24,Well-structured and practical.,7.300000000000001
+U59,C73,2,0,16,26,39,2024-05-24,"Outdated content, needs refresh.",17.9
+U59,C8,4,1,28,21,4,2024-01-30,Challenging but rewarding.,7.4
+U59,C67,2,1,9,1,33,2024-04-15,Loved the instructor's style.,11.1
+U59,C26,5,0,42,28,5,2023-12-09,"Outdated content, needs refresh.",9.600000000000001
+U59,C47,1,0,56,29,10,2023-09-20,Needs more real-world examples.,9.3
+U59,C60,5,1,56,3,52,2025-08-05,Needs more real-world examples.,18.7
+U59,C19,1,1,54,24,17,2024-08-19,Challenging but rewarding.,10.4
+U59,C31,1,0,34,22,74,2023-10-26,Loved the instructor's style.,27.1
+U59,C20,4,0,16,20,15,2024-09-18,Needs more real-world examples.,10.5
+U59,C39,3,1,52,24,95,2025-05-26,Challenging but rewarding.,34.8
+U60,C28,2,1,57,26,18,2023-12-01,Needs more real-world examples.,11.6
+U60,C19,4,1,53,10,2,2025-06-01,"Great course, learned a lot!",4.6
+U60,C14,1,0,17,18,49,2024-05-17,Loved the instructor's style.,18.799999999999997
+U60,C23,3,0,35,28,30,2023-11-18,"Outdated content, needs refresh.",16.1
+U60,C80,4,0,59,13,32,2023-12-28,Loved the instructor's style.,14.2
+U60,C36,1,0,20,7,20,2024-10-27,"Outdated content, needs refresh.",7.9
+U60,C57,3,1,51,2,35,2024-07-17,"Too basic, but good for beginners.",12.4
+U60,C53,4,1,48,14,42,2024-01-12,Very interactive and engaging.,17.4
+U60,C33,1,0,45,9,64,2024-03-25,"Too basic, but good for beginners.",21.5
+U60,C8,3,1,39,24,70,2024-02-16,Needs more real-world examples.,27.3
+U60,C63,4,0,49,2,82,2024-01-29,Well-structured and practical.,26.999999999999996
+U60,C69,4,0,1,13,25,2025-08-05,Loved the instructor's style.,12.1
+U60,C48,3,0,8,6,31,2024-05-07,Well-structured and practical.,12.0
+U60,C15,5,1,51,11,57,2025-08-20,"Outdated content, needs refresh.",21.799999999999997
+U60,C41,2,1,12,22,75,2024-06-25,Needs more real-world examples.,27.9
+U60,C55,3,0,6,14,47,2025-07-07,Well-structured and practical.,18.4
+U60,C61,4,1,54,29,73,2025-03-13,Challenging but rewarding.,29.7
+U60,C44,1,0,60,18,82,2025-06-30,Challenging but rewarding.,28.699999999999996
+U61,C60,5,1,10,3,47,2025-05-06,Well-structured and practical.,17.2
+U61,C26,5,0,1,23,67,2025-06-21,Very interactive and engaging.,27.2
+U61,C34,4,1,8,8,91,2024-02-18,Challenging but rewarding.,30.900000000000002
+U61,C22,2,1,19,24,63,2024-10-11,Very interactive and engaging.,24.7
+U61,C7,2,1,55,7,76,2024-06-25,Challenging but rewarding.,25.200000000000003
+U61,C52,3,0,27,6,52,2025-05-14,Well-structured and practical.,18.3
+U61,C55,1,1,17,8,79,2023-12-13,"Outdated content, needs refresh.",25.8
+U62,C48,5,1,5,4,71,2024-05-05,"Great course, learned a lot!",24.6
+U62,C75,1,1,60,8,60,2024-11-11,Needs more real-world examples.,20.1
+U62,C59,5,0,1,9,64,2025-02-08,Very interactive and engaging.,23.5
+U62,C11,3,1,43,12,16,2024-07-22,"Great course, learned a lot!",8.7
+U62,C2,5,0,17,6,64,2024-12-16,"Outdated content, needs refresh.",22.9
+U62,C61,3,1,9,3,40,2024-08-24,Very interactive and engaging.,14.1
+U62,C18,2,1,8,11,5,2025-07-08,Well-structured and practical.,4.7
+U62,C42,4,1,48,12,55,2025-03-03,Loved the instructor's style.,20.9
+U62,C51,3,1,34,11,55,2024-11-27,Well-structured and practical.,20.2
+U62,C28,3,1,49,5,71,2024-07-15,"Outdated content, needs refresh.",23.8
+U62,C50,1,0,10,2,29,2025-01-08,Well-structured and practical.,9.6
+U62,C55,1,1,17,6,90,2025-06-13,"Outdated content, needs refresh.",28.7
+U63,C15,2,1,37,29,84,2024-10-07,Challenging but rewarding.,32.0
+U63,C64,5,0,34,25,73,2024-07-29,Well-structured and practical.,29.4
+U63,C6,4,0,16,25,63,2025-06-22,"Too basic, but good for beginners.",25.9
+U63,C57,3,0,19,22,87,2025-01-11,"Too basic, but good for beginners.",32.0
+U63,C46,4,1,38,30,13,2023-10-03,Needs more real-world examples.,11.9
+U63,C72,2,0,6,15,90,2024-04-09,"Outdated content, needs refresh.",31.0
+U63,C63,4,1,39,22,0,2025-04-20,Needs more real-world examples.,6.4
+U63,C59,1,1,21,24,93,2024-04-24,Well-structured and practical.,33.2
+U63,C79,2,0,52,21,36,2025-08-30,Needs more real-world examples.,16.0
+U63,C80,1,0,36,20,48,2023-09-29,"Too basic, but good for beginners.",18.9
+U63,C19,4,1,12,8,98,2023-12-02,Very interactive and engaging.,33.0
+U63,C16,1,0,55,7,20,2025-01-08,Very interactive and engaging.,7.9
+U63,C45,4,1,42,25,83,2024-05-18,Well-structured and practical.,31.9
+U63,C12,1,1,32,26,55,2024-01-13,Loved the instructor's style.,22.2
+U63,C27,5,0,23,22,12,2024-07-25,Needs more real-world examples.,10.5
+U63,C37,5,0,32,15,49,2025-04-05,"Outdated content, needs refresh.",20.2
+U63,C24,3,1,6,25,54,2023-10-17,Needs more real-world examples.,22.7
+U63,C54,5,0,28,21,54,2023-10-11,"Too basic, but good for beginners.",22.9
+U64,C66,5,0,19,15,55,2025-06-22,"Too basic, but good for beginners.",22.0
+U64,C44,4,1,10,5,87,2024-08-17,Loved the instructor's style.,29.099999999999998
+U64,C60,2,1,19,19,6,2025-01-01,"Too basic, but good for beginners.",6.6000000000000005
+U64,C29,1,0,33,14,52,2025-07-28,"Too basic, but good for beginners.",18.9
+U64,C20,4,1,23,9,74,2024-03-01,"Too basic, but good for beginners.",26.0
+U64,C64,5,0,8,24,84,2024-03-13,"Outdated content, needs refresh.",32.5
+U65,C24,3,0,14,6,10,2023-10-26,Loved the instructor's style.,5.7
+U65,C51,1,1,35,1,0,2023-12-29,Very interactive and engaging.,0.7
+U65,C6,1,0,11,21,61,2024-06-01,"Outdated content, needs refresh.",23.0
+U65,C11,4,1,20,20,78,2024-11-30,Needs more real-world examples.,29.4
+U65,C54,4,1,6,5,17,2023-10-12,"Great course, learned a lot!",8.1
+U65,C39,2,0,53,1,89,2024-05-30,Challenging but rewarding.,27.9
+U65,C41,1,0,31,21,18,2023-09-21,Challenging but rewarding.,10.1
+U65,C59,4,0,6,10,98,2024-04-08,"Outdated content, needs refresh.",33.4
+U65,C58,2,1,28,1,14,2023-11-24,Well-structured and practical.,5.4
+U65,C34,2,1,32,16,2,2023-11-26,"Outdated content, needs refresh.",4.8
+U66,C26,1,1,26,16,65,2024-08-02,"Outdated content, needs refresh.",23.2
+U66,C38,2,0,34,1,54,2023-09-16,Needs more real-world examples.,17.4
+U66,C73,5,0,18,29,82,2024-07-04,Very interactive and engaging.,32.9
+U66,C51,4,0,32,20,82,2024-01-05,Needs more real-world examples.,30.599999999999998
+U66,C7,4,1,2,6,36,2024-06-12,Challenging but rewarding.,14.0
+U66,C43,4,1,29,8,64,2025-05-19,Challenging but rewarding.,22.8
+U66,C2,5,1,59,20,91,2024-05-18,"Outdated content, needs refresh.",33.8
+U66,C14,2,1,47,23,49,2024-03-25,Very interactive and engaging.,20.3
+U66,C56,3,1,52,28,20,2023-11-21,Challenging but rewarding.,13.100000000000001
+U66,C54,3,0,43,16,16,2023-11-10,Well-structured and practical.,9.5
+U66,C64,2,0,39,16,12,2025-04-12,Very interactive and engaging.,7.8
+U66,C79,4,1,16,7,71,2024-06-08,"Great course, learned a lot!",24.700000000000003
+U67,C46,1,0,22,14,14,2024-11-17,Challenging but rewarding.,7.5
+U67,C34,1,0,32,9,43,2024-06-27,Needs more real-world examples.,15.2
+U67,C21,1,1,58,5,88,2024-04-13,"Too basic, but good for beginners.",27.9
+U67,C23,1,1,52,15,96,2024-11-14,"Too basic, but good for beginners.",32.3
+U67,C65,1,0,53,18,5,2024-04-02,"Too basic, but good for beginners.",5.6
+U68,C16,3,1,53,5,15,2024-01-21,Challenging but rewarding.,7.0
+U68,C27,4,1,50,25,0,2024-10-31,Challenging but rewarding.,7.0
+U68,C47,4,1,19,17,21,2025-08-11,"Too basic, but good for beginners.",11.7
+U68,C21,3,1,46,25,53,2025-02-09,Needs more real-world examples.,22.4
+U68,C38,2,0,49,25,67,2025-02-20,Very interactive and engaging.,26.099999999999998
+U68,C57,2,0,52,14,52,2023-09-22,Very interactive and engaging.,19.4
+U68,C65,4,1,2,15,18,2024-02-20,"Great course, learned a lot!",10.399999999999999
+U68,C64,5,0,6,11,40,2024-03-01,Very interactive and engaging.,16.7
+U68,C13,2,1,4,13,97,2023-09-17,"Great course, learned a lot!",32.699999999999996
+U68,C20,2,0,41,23,84,2024-05-22,Loved the instructor's style.,30.8
+U69,C52,1,1,25,24,92,2024-06-04,Well-structured and practical.,32.9
+U69,C71,5,1,14,3,65,2024-01-30,Loved the instructor's style.,22.6
+U69,C39,5,1,49,21,20,2023-12-10,"Great course, learned a lot!",12.7
+U69,C41,1,1,16,27,99,2024-01-31,Loved the instructor's style.,35.6
+U69,C45,4,0,47,2,47,2025-04-26,Loved the instructor's style.,16.5
+U69,C2,5,1,8,2,96,2024-06-13,"Too basic, but good for beginners.",31.699999999999996
+U69,C36,4,1,37,24,0,2025-08-01,"Outdated content, needs refresh.",6.800000000000001
+U69,C68,3,0,52,24,74,2025-02-09,Challenging but rewarding.,28.5
+U69,C19,3,1,19,22,100,2024-07-11,Well-structured and practical.,35.9
+U69,C80,4,0,7,11,66,2023-09-29,Challenging but rewarding.,24.0
+U69,C58,3,1,7,5,91,2025-08-03,Very interactive and engaging.,29.8
+U69,C27,4,0,6,2,54,2024-03-10,Well-structured and practical.,18.599999999999998
+U69,C57,4,0,29,3,47,2023-12-20,Very interactive and engaging.,16.7
+U69,C76,5,1,56,9,74,2023-10-26,"Outdated content, needs refresh.",26.5
+U69,C79,4,1,45,30,62,2024-02-20,Very interactive and engaging.,26.599999999999998
+U69,C26,2,0,33,5,62,2025-03-30,"Outdated content, needs refresh.",20.599999999999998
+U69,C78,2,0,45,7,58,2025-08-28,"Outdated content, needs refresh.",19.799999999999997
+U69,C6,1,0,36,12,15,2025-05-23,Very interactive and engaging.,7.4
+U70,C16,3,1,24,10,37,2023-10-11,"Outdated content, needs refresh.",14.6
+U70,C48,1,0,10,26,75,2023-10-03,Very interactive and engaging.,28.2
+U70,C74,1,1,57,10,27,2025-03-02,Well-structured and practical.,10.6
+U70,C38,4,0,8,18,44,2024-10-16,"Too basic, but good for beginners.",18.799999999999997
+U70,C6,1,1,31,19,39,2024-09-13,"Outdated content, needs refresh.",16.0
+U70,C67,3,1,31,27,92,2023-09-25,Well-structured and practical.,34.5
+U70,C20,2,1,49,15,85,2025-05-04,"Outdated content, needs refresh.",29.5
+U70,C80,2,1,6,26,79,2024-11-29,Very interactive and engaging.,29.9
+U71,C30,5,0,8,22,68,2024-03-30,Well-structured and practical.,27.299999999999997
+U71,C51,1,1,51,7,31,2024-02-24,"Outdated content, needs refresh.",11.2
+U71,C44,1,1,26,19,5,2024-08-27,"Outdated content, needs refresh.",5.800000000000001
+U71,C70,1,1,28,6,53,2024-05-18,"Great course, learned a lot!",17.599999999999998
+U71,C6,5,1,25,9,11,2023-12-06,"Too basic, but good for beginners.",7.6
+U71,C57,1,0,19,5,23,2025-02-26,Loved the instructor's style.,8.399999999999999
+U71,C36,1,0,20,14,86,2025-03-30,Well-structured and practical.,29.1
+U71,C12,1,1,12,1,91,2024-02-18,"Great course, learned a lot!",28.0
+U71,C22,3,1,7,11,18,2024-05-24,Very interactive and engaging.,9.1
+U71,C4,3,1,25,27,15,2024-02-06,"Great course, learned a lot!",11.4
+U71,C40,2,0,49,20,75,2024-08-13,Challenging but rewarding.,27.5
+U71,C16,4,1,8,9,7,2024-07-31,Needs more real-world examples.,5.9
+U71,C11,4,1,5,16,3,2023-09-09,Very interactive and engaging.,6.1
+U71,C25,2,0,18,18,75,2025-04-22,"Too basic, but good for beginners.",27.1
+U71,C7,2,0,20,19,52,2025-01-26,"Outdated content, needs refresh.",20.4
+U71,C67,1,0,51,5,47,2024-08-24,Well-structured and practical.,15.6
+U71,C61,2,1,59,18,57,2024-10-17,"Great course, learned a lot!",21.699999999999996
+U72,C60,1,1,18,20,32,2024-10-15,Very interactive and engaging.,14.1
+U72,C80,3,0,38,27,65,2023-12-16,Loved the instructor's style.,26.4
+U72,C38,1,0,48,18,72,2024-12-04,"Too basic, but good for beginners.",25.699999999999996
+U72,C22,3,0,26,23,15,2024-09-04,Well-structured and practical.,10.600000000000001
+U72,C1,5,1,57,14,26,2024-07-03,Needs more real-world examples.,13.100000000000001
+U73,C34,2,1,36,29,89,2024-09-30,"Outdated content, needs refresh.",33.5
+U73,C58,4,0,51,29,83,2025-07-26,"Too basic, but good for beginners.",32.7
+U73,C35,5,0,58,27,85,2024-06-19,"Outdated content, needs refresh.",33.4
+U73,C32,1,1,53,13,76,2025-05-07,Needs more real-world examples.,25.900000000000002
+U73,C42,4,0,54,25,89,2025-02-22,"Great course, learned a lot!",33.7
+U73,C44,1,1,24,30,24,2025-06-24,"Outdated content, needs refresh.",13.7
+U73,C27,1,0,48,1,97,2025-04-17,Loved the instructor's style.,29.799999999999997
+U73,C59,3,0,6,27,78,2024-05-27,Loved the instructor's style.,30.299999999999997
+U73,C43,2,0,32,12,4,2024-05-16,Loved the instructor's style.,4.6000000000000005
+U73,C3,4,0,1,7,81,2025-07-19,Very interactive and engaging.,27.700000000000003
+U73,C18,1,1,37,17,63,2024-11-10,Well-structured and practical.,22.799999999999997
+U73,C1,5,0,43,24,72,2025-06-27,Well-structured and practical.,28.9
+U73,C61,1,0,48,3,16,2024-07-29,Loved the instructor's style.,5.9
+U73,C69,5,0,57,17,93,2025-09-01,Loved the instructor's style.,33.8
+U73,C2,2,0,45,22,68,2024-09-13,Loved the instructor's style.,25.799999999999997
+U74,C1,5,1,21,1,50,2025-05-23,Challenging but rewarding.,17.7
+U74,C55,3,0,57,19,3,2024-09-17,Challenging but rewarding.,6.200000000000001
+U74,C7,4,0,59,8,25,2023-11-17,Well-structured and practical.,11.1
+U74,C42,3,1,5,21,80,2024-06-07,"Too basic, but good for beginners.",29.7
+U74,C56,1,1,28,26,3,2024-02-01,Needs more real-world examples.,6.6
+U74,C53,3,0,7,16,30,2025-02-17,Needs more real-world examples.,13.7
+U74,C36,1,1,34,26,30,2023-09-22,"Too basic, but good for beginners.",14.7
+U74,C16,5,1,49,4,80,2024-11-26,"Outdated content, needs refresh.",27.3
+U74,C67,5,0,6,2,4,2024-04-20,Very interactive and engaging.,4.1
+U74,C60,3,0,51,5,7,2024-10-20,"Outdated content, needs refresh.",4.6
+U74,C64,1,1,40,21,55,2024-06-16,"Too basic, but good for beginners.",21.2
+U74,C47,1,0,36,2,37,2024-02-15,Very interactive and engaging.,12.0
+U74,C72,4,0,40,25,52,2025-01-29,Challenging but rewarding.,22.6
+U74,C6,5,0,30,13,59,2023-10-13,Very interactive and engaging.,22.799999999999997
+U74,C29,5,0,22,21,86,2024-01-16,"Great course, learned a lot!",32.5
+U74,C78,4,1,38,7,13,2023-09-15,"Too basic, but good for beginners.",7.300000000000001
+U74,C74,1,0,38,26,24,2024-04-09,Well-structured and practical.,12.899999999999999
+U74,C59,5,1,23,14,61,2023-10-09,"Outdated content, needs refresh.",23.6
+U74,C27,2,0,9,26,5,2024-07-29,"Great course, learned a lot!",7.7
+U75,C40,4,1,39,11,37,2024-01-21,Needs more real-world examples.,15.3
+U75,C75,1,0,4,8,64,2024-09-13,"Great course, learned a lot!",21.3
+U75,C56,4,1,13,7,81,2023-10-05,Challenging but rewarding.,27.700000000000003
+U75,C66,1,1,13,22,60,2025-08-26,"Outdated content, needs refresh.",22.9
+U75,C46,5,1,55,19,72,2023-12-21,Needs more real-world examples.,27.9
+U75,C80,5,1,27,11,20,2025-03-21,"Too basic, but good for beginners.",10.7
+U75,C70,4,0,32,8,0,2024-05-11,Challenging but rewarding.,3.6
+U75,C19,2,1,40,7,30,2024-09-17,"Outdated content, needs refresh.",11.4
+U75,C73,3,1,14,13,23,2024-08-18,"Great course, learned a lot!",11.0
+U76,C2,2,0,57,9,92,2024-06-18,Well-structured and practical.,30.4
+U76,C10,3,0,12,7,2,2024-08-29,Well-structured and practical.,3.5000000000000004
+U76,C46,3,0,2,27,86,2023-11-21,Well-structured and practical.,32.7
+U76,C4,4,0,22,30,26,2025-05-09,Loved the instructor's style.,15.8
+U76,C72,4,0,24,26,47,2024-04-24,Well-structured and practical.,21.3
+U76,C15,5,1,57,23,8,2023-11-10,"Too basic, but good for beginners.",9.5
+U76,C19,2,0,51,7,24,2023-11-06,Very interactive and engaging.,9.6
+U76,C38,3,1,39,14,81,2025-05-04,Challenging but rewarding.,28.6
+U76,C57,1,0,55,18,37,2024-05-28,Well-structured and practical.,15.2
+U76,C25,3,0,4,21,35,2024-02-10,Well-structured and practical.,16.2
+U76,C47,5,1,14,24,10,2025-04-11,"Outdated content, needs refresh.",10.3
+U76,C6,5,0,11,17,49,2023-09-19,Needs more real-world examples.,20.6
+U76,C77,4,1,12,11,91,2023-11-28,Needs more real-world examples.,31.5
+U76,C26,5,1,46,16,60,2023-12-16,Loved the instructor's style.,23.7
+U76,C67,5,1,41,30,74,2024-11-11,"Great course, learned a lot!",30.7
+U76,C37,2,0,58,7,57,2025-04-12,Challenging but rewarding.,19.5
+U77,C28,4,1,28,15,59,2024-03-17,Very interactive and engaging.,22.7
+U77,C40,4,1,52,16,40,2024-01-12,Loved the instructor's style.,17.2
+U77,C55,4,0,12,15,29,2024-07-21,Loved the instructor's style.,13.7
+U77,C49,1,1,58,3,37,2025-06-10,"Too basic, but good for beginners.",12.2
+U77,C74,3,0,7,4,9,2024-08-23,Needs more real-world examples.,5.0
+U77,C21,1,0,22,7,86,2025-07-29,Needs more real-world examples.,27.7
+U77,C48,3,1,48,27,98,2025-03-10,Loved the instructor's style.,36.3
+U77,C33,2,0,55,25,91,2023-12-06,Loved the instructor's style.,33.3
+U77,C71,1,1,19,27,44,2025-05-12,Very interactive and engaging.,19.1
+U77,C11,4,0,31,21,65,2025-07-24,Well-structured and practical.,25.7
+U77,C18,4,0,15,24,95,2025-03-20,Challenging but rewarding.,35.3
+U77,C72,4,0,34,19,100,2024-12-14,"Outdated content, needs refresh.",35.8
+U77,C38,4,1,51,3,40,2025-03-07,Challenging but rewarding.,14.6
+U77,C57,4,1,14,15,57,2025-08-25,"Great course, learned a lot!",22.099999999999998
+U77,C46,3,0,37,28,16,2023-09-15,Loved the instructor's style.,11.9
+U77,C30,1,1,52,22,45,2024-01-14,Needs more real-world examples.,18.4
+U77,C6,2,1,28,22,96,2024-03-31,Very interactive and engaging.,34.199999999999996
+U78,C42,2,1,7,11,72,2025-05-20,"Outdated content, needs refresh.",24.799999999999997
+U78,C76,3,0,11,4,86,2024-07-15,Well-structured and practical.,28.1
+U78,C3,1,1,2,6,25,2023-10-09,"Too basic, but good for beginners.",9.2
+U78,C73,4,1,14,8,37,2025-02-24,"Too basic, but good for beginners.",14.7
+U78,C5,4,0,24,17,1,2023-12-30,Well-structured and practical.,5.7
+U78,C18,3,1,26,6,14,2024-05-03,Well-structured and practical.,6.9
+U78,C20,5,1,31,24,8,2025-04-27,Very interactive and engaging.,9.700000000000001
+U78,C43,2,0,56,7,39,2025-04-03,Very interactive and engaging.,14.1
+U78,C51,4,0,39,19,39,2025-07-21,Challenging but rewarding.,17.5
+U78,C49,5,1,18,7,0,2024-01-21,Well-structured and practical.,3.9000000000000004
+U78,C27,4,0,53,13,77,2024-01-19,Challenging but rewarding.,27.699999999999996
+U78,C72,5,1,59,19,62,2024-06-01,"Outdated content, needs refresh.",24.9
+U78,C9,4,0,48,3,36,2024-12-28,"Outdated content, needs refresh.",13.399999999999999
+U78,C50,3,1,26,20,22,2025-06-27,Very interactive and engaging.,12.1
+U79,C23,5,1,43,30,8,2024-02-28,Challenging but rewarding.,10.9
+U79,C56,4,1,49,18,15,2024-08-15,Needs more real-world examples.,10.1
+U79,C59,1,0,33,25,99,2024-04-13,Needs more real-world examples.,35.2
+U79,C50,4,1,11,9,26,2025-06-24,"Great course, learned a lot!",11.6
+U79,C24,4,0,5,21,88,2024-08-03,"Outdated content, needs refresh.",32.6
+U79,C73,4,1,48,13,24,2024-06-22,Very interactive and engaging.,11.799999999999999
+U79,C13,1,0,17,4,90,2025-02-08,Well-structured and practical.,28.3
+U79,C51,3,1,32,15,8,2025-08-28,"Too basic, but good for beginners.",6.9
+U79,C6,5,0,46,15,17,2024-10-28,"Outdated content, needs refresh.",10.6
+U79,C31,3,0,11,27,2,2025-04-15,"Too basic, but good for beginners.",7.5
+U79,C21,2,1,8,18,94,2024-03-30,Very interactive and engaging.,32.8
+U79,C36,2,0,43,25,1,2023-12-10,Loved the instructor's style.,6.3
+U80,C57,5,0,25,23,39,2024-11-07,"Outdated content, needs refresh.",18.8
+U80,C46,1,0,4,25,48,2025-08-19,Challenging but rewarding.,19.9
+U80,C23,2,1,59,8,25,2024-09-20,"Too basic, but good for beginners.",10.1
+U80,C28,1,1,2,1,43,2025-07-10,Challenging but rewarding.,13.6
+U80,C5,1,0,57,4,85,2025-05-06,Well-structured and practical.,26.8
+U80,C69,2,0,27,17,13,2025-04-22,Needs more real-world examples.,8.3
+U80,C77,3,0,40,7,69,2024-01-15,Very interactive and engaging.,23.6
+U80,C80,4,0,15,7,13,2025-08-23,Needs more real-world examples.,7.300000000000001
+U80,C7,3,0,1,13,83,2024-11-09,Needs more real-world examples.,29.0
+U81,C50,3,1,3,3,27,2024-04-25,Very interactive and engaging.,10.2
+U81,C28,3,1,7,23,68,2025-06-26,Well-structured and practical.,26.5
+U81,C59,3,0,39,11,80,2024-09-26,Very interactive and engaging.,27.7
+U81,C29,2,1,12,21,97,2024-05-11,Needs more real-world examples.,34.3
+U81,C9,4,0,22,1,77,2023-10-27,"Outdated content, needs refresh.",25.299999999999997
+U82,C66,3,0,10,13,26,2025-01-15,"Great course, learned a lot!",11.899999999999999
+U82,C30,2,1,48,29,42,2024-09-30,Well-structured and practical.,19.4
+U82,C65,3,1,42,26,97,2025-01-29,"Great course, learned a lot!",35.8
+U82,C76,5,1,42,27,36,2025-02-16,"Great course, learned a lot!",18.7
+U82,C2,2,1,22,8,26,2024-10-12,"Great course, learned a lot!",10.4
+U82,C79,2,0,39,28,48,2024-01-30,Needs more real-world examples.,21.0
+U82,C3,2,1,41,1,8,2024-03-14,"Outdated content, needs refresh.",3.5999999999999996
+U82,C16,1,0,4,21,18,2025-01-14,Challenging but rewarding.,10.1
+U82,C40,2,0,12,19,70,2025-03-10,Challenging but rewarding.,25.8
+U82,C31,2,0,28,24,59,2025-06-22,Loved the instructor's style.,23.5
+U82,C55,2,0,16,14,22,2024-05-03,Challenging but rewarding.,10.4
+U82,C32,3,1,37,15,81,2025-05-11,Challenging but rewarding.,28.8
+U82,C11,3,1,6,12,50,2023-11-03,Very interactive and engaging.,18.9
+U82,C8,2,1,29,14,64,2024-01-01,Very interactive and engaging.,23.0
+U82,C18,2,1,2,25,48,2025-03-23,Very interactive and engaging.,20.4
+U82,C48,1,1,39,18,19,2025-07-03,Well-structured and practical.,9.8
+U82,C64,3,1,30,10,58,2024-10-07,Loved the instructor's style.,20.9
+U83,C72,4,1,25,16,39,2024-09-28,"Too basic, but good for beginners.",16.9
+U83,C78,4,0,59,4,49,2024-01-13,Well-structured and practical.,17.5
+U83,C62,2,1,17,25,96,2024-10-01,Needs more real-world examples.,34.8
+U83,C10,5,1,41,23,47,2024-05-08,"Great course, learned a lot!",21.2
+U83,C43,4,1,48,8,31,2025-07-30,"Outdated content, needs refresh.",12.899999999999999
+U83,C18,1,1,41,23,86,2025-03-05,"Great course, learned a lot!",30.900000000000002
+U83,C61,2,1,39,15,87,2025-08-07,Well-structured and practical.,30.099999999999998
+U83,C26,3,0,39,19,84,2025-04-27,Well-structured and practical.,30.5
+U83,C20,1,0,50,3,82,2023-12-18,Very interactive and engaging.,25.7
+U83,C25,4,0,34,30,24,2024-05-02,Very interactive and engaging.,15.2
+U83,C1,2,1,17,23,38,2023-09-23,Very interactive and engaging.,17.0
+U83,C2,5,1,47,14,96,2025-03-05,"Too basic, but good for beginners.",34.099999999999994
+U83,C65,1,1,53,5,34,2023-12-10,Challenging but rewarding.,11.7
+U83,C48,4,1,1,6,62,2025-05-18,"Great course, learned a lot!",21.799999999999997
+U83,C63,1,0,50,23,53,2024-05-16,Very interactive and engaging.,21.0
+U83,C52,3,1,11,6,47,2023-11-30,Well-structured and practical.,16.8
+U83,C54,2,0,32,6,64,2024-08-15,"Too basic, but good for beginners.",21.4
+U84,C73,3,0,38,8,61,2024-09-26,"Outdated content, needs refresh.",21.400000000000002
+U84,C28,1,0,4,9,96,2024-01-08,"Great course, learned a lot!",31.099999999999998
+U84,C24,5,0,7,7,66,2024-03-03,"Great course, learned a lot!",23.700000000000003
+U84,C26,4,1,60,16,60,2024-03-16,Needs more real-world examples.,23.2
+U84,C8,5,1,22,12,87,2024-08-29,Needs more real-world examples.,31.0
+U84,C78,3,0,24,22,51,2025-03-29,Very interactive and engaging.,21.2
+U84,C25,5,0,23,28,42,2023-12-27,"Too basic, but good for beginners.",20.700000000000003
+U84,C34,1,1,56,23,51,2024-11-08,Well-structured and practical.,20.4
+U84,C53,1,0,56,17,35,2024-01-08,Challenging but rewarding.,14.4
+U84,C57,3,1,40,22,84,2023-09-22,"Outdated content, needs refresh.",31.1
+U84,C14,5,1,43,7,0,2025-03-11,Needs more real-world examples.,3.9000000000000004
+U84,C22,1,1,56,2,94,2025-08-05,Needs more real-world examples.,29.099999999999998
+U84,C11,4,0,39,16,51,2024-10-29,"Too basic, but good for beginners.",20.5
+U84,C38,3,1,60,30,60,2024-10-19,"Too basic, but good for beginners.",25.5
+U84,C68,4,1,39,7,91,2024-07-19,Well-structured and practical.,30.700000000000003
+U84,C49,5,0,9,16,11,2024-02-15,Loved the instructor's style.,9.0
+U84,C16,5,1,11,29,57,2024-07-26,"Too basic, but good for beginners.",25.4
+U84,C18,4,0,16,7,21,2024-05-17,"Too basic, but good for beginners.",9.7
+U84,C5,1,1,46,1,20,2024-02-08,Needs more real-world examples.,6.7
+U85,C36,2,1,8,10,11,2024-06-30,"Too basic, but good for beginners.",6.3
+U85,C29,1,1,48,19,24,2023-11-05,"Too basic, but good for beginners.",11.5
+U85,C33,5,1,9,28,40,2024-07-20,Very interactive and engaging.,20.1
+U85,C61,5,0,20,2,75,2025-08-14,Challenging but rewarding.,25.4
+U85,C16,4,1,21,25,46,2024-01-30,Well-structured and practical.,20.799999999999997
+U85,C18,5,0,7,13,1,2024-07-14,"Outdated content, needs refresh.",5.3999999999999995
+U85,C69,3,0,53,10,28,2024-01-13,"Outdated content, needs refresh.",11.9
+U85,C63,4,0,39,10,18,2024-09-07,"Great course, learned a lot!",9.399999999999999
+U85,C12,5,1,20,17,88,2025-02-06,"Too basic, but good for beginners.",32.3
+U85,C43,3,1,41,27,27,2023-12-02,"Outdated content, needs refresh.",15.0
+U85,C79,3,1,4,26,42,2025-02-17,Well-structured and practical.,19.3
+U85,C9,2,0,45,24,6,2024-11-03,Well-structured and practical.,7.6000000000000005
+U85,C44,4,1,20,27,84,2023-10-06,Well-structured and practical.,32.6
+U85,C49,1,1,22,14,86,2024-02-18,"Outdated content, needs refresh.",29.1
+U85,C67,3,1,26,3,67,2024-08-02,Loved the instructor's style.,22.2
+U85,C56,3,0,45,28,70,2024-12-21,Very interactive and engaging.,28.1
+U85,C30,1,0,21,25,74,2024-01-19,"Great course, learned a lot!",27.7
+U86,C59,2,1,28,22,21,2024-03-01,"Great course, learned a lot!",11.7
+U86,C21,1,1,31,6,6,2023-10-26,"Too basic, but good for beginners.",3.5
+U86,C74,5,1,38,14,19,2024-05-27,Very interactive and engaging.,11.0
+U86,C18,2,0,8,8,50,2025-05-11,"Outdated content, needs refresh.",17.6
+U86,C57,3,0,42,24,48,2024-09-30,"Too basic, but good for beginners.",20.7
+U86,C62,4,1,18,21,83,2024-04-13,"Outdated content, needs refresh.",31.099999999999998
+U86,C38,3,0,8,4,10,2024-09-01,"Too basic, but good for beginners.",5.3
+U86,C19,4,0,2,19,73,2025-03-28,"Outdated content, needs refresh.",27.7
+U86,C27,3,0,51,19,23,2024-05-16,Very interactive and engaging.,12.2
+U86,C28,4,1,20,19,16,2025-08-23,"Too basic, but good for beginners.",10.600000000000001
+U86,C26,3,0,46,30,68,2023-11-04,Well-structured and practical.,27.9
+U86,C2,4,0,26,18,68,2025-06-02,"Outdated content, needs refresh.",26.0
+U86,C47,1,0,49,25,26,2024-09-09,"Too basic, but good for beginners.",13.3
+U86,C14,2,0,1,18,57,2023-11-29,Needs more real-world examples.,21.699999999999996
+U87,C6,1,0,8,17,38,2023-12-18,Needs more real-world examples.,15.3
+U87,C17,5,0,28,22,0,2025-01-30,Challenging but rewarding.,6.9
+U87,C74,3,0,34,29,100,2025-01-31,Loved the instructor's style.,37.3
+U87,C27,5,1,9,19,62,2024-02-25,Needs more real-world examples.,24.9
+U87,C21,5,1,39,18,65,2025-02-22,Challenging but rewarding.,25.6
+U87,C12,1,0,16,2,24,2023-11-13,Well-structured and practical.,8.1
+U87,C72,3,0,9,20,70,2024-05-12,Challenging but rewarding.,26.5
+U87,C33,5,1,18,5,93,2024-09-18,Very interactive and engaging.,31.4
+U88,C71,1,1,44,14,88,2024-06-04,Well-structured and practical.,29.7
+U88,C33,5,0,5,21,93,2024-05-15,Loved the instructor's style.,34.6
+U88,C34,2,1,37,22,82,2024-09-13,Well-structured and practical.,30.0
+U88,C49,4,0,21,26,55,2023-11-22,Very interactive and engaging.,23.7
+U88,C21,1,0,5,9,15,2025-01-14,"Too basic, but good for beginners.",6.8
+U88,C52,5,1,5,11,81,2024-12-23,"Too basic, but good for beginners.",29.0
+U88,C59,3,1,50,9,18,2024-07-11,Challenging but rewarding.,8.7
+U89,C2,3,1,36,9,77,2024-07-21,"Too basic, but good for beginners.",26.4
+U89,C13,1,0,21,25,49,2023-12-26,Well-structured and practical.,20.2
+U89,C49,3,1,31,19,16,2024-07-19,Loved the instructor's style.,10.100000000000001
+U89,C29,1,0,43,5,18,2024-02-10,Very interactive and engaging.,6.8999999999999995
+U89,C78,5,1,4,30,92,2024-01-16,Needs more real-world examples.,36.099999999999994
+U89,C14,2,1,46,15,23,2023-12-31,"Outdated content, needs refresh.",10.899999999999999
+U89,C16,3,1,33,10,35,2024-05-07,Very interactive and engaging.,14.0
+U89,C23,5,0,20,21,11,2024-12-31,Loved the instructor's style.,10.0
+U89,C68,4,1,55,3,81,2024-03-24,"Too basic, but good for beginners.",26.900000000000002
+U89,C40,1,0,6,6,73,2025-06-02,"Great course, learned a lot!",23.599999999999998
+U89,C63,1,1,36,30,63,2025-03-28,"Great course, learned a lot!",25.4
+U89,C79,4,0,31,16,65,2025-01-28,"Too basic, but good for beginners.",24.7
+U89,C72,4,0,40,7,95,2023-09-27,"Great course, learned a lot!",31.9
+U90,C69,4,0,24,4,43,2025-09-03,Challenging but rewarding.,15.7
+U90,C45,5,0,19,10,61,2023-11-29,Loved the instructor's style.,22.8
+U90,C32,3,0,1,24,80,2025-07-08,Very interactive and engaging.,30.3
+U90,C68,2,1,60,30,82,2025-03-07,"Great course, learned a lot!",31.599999999999998
+U90,C6,4,1,4,12,0,2024-09-20,"Outdated content, needs refresh.",4.4
+U90,C58,3,1,23,4,0,2025-03-12,Needs more real-world examples.,2.3
+U90,C22,2,1,23,1,12,2025-02-08,Very interactive and engaging.,4.8
+U90,C77,4,0,6,17,65,2025-02-01,Well-structured and practical.,24.9
+U90,C29,4,0,59,16,0,2023-10-05,Well-structured and practical.,5.2
+U90,C23,3,0,31,13,47,2025-06-01,Loved the instructor's style.,18.2
+U90,C10,3,1,58,6,68,2024-12-08,Loved the instructor's style.,23.099999999999998
+U90,C47,1,1,43,27,56,2025-05-01,Well-structured and practical.,22.700000000000003
+U90,C18,2,1,48,14,0,2023-09-09,Needs more real-world examples.,3.8000000000000003
+U90,C66,2,0,13,10,5,2024-07-21,Well-structured and practical.,4.5
+U90,C46,4,1,48,11,4,2025-07-15,Well-structured and practical.,5.4
+U90,C7,2,1,43,9,15,2023-10-25,Very interactive and engaging.,7.3
+U90,C55,4,1,52,22,91,2023-11-10,Well-structured and practical.,33.7
+U90,C78,3,1,33,24,94,2024-02-13,Very interactive and engaging.,34.5
+U91,C15,1,1,28,20,94,2024-09-01,"Great course, learned a lot!",32.7
+U91,C14,4,1,19,10,62,2024-05-08,"Too basic, but good for beginners.",22.599999999999998
+U91,C3,4,0,40,5,93,2023-09-10,Well-structured and practical.,30.9
+U91,C17,2,1,50,4,33,2024-12-29,Challenging but rewarding.,11.700000000000001
+U91,C20,4,0,31,23,100,2024-07-13,"Too basic, but good for beginners.",36.6
+U91,C45,5,0,13,28,75,2023-11-08,Well-structured and practical.,30.6
+U91,C65,2,0,9,13,4,2024-04-29,Loved the instructor's style.,4.8
+U91,C2,2,0,28,1,78,2025-01-10,Challenging but rewarding.,24.599999999999998
+U91,C31,1,0,25,14,67,2025-09-05,Loved the instructor's style.,23.4
+U92,C29,3,1,46,14,31,2024-12-17,Needs more real-world examples.,13.6
+U92,C44,1,0,3,1,6,2025-02-11,Needs more real-world examples.,2.5
+U92,C55,2,1,31,9,77,2024-07-13,"Too basic, but good for beginners.",25.9
+U92,C62,4,0,17,16,46,2024-04-08,Needs more real-world examples.,19.0
+U92,C8,3,0,7,22,1,2023-11-12,Well-structured and practical.,6.2
+U92,C66,3,1,48,26,46,2024-04-25,Needs more real-world examples.,20.5
+U92,C78,2,1,14,19,49,2025-01-22,"Too basic, but good for beginners.",19.5
+U92,C7,1,0,41,24,77,2025-08-27,"Too basic, but good for beginners.",28.4
+U92,C39,1,0,13,23,57,2024-06-27,"Too basic, but good for beginners.",22.2
+U92,C15,1,1,20,24,60,2025-03-17,Challenging but rewarding.,23.3
+U92,C35,5,0,3,5,24,2025-03-25,Very interactive and engaging.,10.7
+U92,C47,5,1,58,29,97,2024-01-30,Needs more real-world examples.,37.4
+U93,C58,4,1,44,18,65,2025-04-02,"Too basic, but good for beginners.",25.1
+U93,C16,2,1,49,17,49,2024-06-14,Very interactive and engaging.,19.1
+U93,C56,4,1,14,6,0,2024-01-12,Well-structured and practical.,3.2
+U93,C9,5,0,38,23,1,2025-08-18,"Outdated content, needs refresh.",7.4
+U93,C62,5,1,20,28,28,2025-04-27,Loved the instructor's style.,16.5
+U93,C54,3,0,11,8,5,2025-02-01,Challenging but rewarding.,4.6
+U93,C68,3,0,41,5,35,2025-07-22,Well-structured and practical.,13.0
+U93,C65,3,0,42,8,26,2024-11-28,"Too basic, but good for beginners.",10.9
+U93,C3,1,1,41,20,47,2024-11-13,Needs more real-world examples.,18.6
+U93,C22,1,1,47,5,52,2025-06-07,Loved the instructor's style.,17.1
+U93,C36,3,0,41,27,1,2025-04-07,Needs more real-world examples.,7.2
+U93,C17,2,1,12,9,2,2024-06-03,"Too basic, but good for beginners.",3.4
+U93,C38,4,1,56,21,81,2024-08-02,Challenging but rewarding.,30.5
+U93,C6,4,0,21,9,26,2023-12-24,Very interactive and engaging.,11.6
+U93,C8,2,1,15,24,92,2024-04-03,Very interactive and engaging.,33.4
+U93,C25,3,0,58,16,11,2025-08-03,"Outdated content, needs refresh.",8.0
+U94,C59,2,0,53,13,87,2024-10-02,Challenging but rewarding.,29.7
+U94,C24,1,0,5,14,31,2024-02-05,"Outdated content, needs refresh.",12.6
+U94,C23,4,0,47,17,17,2023-11-30,"Great course, learned a lot!",10.5
+U94,C25,5,0,25,13,2,2025-03-31,"Too basic, but good for beginners.",5.699999999999999
+U94,C73,1,0,9,8,98,2024-06-13,"Too basic, but good for beginners.",31.5
+U94,C63,3,0,41,20,1,2024-05-08,"Great course, learned a lot!",5.8
+U94,C79,1,1,55,23,10,2024-03-14,Challenging but rewarding.,8.100000000000001
+U94,C37,2,1,49,19,56,2025-07-24,Well-structured and practical.,21.6
+U94,C3,3,1,31,5,31,2024-11-21,"Great course, learned a lot!",11.799999999999999
+U94,C40,5,1,41,18,15,2024-07-10,"Great course, learned a lot!",10.6
+U95,C14,2,0,59,8,3,2025-05-09,Challenging but rewarding.,3.5
+U95,C70,4,1,10,12,83,2025-08-07,Loved the instructor's style.,29.299999999999997
+U95,C38,2,1,44,29,91,2025-04-11,"Too basic, but good for beginners.",34.1
+U95,C80,4,0,8,8,13,2023-12-21,Loved the instructor's style.,7.5
+U95,C66,3,0,40,11,15,2023-10-14,Needs more real-world examples.,8.2
+U95,C54,1,0,39,5,22,2023-09-20,Very interactive and engaging.,8.1
+U96,C77,2,1,10,13,57,2025-04-27,"Outdated content, needs refresh.",20.7
+U96,C24,1,0,37,14,93,2025-03-07,Loved the instructor's style.,31.2
+U96,C55,2,0,21,5,23,2024-03-09,Very interactive and engaging.,8.899999999999999
+U96,C20,3,1,32,14,61,2024-01-20,Very interactive and engaging.,22.6
+U96,C39,5,1,9,26,83,2024-01-21,Challenging but rewarding.,32.6
+U96,C37,4,1,36,16,68,2023-11-10,"Outdated content, needs refresh.",25.599999999999998
+U96,C45,5,0,25,3,74,2024-10-18,Very interactive and engaging.,25.3
+U96,C14,5,0,45,3,30,2024-03-16,Needs more real-world examples.,12.1
+U96,C35,1,0,55,1,46,2025-06-27,"Outdated content, needs refresh.",14.499999999999998
+U96,C64,2,0,4,30,44,2024-12-04,Needs more real-world examples.,20.2
+U96,C48,2,1,30,5,70,2024-08-10,Very interactive and engaging.,23.0
+U96,C34,2,0,53,8,7,2025-08-14,Well-structured and practical.,4.7
+U96,C10,1,0,25,24,3,2024-06-26,Very interactive and engaging.,6.200000000000001
+U96,C1,3,0,45,4,84,2024-12-14,"Too basic, but good for beginners.",27.5
+U96,C80,4,0,2,5,46,2025-07-20,Well-structured and practical.,16.799999999999997
+U97,C32,4,0,48,17,89,2025-07-28,Loved the instructor's style.,32.1
+U97,C10,4,1,47,11,56,2025-06-05,"Great course, learned a lot!",21.0
+U97,C2,3,0,10,2,82,2024-03-17,"Great course, learned a lot!",26.499999999999996
+U97,C73,5,0,33,6,1,2025-03-22,Very interactive and engaging.,4.0
+U97,C54,4,1,36,23,33,2024-01-01,Loved the instructor's style.,16.5
+U97,C20,2,1,60,6,34,2025-07-11,"Too basic, but good for beginners.",12.399999999999999
+U97,C24,5,1,9,24,27,2023-11-11,Very interactive and engaging.,15.4
+U98,C29,4,1,42,21,51,2023-11-13,Very interactive and engaging.,21.5
+U98,C51,2,0,52,12,82,2023-11-16,Very interactive and engaging.,28.0
+U98,C24,2,1,7,4,9,2025-02-03,Needs more real-world examples.,4.5
+U98,C72,5,1,2,8,36,2024-11-01,Well-structured and practical.,14.899999999999999
+U98,C10,5,0,5,7,76,2024-10-12,"Great course, learned a lot!",26.700000000000003
+U98,C60,3,0,36,7,81,2024-08-26,"Great course, learned a lot!",27.200000000000003
+U99,C35,1,1,49,10,50,2023-09-21,Challenging but rewarding.,17.5
+U99,C11,3,1,47,12,16,2024-01-04,"Too basic, but good for beginners.",8.7
+U99,C73,3,1,58,24,64,2025-06-21,"Too basic, but good for beginners.",25.5
+U99,C78,5,0,2,19,48,2024-06-26,"Outdated content, needs refresh.",20.7
+U99,C6,5,0,19,6,19,2025-06-29,"Outdated content, needs refresh.",9.4
+U99,C77,1,0,46,8,27,2025-01-29,Well-structured and practical.,10.2
+U99,C62,2,1,29,26,16,2024-09-20,Needs more real-world examples.,11.0
+U99,C76,3,1,40,28,55,2024-07-28,"Great course, learned a lot!",23.6
+U99,C7,4,0,14,20,77,2025-04-14,"Too basic, but good for beginners.",29.099999999999998
+U99,C41,2,1,7,26,1,2024-01-15,Well-structured and practical.,6.5
+U99,C12,3,0,32,4,58,2024-07-15,Needs more real-world examples.,19.7
+U99,C40,2,1,11,3,35,2024-04-29,Needs more real-world examples.,12.1
+U100,C12,5,0,29,12,65,2023-09-26,Needs more real-world examples.,24.4
+U100,C10,3,0,44,14,64,2023-11-30,"Outdated content, needs refresh.",23.5
+U100,C23,3,0,40,21,7,2025-07-30,Challenging but rewarding.,7.800000000000001
+U100,C59,5,0,10,28,13,2024-03-05,Loved the instructor's style.,12.000000000000002
+U100,C34,4,0,37,13,9,2024-10-01,Challenging but rewarding.,7.299999999999999
+U100,C61,4,1,43,3,44,2024-07-01,"Outdated content, needs refresh.",15.799999999999999
+U100,C33,4,1,7,3,23,2024-04-17,"Too basic, but good for beginners.",9.5
+U100,C57,4,1,13,13,42,2024-12-24,"Too basic, but good for beginners.",17.2
+U100,C18,3,1,39,16,27,2025-05-15,"Outdated content, needs refresh.",12.8
+U100,C16,1,1,30,2,69,2025-01-26,Well-structured and practical.,21.599999999999998
+U100,C63,4,0,41,7,40,2025-08-18,"Great course, learned a lot!",15.4
+U100,C6,5,1,4,30,46,2024-04-16,Very interactive and engaging.,22.299999999999997
+U100,C47,4,0,4,7,2,2024-03-23,Very interactive and engaging.,4.0
+U100,C37,3,1,41,6,10,2025-07-17,Well-structured and practical.,5.7
+U100,C52,1,1,26,3,38,2024-11-26,"Outdated content, needs refresh.",12.5
+U100,C53,4,0,43,29,33,2024-01-17,Well-structured and practical.,17.700000000000003
+U101,C12,3,1,31,16,68,2023-12-08,Well-structured and practical.,25.099999999999998
+U101,C55,4,1,59,23,73,2025-05-22,Very interactive and engaging.,28.5
+U101,C44,1,0,5,24,85,2023-09-09,Well-structured and practical.,30.8
+U101,C39,3,1,1,5,58,2024-10-26,Well-structured and practical.,19.9
+U101,C22,4,1,8,26,86,2024-09-21,Very interactive and engaging.,33.0
+U101,C26,3,0,29,27,16,2024-07-20,"Outdated content, needs refresh.",11.7
+U102,C5,3,0,13,22,73,2024-12-12,"Great course, learned a lot!",27.799999999999997
+U102,C28,3,1,2,10,39,2023-10-18,"Too basic, but good for beginners.",15.2
+U102,C25,4,1,27,14,45,2023-10-06,Needs more real-world examples.,18.3
+U102,C54,5,1,34,25,42,2023-10-27,"Too basic, but good for beginners.",20.1
+U102,C70,2,1,28,12,22,2023-10-25,Well-structured and practical.,10.0
+U102,C22,5,1,25,10,84,2025-05-05,Very interactive and engaging.,29.7
+U102,C49,3,0,6,26,13,2024-05-20,"Too basic, but good for beginners.",10.6
+U102,C79,1,1,7,16,95,2025-03-15,"Too basic, but good for beginners.",32.2
+U103,C65,4,0,24,26,28,2024-12-26,Loved the instructor's style.,15.600000000000001
+U103,C75,3,1,20,27,53,2023-10-06,Challenging but rewarding.,22.799999999999997
+U103,C5,1,1,3,1,3,2025-06-12,Well-structured and practical.,1.5999999999999999
+U103,C38,3,1,22,6,73,2024-11-19,Very interactive and engaging.,24.599999999999998
+U103,C54,2,1,13,20,82,2025-05-24,Very interactive and engaging.,29.599999999999998
+U103,C28,1,1,9,21,49,2025-06-08,Well-structured and practical.,19.4
+U103,C29,4,1,34,6,55,2025-06-03,Challenging but rewarding.,19.7
+U103,C59,1,0,33,4,80,2025-06-30,Very interactive and engaging.,25.3
+U103,C71,3,0,21,7,11,2024-04-19,"Too basic, but good for beginners.",6.2
+U103,C49,1,1,1,21,98,2025-08-01,Well-structured and practical.,34.1
+U103,C15,1,0,37,13,3,2024-05-13,Well-structured and practical.,4.0
+U103,C26,4,1,12,8,83,2023-11-06,Challenging but rewarding.,28.5
+U103,C61,3,0,35,27,31,2024-10-22,Very interactive and engaging.,16.2
+U103,C16,3,0,18,3,18,2025-08-30,"Great course, learned a lot!",7.5
+U103,C45,5,0,8,15,76,2025-02-20,"Too basic, but good for beginners.",28.3
+U103,C60,1,0,19,9,23,2024-02-09,"Too basic, but good for beginners.",9.2
+U103,C53,1,1,55,12,26,2023-09-25,Very interactive and engaging.,10.7
+U103,C73,1,1,51,1,52,2024-12-01,"Too basic, but good for beginners.",16.3
+U103,C64,4,0,14,22,53,2024-10-18,Very interactive and engaging.,22.299999999999997
+U104,C58,1,0,39,1,68,2025-09-04,"Great course, learned a lot!",21.099999999999998
+U104,C21,5,0,14,28,46,2024-08-11,"Too basic, but good for beginners.",21.9
+U104,C24,2,0,21,5,28,2025-01-08,"Too basic, but good for beginners.",10.4
+U104,C39,2,1,18,16,25,2023-12-21,"Too basic, but good for beginners.",11.7
+U104,C2,3,1,30,24,63,2024-06-28,Very interactive and engaging.,25.2
+U104,C23,5,1,60,7,32,2024-07-08,Well-structured and practical.,13.5
+U104,C73,2,1,26,4,74,2024-10-16,Loved the instructor's style.,24.0
+U104,C5,2,0,47,16,55,2023-11-23,"Outdated content, needs refresh.",20.7
+U104,C16,4,1,53,11,79,2024-07-08,"Too basic, but good for beginners.",27.9
+U104,C44,5,1,28,7,72,2025-02-23,Needs more real-world examples.,25.5
+U104,C45,3,0,29,6,4,2024-09-29,Loved the instructor's style.,3.9000000000000004
+U104,C62,5,1,19,20,82,2023-09-15,Needs more real-world examples.,31.099999999999998
+U104,C1,4,0,8,6,41,2023-10-26,Very interactive and engaging.,15.5
+U104,C79,2,1,16,3,27,2023-10-01,Needs more real-world examples.,9.7
+U104,C33,3,0,50,11,15,2024-07-03,"Great course, learned a lot!",8.2
+U105,C2,5,1,46,20,85,2024-12-03,"Too basic, but good for beginners.",32.0
+U105,C43,5,1,44,25,55,2025-01-16,Needs more real-world examples.,24.0
+U105,C28,3,0,13,2,63,2024-12-30,"Outdated content, needs refresh.",20.799999999999997
+U105,C60,1,1,27,4,15,2025-02-26,"Outdated content, needs refresh.",5.8
+U105,C73,2,1,38,13,30,2024-05-03,"Great course, learned a lot!",12.6
+U105,C42,3,0,42,26,73,2025-04-29,"Great course, learned a lot!",28.599999999999998
+U105,C30,4,1,9,27,51,2024-11-20,"Great course, learned a lot!",22.7
+U105,C72,5,0,22,21,2,2024-05-07,"Too basic, but good for beginners.",7.3
+U105,C9,4,0,54,26,53,2023-11-28,Loved the instructor's style.,23.099999999999998
+U105,C50,3,1,49,12,51,2025-06-27,"Too basic, but good for beginners.",19.2
+U105,C37,5,1,32,20,6,2024-07-16,Very interactive and engaging.,8.3
+U105,C78,3,1,32,28,82,2023-11-25,"Too basic, but good for beginners.",31.7
+U105,C68,3,0,2,8,6,2024-11-18,"Great course, learned a lot!",4.9
+U105,C69,2,0,21,28,88,2023-12-20,Very interactive and engaging.,33.0
+U105,C14,2,0,6,7,92,2025-04-01,Needs more real-world examples.,30.0
+U106,C7,1,1,22,23,78,2024-06-02,Very interactive and engaging.,28.5
+U106,C34,3,0,60,5,74,2023-10-09,"Outdated content, needs refresh.",24.7
+U106,C6,1,0,21,28,18,2025-04-18,Very interactive and engaging.,11.5
+U106,C15,4,0,34,17,30,2024-09-28,"Outdated content, needs refresh.",14.4
+U106,C39,4,1,21,25,93,2023-09-22,"Outdated content, needs refresh.",34.9
+U107,C12,2,0,43,7,59,2024-08-10,Very interactive and engaging.,20.1
+U107,C34,2,1,7,11,26,2024-12-07,Needs more real-world examples.,11.0
+U107,C38,3,1,42,5,64,2024-07-11,"Too basic, but good for beginners.",21.7
+U107,C11,2,0,59,12,49,2025-01-04,"Outdated content, needs refresh.",18.1
+U107,C46,5,0,50,13,24,2024-02-01,"Too basic, but good for beginners.",12.299999999999999
+U107,C72,3,1,11,22,39,2025-05-16,"Too basic, but good for beginners.",17.6
+U107,C32,2,1,57,4,95,2024-07-23,"Too basic, but good for beginners.",30.3
+U107,C27,2,0,58,15,23,2024-08-16,Loved the instructor's style.,10.899999999999999
+U107,C10,1,1,43,17,57,2023-12-23,Needs more real-world examples.,21.0
+U107,C75,3,0,60,18,10,2024-04-10,Needs more real-world examples.,8.1
+U107,C64,4,0,10,13,64,2025-05-25,Very interactive and engaging.,23.799999999999997
+U107,C8,5,1,4,15,34,2024-10-24,Needs more real-world examples.,15.7
+U108,C7,5,1,34,20,63,2024-06-17,Very interactive and engaging.,25.4
+U108,C49,1,0,42,8,14,2024-08-16,Challenging but rewarding.,6.300000000000001
+U108,C55,1,0,58,2,73,2024-05-17,Loved the instructor's style.,22.799999999999997
+U108,C25,2,0,35,4,35,2025-06-10,Challenging but rewarding.,12.3
+U108,C38,5,1,26,13,12,2024-10-12,Challenging but rewarding.,8.7
+U108,C77,3,1,14,6,100,2024-11-01,Challenging but rewarding.,32.7
+U108,C52,3,1,46,20,36,2024-12-29,"Great course, learned a lot!",16.299999999999997
+U108,C23,1,0,33,30,89,2024-11-21,"Outdated content, needs refresh.",33.2
+U109,C31,2,1,57,3,21,2024-02-09,"Great course, learned a lot!",7.9
+U109,C22,5,1,31,19,0,2024-09-28,"Outdated content, needs refresh.",6.300000000000001
+U109,C41,2,1,8,2,2,2023-12-11,Loved the instructor's style.,2.0
+U109,C9,2,0,49,5,99,2024-05-03,"Too basic, but good for beginners.",31.7
+U109,C79,1,1,52,24,42,2024-08-05,"Outdated content, needs refresh.",17.9
+U109,C24,4,1,35,9,84,2025-05-06,"Outdated content, needs refresh.",29.0
+U109,C43,3,1,30,1,45,2023-11-27,Loved the instructor's style.,15.2
+U109,C59,3,1,8,9,87,2024-01-21,"Great course, learned a lot!",29.4
+U109,C19,2,1,55,8,84,2024-04-24,Well-structured and practical.,27.8
+U109,C2,3,1,2,8,73,2024-05-19,Very interactive and engaging.,25.0
+U109,C61,3,0,48,3,24,2024-02-17,Very interactive and engaging.,9.299999999999999
+U109,C55,1,1,57,21,86,2023-11-07,"Outdated content, needs refresh.",30.5
+U109,C74,5,0,17,30,86,2024-08-03,Needs more real-world examples.,34.3
+U109,C3,3,1,38,14,35,2025-08-21,Loved the instructor's style.,14.8
+U110,C6,1,1,60,22,18,2025-06-15,"Outdated content, needs refresh.",10.3
+U110,C75,2,1,40,18,85,2025-03-16,Well-structured and practical.,30.1
+U110,C67,3,1,19,3,37,2025-02-10,"Great course, learned a lot!",13.2
+U110,C44,4,0,14,10,75,2023-09-27,"Too basic, but good for beginners.",26.5
+U110,C16,1,1,20,1,55,2024-02-13,Needs more real-world examples.,17.2
+U110,C56,1,0,17,5,44,2025-04-03,Loved the instructor's style.,14.7
+U110,C59,5,0,6,23,34,2024-11-14,Well-structured and practical.,17.3
+U110,C73,2,1,38,30,10,2025-07-18,Loved the instructor's style.,10.0
+U110,C45,2,0,31,30,45,2024-12-09,Challenging but rewarding.,20.5
+U110,C37,4,1,26,29,12,2025-06-05,Loved the instructor's style.,11.4
+U110,C15,3,1,12,19,55,2024-02-23,Needs more real-world examples.,21.8
+U111,C26,3,1,35,6,48,2023-10-16,Very interactive and engaging.,17.099999999999998
+U111,C33,1,0,34,15,88,2024-03-09,Needs more real-world examples.,29.9
+U111,C18,5,1,30,12,54,2024-10-30,"Outdated content, needs refresh.",21.1
+U111,C54,4,1,30,1,71,2023-11-12,"Great course, learned a lot!",23.5
+U111,C71,4,0,49,5,78,2024-03-05,Loved the instructor's style.,26.4
+U111,C80,2,1,9,20,69,2025-08-27,Loved the instructor's style.,25.7
+U111,C39,1,1,9,13,85,2025-05-02,"Great course, learned a lot!",28.6
+U111,C40,4,1,54,2,10,2025-08-07,"Great course, learned a lot!",5.4
+U111,C11,3,0,22,20,12,2023-10-09,Loved the instructor's style.,9.1
+U112,C43,1,0,1,5,77,2024-06-23,"Too basic, but good for beginners.",24.599999999999998
+U112,C8,5,0,16,7,13,2023-12-26,"Outdated content, needs refresh.",7.800000000000001
+U112,C16,1,1,26,2,15,2024-11-28,Loved the instructor's style.,5.4
+U112,C75,4,1,12,27,30,2024-06-12,Loved the instructor's style.,16.4
+U112,C66,5,1,55,22,78,2025-02-25,"Too basic, but good for beginners.",30.299999999999997
+U112,C7,4,0,41,1,23,2024-03-13,Well-structured and practical.,9.1
+U112,C27,2,0,33,24,89,2023-12-22,Challenging but rewarding.,32.5
+U112,C67,4,1,19,10,85,2025-01-31,"Too basic, but good for beginners.",29.5
+U112,C19,5,1,24,22,35,2024-09-13,Very interactive and engaging.,17.4
+U112,C64,4,0,30,14,54,2024-11-26,Well-structured and practical.,21.0
+U112,C18,1,1,30,4,72,2023-09-20,Very interactive and engaging.,22.9
+U112,C29,1,1,3,21,83,2023-11-07,"Outdated content, needs refresh.",29.599999999999998
+U112,C20,1,1,9,15,92,2024-04-08,"Outdated content, needs refresh.",31.099999999999998
+U112,C39,3,0,11,12,64,2024-11-25,Challenging but rewarding.,23.1
+U112,C40,3,1,33,3,22,2025-03-02,Well-structured and practical.,8.7
+U112,C1,3,1,30,23,100,2025-03-06,Well-structured and practical.,36.1
+U112,C63,3,1,60,13,8,2023-11-25,"Outdated content, needs refresh.",6.5
+U112,C76,4,1,39,22,23,2024-05-21,Loved the instructor's style.,13.3
+U112,C45,2,1,38,19,44,2024-03-27,Very interactive and engaging.,18.0
+U112,C13,1,0,2,28,93,2025-07-06,Well-structured and practical.,34.0
+U113,C13,1,1,8,2,95,2024-06-16,"Too basic, but good for beginners.",29.4
+U113,C14,4,1,39,21,3,2025-08-10,Well-structured and practical.,7.1
+U113,C64,3,0,45,15,48,2025-01-15,Well-structured and practical.,18.9
+U113,C61,5,0,13,9,62,2024-03-12,"Outdated content, needs refresh.",22.9
+U113,C42,3,0,13,24,20,2025-05-15,Very interactive and engaging.,12.3
+U113,C30,5,0,6,19,3,2025-07-04,"Too basic, but good for beginners.",7.200000000000001
+U113,C31,2,0,52,5,0,2025-02-15,Needs more real-world examples.,2.0
+U113,C79,4,0,22,6,87,2025-05-22,"Outdated content, needs refresh.",29.299999999999997
+U113,C23,2,0,37,27,60,2024-07-01,Needs more real-world examples.,24.4
+U113,C50,3,0,52,3,56,2024-09-10,Very interactive and engaging.,18.900000000000002
+U113,C54,4,0,37,3,16,2023-10-13,Loved the instructor's style.,7.4
+U113,C9,1,0,32,8,6,2024-09-24,Needs more real-world examples.,3.9
+U114,C29,1,0,19,3,68,2024-08-21,Challenging but rewarding.,21.5
+U114,C38,5,1,26,20,7,2024-09-12,"Too basic, but good for beginners.",8.6
+U114,C33,5,1,60,30,33,2025-06-22,"Great course, learned a lot!",18.4
+U114,C50,1,1,27,9,25,2025-03-15,Needs more real-world examples.,9.8
+U114,C46,1,0,14,18,93,2024-04-26,Needs more real-world examples.,32.0
+U115,C31,1,1,39,24,78,2025-04-30,"Too basic, but good for beginners.",28.7
+U115,C64,5,1,9,9,92,2025-06-17,"Great course, learned a lot!",31.9
+U115,C10,1,0,32,17,28,2025-07-12,Needs more real-world examples.,12.3
+U115,C73,4,1,20,26,29,2025-04-20,"Great course, learned a lot!",15.899999999999999
+U115,C5,1,0,50,26,25,2024-08-14,Very interactive and engaging.,13.2
+U115,C45,1,1,4,13,98,2024-09-13,Very interactive and engaging.,32.5
+U116,C56,2,1,28,30,7,2024-08-26,Challenging but rewarding.,9.1
+U116,C55,2,0,38,1,29,2024-06-15,Very interactive and engaging.,9.899999999999999
+U116,C71,5,0,52,1,92,2023-11-13,Challenging but rewarding.,30.299999999999997
+U116,C18,1,0,4,5,56,2025-07-09,Well-structured and practical.,18.3
+U116,C15,3,0,21,12,77,2023-10-11,Challenging but rewarding.,27.0
+U116,C57,3,0,39,13,61,2023-09-15,"Too basic, but good for beginners.",22.4
+U116,C16,1,0,17,18,26,2024-08-08,"Outdated content, needs refresh.",11.899999999999999
+U116,C48,3,0,29,23,38,2024-11-01,Needs more real-world examples.,17.5
+U116,C46,5,1,56,21,31,2024-01-30,Loved the instructor's style.,16.0
+U117,C70,1,1,47,27,100,2025-02-25,Well-structured and practical.,35.9
+U117,C65,1,0,45,15,83,2024-07-24,"Outdated content, needs refresh.",28.4
+U117,C14,1,0,32,27,4,2024-05-18,Loved the instructor's style.,7.1000000000000005
+U117,C7,3,1,20,27,10,2024-04-16,"Great course, learned a lot!",9.9
+U117,C45,3,1,32,1,48,2025-01-27,Very interactive and engaging.,16.099999999999998
+U117,C53,4,0,15,7,48,2024-08-18,Well-structured and practical.,17.799999999999997
+U117,C63,4,0,43,10,4,2025-02-20,Needs more real-world examples.,5.2
+U117,C36,1,1,60,27,33,2024-10-29,Challenging but rewarding.,15.8
+U117,C11,1,1,47,27,79,2025-09-03,Very interactive and engaging.,29.6
+U117,C27,4,0,52,4,70,2024-03-05,Very interactive and engaging.,23.8
+U117,C18,3,1,28,19,92,2024-03-14,Loved the instructor's style.,32.9
+U117,C67,2,1,30,24,30,2025-05-28,Well-structured and practical.,14.8
+U117,C30,1,1,52,22,35,2024-06-08,"Too basic, but good for beginners.",15.4
+U117,C40,2,1,22,19,50,2025-07-22,"Great course, learned a lot!",19.8
+U117,C71,5,1,24,9,84,2025-04-07,Loved the instructor's style.,29.5
+U118,C16,2,1,30,1,56,2023-10-16,"Great course, learned a lot!",18.0
+U118,C40,4,0,23,16,81,2024-05-19,Challenging but rewarding.,29.5
+U118,C73,4,0,38,3,35,2025-01-14,Needs more real-world examples.,13.1
+U118,C42,1,1,12,9,98,2024-09-05,Loved the instructor's style.,31.7
+U118,C34,3,1,9,8,80,2023-10-27,Well-structured and practical.,27.1
+U119,C80,1,0,4,23,33,2024-06-07,Loved the instructor's style.,15.0
+U119,C7,1,1,35,23,5,2024-04-11,Challenging but rewarding.,6.6000000000000005
+U119,C30,3,0,5,17,56,2025-07-27,"Too basic, but good for beginners.",21.700000000000003
+U119,C15,5,0,16,7,41,2024-08-30,Needs more real-world examples.,16.2
+U119,C5,4,0,42,14,36,2025-04-23,Well-structured and practical.,15.6
+U119,C24,1,1,39,26,46,2024-04-14,Needs more real-world examples.,19.5
+U119,C65,4,1,31,10,79,2024-04-06,"Great course, learned a lot!",27.7
+U119,C57,2,1,3,10,19,2025-02-15,"Great course, learned a lot!",8.7
+U119,C41,1,0,52,11,65,2025-05-13,Needs more real-world examples.,22.2
+U120,C49,5,0,55,29,67,2024-05-04,"Great course, learned a lot!",28.4
+U120,C75,5,1,43,17,66,2023-12-14,"Outdated content, needs refresh.",25.700000000000003
+U120,C5,3,1,13,27,73,2025-04-19,Loved the instructor's style.,28.799999999999997
+U120,C20,2,1,16,26,98,2024-10-12,Needs more real-world examples.,35.6
+U120,C80,2,1,21,24,14,2024-10-05,Challenging but rewarding.,10.0
+U120,C11,4,1,24,3,45,2025-03-11,"Too basic, but good for beginners.",16.1
+U120,C10,3,1,39,8,57,2023-09-06,Very interactive and engaging.,20.2
+U120,C29,2,0,60,18,31,2023-12-23,Very interactive and engaging.,13.899999999999999
+U120,C65,5,0,39,9,36,2024-02-22,Needs more real-world examples.,15.099999999999998
+U120,C71,3,0,6,14,53,2025-01-28,Well-structured and practical.,20.2
+U120,C54,5,1,41,29,98,2025-01-18,Challenging but rewarding.,37.7
+U121,C59,1,1,2,23,21,2025-02-10,"Too basic, but good for beginners.",11.4
+U121,C2,2,1,58,14,45,2025-04-19,Well-structured and practical.,17.3
+U121,C22,4,0,46,10,15,2024-10-21,Needs more real-world examples.,8.5
+U121,C16,3,0,47,2,9,2025-01-13,Needs more real-world examples.,4.6
+U121,C54,4,1,41,15,94,2024-05-26,Very interactive and engaging.,33.2
+U121,C34,3,1,45,5,93,2024-04-04,Well-structured and practical.,30.4
+U121,C71,5,0,10,29,0,2024-01-02,Needs more real-world examples.,8.3
+U121,C61,4,1,21,15,22,2024-03-27,Loved the instructor's style.,11.6
+U121,C13,1,0,20,16,43,2023-11-24,"Great course, learned a lot!",16.6
+U121,C17,5,1,19,11,49,2024-04-08,Needs more real-world examples.,19.4
+U122,C19,3,0,8,10,35,2024-01-18,"Outdated content, needs refresh.",14.0
+U122,C6,4,0,57,6,36,2025-06-16,Loved the instructor's style.,14.0
+U122,C27,5,0,60,8,85,2024-10-15,Loved the instructor's style.,29.6
+U122,C56,2,0,14,18,65,2024-10-09,Well-structured and practical.,24.1
+U122,C67,1,0,58,18,68,2024-09-08,Challenging but rewarding.,24.5
+U122,C36,1,1,54,27,3,2025-04-12,Needs more real-world examples.,6.800000000000001
+U122,C74,2,1,37,14,93,2023-11-27,"Outdated content, needs refresh.",31.7
+U122,C41,5,0,54,15,37,2025-06-11,"Too basic, but good for beginners.",16.6
+U122,C13,1,1,57,14,63,2024-08-06,Loved the instructor's style.,22.2
+U122,C45,1,0,18,24,85,2023-11-04,"Too basic, but good for beginners.",30.8
+U123,C11,2,0,41,21,1,2024-04-04,Challenging but rewarding.,5.5
+U123,C29,2,1,56,8,86,2024-05-31,Challenging but rewarding.,28.400000000000002
+U123,C10,3,1,10,16,23,2024-04-02,"Outdated content, needs refresh.",11.6
+U123,C42,3,0,13,21,11,2023-09-09,Challenging but rewarding.,9.0
+U123,C21,1,1,5,16,71,2024-11-10,Challenging but rewarding.,25.0
+U123,C65,2,0,27,23,33,2025-09-04,Very interactive and engaging.,15.5
+U123,C43,5,0,41,12,61,2025-07-06,Well-structured and practical.,23.200000000000003
+U123,C36,3,0,57,10,85,2025-04-05,"Outdated content, needs refresh.",29.0
+U123,C59,4,1,39,12,69,2025-05-24,"Outdated content, needs refresh.",25.1
+U123,C66,3,0,15,4,96,2025-02-23,Loved the instructor's style.,31.099999999999998
+U123,C78,4,1,21,8,84,2025-06-21,Very interactive and engaging.,28.8
+U123,C41,1,0,30,11,84,2024-06-14,"Too basic, but good for beginners.",27.9
+U123,C5,3,1,46,5,99,2025-02-26,"Outdated content, needs refresh.",32.2
+U123,C56,4,1,44,8,3,2023-10-02,Loved the instructor's style.,4.5
+U123,C13,3,0,57,28,100,2025-01-28,Very interactive and engaging.,37.1
+U123,C69,1,1,17,22,40,2024-07-17,Very interactive and engaging.,16.9
+U124,C57,5,1,9,20,69,2025-02-21,"Great course, learned a lot!",27.2
+U124,C55,1,1,6,25,90,2023-10-27,Needs more real-world examples.,32.5
+U124,C52,3,0,42,2,66,2025-05-19,Challenging but rewarding.,21.7
+U124,C34,3,0,11,27,68,2024-10-09,Very interactive and engaging.,27.299999999999997
+U124,C7,2,1,52,6,47,2025-06-24,Needs more real-world examples.,16.3
+U124,C35,4,0,36,24,31,2023-12-30,"Great course, learned a lot!",16.1
+U124,C63,1,0,49,17,13,2023-11-17,Very interactive and engaging.,7.800000000000001
+U124,C29,4,0,11,10,38,2025-09-01,"Great course, learned a lot!",15.4
+U124,C44,2,0,3,9,95,2025-09-05,"Too basic, but good for beginners.",31.3
+U124,C6,4,1,9,27,94,2024-04-06,Loved the instructor's style.,35.6
+U124,C40,1,0,5,17,92,2023-10-20,Very interactive and engaging.,31.5
+U124,C58,1,0,48,27,69,2024-09-15,Well-structured and practical.,26.6
+U124,C53,1,1,13,27,77,2023-10-31,Loved the instructor's style.,29.0
+U124,C73,3,1,33,24,2,2024-02-16,Loved the instructor's style.,6.9
+U124,C22,3,1,13,4,33,2025-08-02,"Outdated content, needs refresh.",12.2
+U124,C27,4,1,28,3,28,2024-12-07,Very interactive and engaging.,11.0
+U124,C15,5,1,31,10,89,2024-11-19,Challenging but rewarding.,31.2
+U125,C3,2,0,7,18,21,2024-08-30,Challenging but rewarding.,10.899999999999999
+U125,C64,4,0,6,5,51,2025-08-05,"Outdated content, needs refresh.",18.299999999999997
+U125,C51,5,0,4,25,63,2024-11-16,Loved the instructor's style.,26.4
+U125,C48,4,1,48,11,19,2025-06-27,"Great course, learned a lot!",9.9
+U125,C70,3,1,56,1,34,2023-10-30,Challenging but rewarding.,11.899999999999999
+U125,C14,5,1,35,16,40,2023-12-30,Challenging but rewarding.,17.7
+U125,C58,3,1,46,16,65,2025-02-07,"Too basic, but good for beginners.",24.2
+U125,C29,1,1,45,3,48,2024-06-20,Well-structured and practical.,15.499999999999998
+U125,C4,1,0,34,24,15,2023-11-19,Well-structured and practical.,9.8
+U125,C78,2,1,56,4,4,2025-02-10,Very interactive and engaging.,3.0
+U125,C30,4,0,41,26,67,2023-12-04,"Outdated content, needs refresh.",27.299999999999997
+U125,C74,2,1,26,1,37,2024-12-19,"Too basic, but good for beginners.",12.299999999999999
+U125,C77,4,1,47,30,86,2024-04-12,Loved the instructor's style.,33.8
+U125,C62,5,1,40,29,47,2024-07-27,Well-structured and practical.,22.4
+U125,C75,2,1,34,22,26,2025-05-26,Needs more real-world examples.,13.2
+U125,C40,5,1,31,15,26,2024-02-06,Needs more real-world examples.,13.3
+U125,C43,2,0,34,23,60,2024-09-06,"Great course, learned a lot!",23.6
+U126,C54,5,1,39,6,8,2023-12-05,Needs more real-world examples.,6.1
+U126,C23,5,0,23,21,1,2024-06-05,Challenging but rewarding.,7.0
+U126,C20,3,1,53,30,54,2024-03-13,Loved the instructor's style.,23.7
+U126,C61,3,1,60,9,71,2024-04-28,Challenging but rewarding.,24.6
+U126,C9,1,0,7,24,27,2025-05-29,Loved the instructor's style.,13.4
+U126,C1,2,1,37,4,16,2024-10-17,Very interactive and engaging.,6.6
+U126,C40,3,1,52,24,78,2025-08-24,"Outdated content, needs refresh.",29.7
+U126,C25,2,0,1,26,29,2024-09-03,Challenging but rewarding.,14.899999999999999
+U126,C26,1,0,10,6,60,2024-02-23,"Great course, learned a lot!",19.7
+U126,C13,3,0,58,2,17,2023-11-29,"Outdated content, needs refresh.",7.0
+U126,C69,4,1,21,10,64,2024-09-05,"Too basic, but good for beginners.",23.2
+U126,C59,2,1,25,25,49,2024-05-23,"Outdated content, needs refresh.",20.7
+U126,C43,3,1,54,17,40,2023-09-21,"Too basic, but good for beginners.",16.9
+U126,C71,5,0,11,21,35,2024-07-29,Well-structured and practical.,17.2
+U126,C8,4,1,32,23,100,2024-05-20,Loved the instructor's style.,36.6
+U127,C72,4,0,40,18,24,2025-06-11,Very interactive and engaging.,12.799999999999999
+U127,C56,3,0,60,24,1,2024-05-11,Challenging but rewarding.,6.6000000000000005
+U127,C45,4,1,34,7,0,2024-05-04,Loved the instructor's style.,3.4000000000000004
+U127,C23,3,0,59,12,32,2024-12-06,"Great course, learned a lot!",13.5
+U127,C4,5,1,3,21,35,2024-06-10,"Outdated content, needs refresh.",17.2
+U127,C47,4,0,45,23,32,2024-04-09,Loved the instructor's style.,16.2
+U127,C60,1,0,56,23,60,2024-03-04,"Outdated content, needs refresh.",23.1
+U127,C78,4,0,31,24,82,2025-05-11,"Too basic, but good for beginners.",31.4
+U128,C48,4,0,4,15,81,2024-04-27,"Great course, learned a lot!",29.3
+U128,C4,3,0,55,18,35,2024-02-24,Challenging but rewarding.,15.6
+U128,C20,5,0,22,27,86,2024-06-27,Needs more real-world examples.,33.7
+U128,C23,2,1,34,1,85,2024-12-29,Very interactive and engaging.,26.7
+U128,C17,4,0,5,7,97,2023-11-16,Well-structured and practical.,32.5
+U128,C11,3,0,12,15,5,2024-07-11,Loved the instructor's style.,6.0
+U129,C65,5,0,37,30,59,2023-09-14,"Too basic, but good for beginners.",26.2
+U129,C53,1,0,12,24,11,2024-01-07,Well-structured and practical.,8.600000000000001
+U129,C23,3,0,50,6,100,2024-11-05,"Great course, learned a lot!",32.7
+U129,C1,2,1,30,3,92,2025-08-08,Challenging but rewarding.,29.2
+U129,C40,3,0,48,25,94,2025-02-12,Well-structured and practical.,34.7
+U129,C36,3,0,25,23,36,2024-03-04,Well-structured and practical.,16.9
+U129,C72,3,0,37,11,52,2025-08-03,Challenging but rewarding.,19.3
+U129,C45,2,1,57,7,22,2025-01-18,Loved the instructor's style.,9.0
+U129,C16,3,1,17,3,62,2024-04-10,Needs more real-world examples.,20.7
+U129,C44,5,1,23,25,82,2025-05-15,"Outdated content, needs refresh.",32.099999999999994
+U129,C60,2,0,54,19,49,2024-08-24,Well-structured and practical.,19.5
+U130,C56,3,0,30,9,4,2024-08-12,"Too basic, but good for beginners.",4.5
+U130,C45,5,0,31,5,59,2024-11-26,Needs more real-world examples.,21.2
+U130,C37,3,1,43,19,4,2024-10-29,Needs more real-world examples.,6.500000000000001
+U130,C27,1,1,56,29,1,2023-11-23,Well-structured and practical.,6.6000000000000005
+U130,C44,4,1,22,11,82,2025-03-31,"Too basic, but good for beginners.",28.799999999999997
+U130,C65,2,1,20,6,59,2024-01-29,Well-structured and practical.,19.9
+U130,C71,1,1,52,20,58,2025-04-21,Very interactive and engaging.,21.9
+U130,C35,4,1,54,8,32,2024-06-30,Needs more real-world examples.,13.2
+U130,C12,5,1,31,22,51,2024-12-31,Loved the instructor's style.,22.2
+U130,C66,1,0,49,30,64,2025-08-17,"Too basic, but good for beginners.",25.7
+U130,C77,4,1,50,9,73,2024-05-23,Very interactive and engaging.,25.7
+U131,C21,5,0,37,25,17,2024-07-10,Well-structured and practical.,12.6
+U131,C66,3,0,6,10,98,2023-12-12,Well-structured and practical.,32.9
+U131,C22,3,1,26,6,58,2024-04-03,"Great course, learned a lot!",20.099999999999998
+U131,C39,2,0,57,6,38,2024-09-26,Loved the instructor's style.,13.600000000000001
+U131,C77,1,0,16,28,26,2025-08-06,Very interactive and engaging.,13.9
+U132,C32,3,0,31,18,87,2025-04-10,Very interactive and engaging.,31.199999999999996
+U132,C20,2,1,43,13,59,2025-05-12,Challenging but rewarding.,21.3
+U132,C72,1,1,9,11,97,2025-06-22,Well-structured and practical.,31.799999999999997
+U132,C48,4,1,58,10,86,2025-08-31,Very interactive and engaging.,29.8
+U132,C1,5,1,35,3,44,2023-11-16,"Outdated content, needs refresh.",16.3
+U132,C62,5,0,15,29,77,2024-06-26,Well-structured and practical.,31.4
+U132,C21,2,1,24,11,64,2024-07-13,"Great course, learned a lot!",22.4
+U133,C10,4,1,3,9,53,2024-10-06,Well-structured and practical.,19.7
+U133,C30,2,1,44,17,13,2024-12-19,"Outdated content, needs refresh.",8.3
+U133,C18,1,1,44,24,12,2023-11-22,Very interactive and engaging.,8.9
+U133,C64,1,0,21,5,73,2024-08-27,Very interactive and engaging.,23.4
+U133,C25,4,0,32,21,85,2025-09-03,Very interactive and engaging.,31.7
+U133,C6,4,0,20,14,33,2024-03-23,"Too basic, but good for beginners.",14.700000000000001
+U133,C28,5,1,33,12,99,2024-11-08,"Outdated content, needs refresh.",34.6
+U133,C39,3,1,8,26,22,2025-03-24,Very interactive and engaging.,13.3
+U133,C56,5,1,56,22,10,2025-08-16,Well-structured and practical.,9.9
+U133,C12,1,1,60,23,75,2024-03-11,Loved the instructor's style.,27.6
+U133,C44,2,1,28,2,59,2024-12-12,Loved the instructor's style.,19.099999999999998
+U133,C50,1,0,56,16,58,2025-02-16,Needs more real-world examples.,21.099999999999998
+U133,C24,1,1,17,14,43,2025-02-18,Loved the instructor's style.,16.2
+U133,C55,1,1,12,10,45,2025-07-24,Very interactive and engaging.,16.0
+U133,C20,1,1,21,10,81,2024-03-17,"Great course, learned a lot!",26.8
+U133,C37,5,0,23,24,4,2024-03-05,Very interactive and engaging.,8.5
+U133,C40,2,0,6,18,12,2025-06-11,Well-structured and practical.,8.2
+U134,C64,1,0,21,12,4,2023-11-23,Well-structured and practical.,4.1000000000000005
+U134,C56,5,0,25,17,92,2023-09-09,"Too basic, but good for beginners.",33.5
+U134,C36,3,1,28,13,2,2025-04-23,Well-structured and practical.,4.699999999999999
+U134,C45,3,0,54,30,55,2024-06-14,"Too basic, but good for beginners.",24.0
+U134,C59,2,1,20,20,65,2024-03-18,Challenging but rewarding.,24.5
+U134,C32,1,1,37,16,27,2024-04-18,Very interactive and engaging.,11.8
+U134,C68,3,0,18,17,85,2025-03-31,"Great course, learned a lot!",30.4
+U134,C73,5,1,59,6,86,2024-12-13,Loved the instructor's style.,29.5
+U134,C76,3,0,27,7,2,2024-05-05,Very interactive and engaging.,3.5000000000000004
+U135,C36,3,0,5,20,36,2024-06-08,"Outdated content, needs refresh.",16.299999999999997
+U135,C35,5,1,41,20,42,2025-01-18,Very interactive and engaging.,19.1
+U135,C60,4,0,22,11,40,2024-05-14,Needs more real-world examples.,16.2
+U135,C77,4,0,30,28,95,2024-02-24,"Outdated content, needs refresh.",36.1
+U135,C41,2,0,44,13,32,2024-11-19,Very interactive and engaging.,13.2
+U135,C13,1,0,41,16,71,2024-02-01,Needs more real-world examples.,25.0
+U135,C29,1,0,48,17,47,2023-09-26,Loved the instructor's style.,18.0
+U135,C74,3,1,29,22,59,2025-07-14,"Great course, learned a lot!",23.6
+U135,C3,2,0,40,12,72,2023-12-28,Very interactive and engaging.,25.0
+U136,C3,2,1,36,14,45,2024-08-05,Challenging but rewarding.,17.3
+U136,C37,4,1,21,25,46,2023-10-28,"Too basic, but good for beginners.",20.799999999999997
+U136,C72,3,1,15,28,51,2025-04-07,"Outdated content, needs refresh.",22.4
+U136,C63,4,1,53,30,57,2023-12-14,Well-structured and practical.,25.099999999999998
+U136,C31,2,1,19,1,68,2023-09-18,Needs more real-world examples.,21.599999999999998
+U136,C49,4,0,44,30,12,2024-03-12,Very interactive and engaging.,11.6
+U136,C69,5,1,27,14,24,2024-06-01,"Great course, learned a lot!",12.5
+U136,C17,5,0,9,20,79,2024-12-25,"Too basic, but good for beginners.",30.2
+U136,C75,5,1,2,11,78,2023-11-02,Challenging but rewarding.,28.099999999999998
+U136,C16,2,1,44,3,47,2025-07-04,"Great course, learned a lot!",15.7
+U136,C13,5,1,36,17,24,2023-12-08,Well-structured and practical.,13.1
+U136,C51,4,1,47,28,30,2025-02-10,Well-structured and practical.,16.6
+U136,C28,4,0,21,5,37,2025-06-12,"Too basic, but good for beginners.",14.1
+U136,C68,1,0,37,15,58,2024-03-23,Challenging but rewarding.,20.9
+U136,C15,5,1,16,26,22,2023-11-06,"Outdated content, needs refresh.",14.3
+U136,C38,5,0,52,20,42,2024-01-03,Well-structured and practical.,19.1
+U136,C23,2,1,47,3,0,2024-02-23,"Great course, learned a lot!",1.6
+U136,C56,4,1,56,13,9,2024-04-12,Very interactive and engaging.,7.299999999999999
+U137,C69,5,1,28,26,15,2025-07-18,"Too basic, but good for beginners.",12.2
+U137,C16,2,1,49,27,74,2025-06-10,"Too basic, but good for beginners.",28.6
+U137,C78,2,1,27,22,43,2025-02-22,Well-structured and practical.,18.3
+U137,C80,2,1,14,9,12,2023-11-20,Needs more real-world examples.,6.3999999999999995
+U137,C4,1,1,58,23,62,2024-02-06,Challenging but rewarding.,23.7
+U137,C57,3,1,19,23,56,2025-05-28,Needs more real-world examples.,22.900000000000002
+U137,C62,4,1,37,9,76,2024-12-29,"Great course, learned a lot!",26.6
+U137,C8,2,0,34,10,3,2024-12-12,Challenging but rewarding.,3.9
+U137,C38,3,1,46,10,39,2025-02-18,Well-structured and practical.,15.2
+U137,C51,5,1,31,23,56,2024-09-19,Loved the instructor's style.,23.900000000000002
+U137,C6,2,0,10,20,37,2025-07-20,Very interactive and engaging.,16.1
+U137,C47,3,0,2,28,27,2024-01-08,Loved the instructor's style.,15.2
+U137,C52,2,0,17,12,92,2023-12-10,Very interactive and engaging.,31.0
+U138,C80,1,1,15,10,26,2024-01-26,Challenging but rewarding.,10.3
+U138,C22,2,1,39,25,93,2024-07-15,"Too basic, but good for beginners.",33.9
+U138,C45,2,1,32,15,72,2023-12-03,"Great course, learned a lot!",25.599999999999998
+U138,C20,5,0,48,7,46,2024-01-23,"Great course, learned a lot!",17.7
+U138,C76,4,0,22,17,8,2025-07-15,Loved the instructor's style.,7.800000000000001
+U138,C65,5,0,52,2,57,2024-06-08,Challenging but rewarding.,19.999999999999996
+U138,C41,2,1,52,24,23,2025-07-30,Challenging but rewarding.,12.7
+U138,C67,2,1,12,2,77,2024-03-31,Loved the instructor's style.,24.499999999999996
+U138,C48,5,1,6,24,24,2024-05-21,"Too basic, but good for beginners.",14.5
+U138,C49,2,1,4,7,29,2024-12-04,Challenging but rewarding.,11.1
+U138,C63,5,1,30,4,68,2023-09-10,"Great course, learned a lot!",23.7
+U138,C79,3,0,13,16,14,2024-12-12,"Outdated content, needs refresh.",8.9
+U138,C68,1,1,13,4,69,2023-10-08,Challenging but rewarding.,22.0
+U138,C62,5,1,20,19,1,2025-04-12,Very interactive and engaging.,6.6000000000000005
+U138,C23,1,1,50,21,24,2024-04-28,"Outdated content, needs refresh.",11.899999999999999
+U138,C73,1,1,49,14,76,2024-01-30,Loved the instructor's style.,26.1
+U138,C71,4,0,22,17,61,2023-10-27,Loved the instructor's style.,23.700000000000003
+U138,C1,3,1,56,18,31,2024-03-18,Needs more real-world examples.,14.399999999999999
+U138,C43,3,1,41,15,14,2025-05-19,Well-structured and practical.,8.7
+U138,C61,4,0,21,29,65,2024-02-03,"Outdated content, needs refresh.",27.3
+U139,C21,4,0,44,10,78,2024-03-15,Challenging but rewarding.,27.4
+U139,C23,5,0,21,6,24,2025-04-20,Very interactive and engaging.,10.899999999999999
+U139,C9,2,0,40,22,20,2024-08-30,Needs more real-world examples.,11.4
+U139,C56,5,1,42,20,100,2023-09-26,Very interactive and engaging.,36.5
+U139,C39,3,0,60,9,60,2024-04-05,Loved the instructor's style.,21.3
+U139,C13,3,0,20,11,93,2023-09-25,Needs more real-world examples.,31.599999999999998
+U139,C57,3,1,20,14,72,2025-03-06,Very interactive and engaging.,25.9
+U139,C44,4,0,49,13,7,2024-04-06,Very interactive and engaging.,6.699999999999999
+U139,C69,3,0,30,25,35,2025-02-20,"Great course, learned a lot!",17.0
+U139,C24,2,0,43,23,32,2024-04-16,Loved the instructor's style.,15.2
+U139,C25,3,0,21,14,48,2025-05-26,Needs more real-world examples.,18.7
+U139,C14,5,0,52,7,79,2024-10-31,"Outdated content, needs refresh.",27.6
+U139,C30,3,0,5,8,20,2024-05-28,Needs more real-world examples.,9.1
+U139,C28,4,1,3,25,84,2023-11-15,Very interactive and engaging.,32.2
+U139,C40,4,0,18,20,75,2025-08-29,Very interactive and engaging.,28.5
+U139,C65,1,0,4,21,43,2025-07-27,Loved the instructor's style.,17.6
+U139,C66,5,1,29,30,36,2025-03-12,"Too basic, but good for beginners.",19.299999999999997
+U139,C80,4,0,57,24,9,2024-03-29,Needs more real-world examples.,9.5
+U139,C50,4,0,56,5,75,2024-01-14,Loved the instructor's style.,25.5
+U139,C34,5,0,36,3,56,2025-06-30,Challenging but rewarding.,19.900000000000002
+U140,C74,4,0,30,12,42,2025-07-15,Challenging but rewarding.,17.0
+U140,C70,3,1,39,24,2,2023-11-06,Well-structured and practical.,6.9
+U140,C34,1,1,28,13,62,2025-02-04,"Great course, learned a lot!",21.7
+U140,C72,5,0,59,17,47,2025-08-05,"Great course, learned a lot!",20.0
+U140,C68,5,1,3,17,41,2023-12-07,"Outdated content, needs refresh.",18.2
+U140,C38,3,1,41,3,94,2024-08-09,"Too basic, but good for beginners.",30.3
+U140,C3,5,0,36,25,14,2023-11-19,Well-structured and practical.,11.7
+U140,C18,5,0,37,30,59,2023-09-30,Challenging but rewarding.,26.2
+U140,C9,1,1,53,9,59,2024-02-11,"Outdated content, needs refresh.",20.0
+U140,C41,2,1,5,6,82,2024-03-22,Needs more real-world examples.,26.799999999999997
+U140,C47,4,1,57,1,51,2023-10-26,Loved the instructor's style.,17.5
+U140,C58,1,1,2,1,28,2025-08-01,Needs more real-world examples.,9.1
+U140,C28,4,0,17,28,28,2025-02-03,Needs more real-world examples.,16.0
+U140,C24,5,1,42,22,25,2025-08-20,Needs more real-world examples.,14.4
+U140,C42,5,0,13,25,18,2024-04-22,Challenging but rewarding.,12.899999999999999
+U141,C24,3,0,28,9,29,2024-12-08,Challenging but rewarding.,12.0
+U141,C13,3,0,9,29,56,2024-09-26,"Too basic, but good for beginners.",24.1
+U141,C4,4,0,29,28,95,2025-07-11,Challenging but rewarding.,36.1
+U141,C69,4,0,29,15,51,2025-06-26,Challenging but rewarding.,20.299999999999997
+U141,C6,2,1,38,27,15,2023-10-07,"Too basic, but good for beginners.",10.9
+U141,C17,2,0,11,25,26,2024-08-09,"Too basic, but good for beginners.",13.8
+U141,C70,4,1,48,11,53,2024-05-12,Challenging but rewarding.,20.099999999999998
+U141,C45,2,0,52,17,46,2023-11-08,"Outdated content, needs refresh.",18.2
+U141,C9,3,0,30,1,0,2024-07-26,Very interactive and engaging.,1.7
+U141,C42,4,1,55,4,45,2024-03-02,Needs more real-world examples.,16.3
+U141,C41,3,0,28,28,83,2025-04-03,Loved the instructor's style.,32.0
+U141,C30,2,0,42,21,49,2023-09-13,"Outdated content, needs refresh.",19.9
+U141,C27,1,1,47,21,41,2024-12-16,"Great course, learned a lot!",17.0
+U141,C26,2,0,12,19,1,2025-08-17,Well-structured and practical.,5.1000000000000005
+U142,C18,4,0,12,30,66,2025-04-23,Well-structured and practical.,27.8
+U142,C61,2,1,57,30,14,2024-11-03,Well-structured and practical.,11.2
+U142,C5,1,1,14,10,51,2024-12-26,Needs more real-world examples.,17.799999999999997
+U142,C8,3,1,2,26,3,2025-07-28,Needs more real-world examples.,7.6
+U142,C27,1,1,3,24,18,2024-03-27,Very interactive and engaging.,10.7
+U142,C38,1,1,49,20,92,2024-01-29,Well-structured and practical.,32.099999999999994
+U142,C48,2,0,1,12,28,2024-07-08,"Too basic, but good for beginners.",11.8
+U142,C54,4,0,8,16,59,2024-03-27,Very interactive and engaging.,22.9
+U142,C21,5,1,9,28,77,2024-01-09,"Great course, learned a lot!",31.2
+U143,C61,2,0,15,22,10,2024-05-15,"Too basic, but good for beginners.",8.4
+U143,C80,4,1,57,20,13,2024-03-10,Challenging but rewarding.,9.9
+U143,C33,2,1,12,24,84,2024-04-01,Loved the instructor's style.,31.0
+U143,C17,3,1,43,19,66,2025-06-08,Loved the instructor's style.,25.1
+U143,C42,2,1,28,12,84,2025-07-25,Well-structured and practical.,28.6
+U143,C70,5,0,48,29,49,2024-12-28,"Great course, learned a lot!",23.0
+U143,C47,2,0,1,5,81,2025-07-30,"Great course, learned a lot!",26.3
+U143,C13,2,0,26,11,1,2025-01-30,"Outdated content, needs refresh.",3.5
+U143,C62,4,1,13,21,73,2024-05-05,Very interactive and engaging.,28.099999999999998
+U143,C64,4,0,30,20,33,2024-04-21,"Outdated content, needs refresh.",15.9
+U143,C26,1,1,42,25,65,2024-04-10,Needs more real-world examples.,25.0
+U143,C77,3,0,17,11,62,2024-05-22,"Outdated content, needs refresh.",22.299999999999997
+U143,C29,1,1,49,17,33,2024-08-27,"Too basic, but good for beginners.",13.8
+U143,C66,3,1,42,1,69,2024-01-08,Well-structured and practical.,22.4
+U144,C30,3,1,28,18,10,2024-04-08,Well-structured and practical.,8.1
+U144,C59,4,0,10,27,87,2024-08-03,Challenging but rewarding.,33.5
+U144,C15,1,0,47,24,45,2024-11-26,Well-structured and practical.,18.8
+U144,C16,5,0,52,18,46,2024-11-11,Challenging but rewarding.,19.9
+U144,C71,5,0,24,6,12,2023-12-22,Well-structured and practical.,7.3
+U144,C38,5,0,54,30,96,2025-02-19,Well-structured and practical.,37.3
+U144,C17,5,1,55,7,35,2024-01-06,"Great course, learned a lot!",14.4
+U144,C45,4,1,25,29,66,2025-04-02,Very interactive and engaging.,27.6
+U145,C60,2,1,51,6,82,2024-05-18,Very interactive and engaging.,26.799999999999997
+U145,C42,4,0,16,27,44,2023-12-01,"Too basic, but good for beginners.",20.6
+U145,C18,2,1,9,29,51,2025-01-23,"Too basic, but good for beginners.",22.1
+U145,C39,5,0,14,15,18,2024-03-23,Loved the instructor's style.,10.899999999999999
+U145,C1,3,0,41,4,66,2024-06-29,Loved the instructor's style.,22.1
+U145,C10,5,0,50,21,76,2024-09-18,"Outdated content, needs refresh.",29.5
+U145,C33,2,1,20,27,15,2024-03-29,"Outdated content, needs refresh.",10.9
+U145,C72,2,0,57,25,92,2025-03-05,Needs more real-world examples.,33.599999999999994
+U145,C40,3,0,25,27,32,2024-02-26,"Too basic, but good for beginners.",16.5
+U145,C27,4,1,38,6,90,2025-02-06,"Outdated content, needs refresh.",30.2
+U145,C9,3,0,34,4,11,2024-07-24,Needs more real-world examples.,5.6
+U145,C8,2,1,54,23,55,2023-12-25,Very interactive and engaging.,22.1
+U145,C53,1,0,56,25,35,2025-04-25,Loved the instructor's style.,16.0
+U145,C78,3,1,27,22,32,2024-12-15,Needs more real-world examples.,15.5
+U145,C19,1,0,7,23,62,2025-08-18,Challenging but rewarding.,23.7
+U145,C62,5,1,15,19,55,2024-01-04,Loved the instructor's style.,22.8
+U145,C21,1,1,36,20,72,2025-05-22,Very interactive and engaging.,26.099999999999998
+U145,C49,5,1,3,20,13,2024-01-22,"Too basic, but good for beginners.",10.4
+U145,C52,5,0,8,25,30,2024-03-09,Needs more real-world examples.,16.5
+U145,C61,5,1,53,13,91,2024-03-04,"Great course, learned a lot!",32.4
+U146,C57,4,1,23,27,87,2024-04-14,Needs more real-world examples.,33.5
+U146,C59,3,0,18,15,100,2023-10-01,"Great course, learned a lot!",34.5
+U146,C74,3,1,45,21,33,2025-08-06,Well-structured and practical.,15.600000000000001
+U146,C67,2,1,48,13,96,2024-06-28,Needs more real-world examples.,32.4
+U146,C5,2,1,55,3,42,2023-11-05,Needs more real-world examples.,14.2
+U146,C52,5,0,21,27,39,2024-08-04,"Too basic, but good for beginners.",19.6
+U146,C56,1,1,21,20,63,2024-02-01,Well-structured and practical.,23.4
+U146,C4,4,0,17,28,90,2024-12-09,"Outdated content, needs refresh.",34.6
+U146,C28,3,1,52,15,46,2023-10-12,Well-structured and practical.,18.299999999999997
+U146,C24,2,1,2,4,24,2023-10-19,Loved the instructor's style.,9.0
+U146,C73,5,1,49,18,68,2024-04-12,Well-structured and practical.,26.5
+U146,C43,4,0,13,3,11,2025-05-17,Very interactive and engaging.,5.9
+U146,C13,3,0,46,11,68,2024-01-20,Needs more real-world examples.,24.099999999999998
+U146,C38,4,0,59,13,13,2024-08-31,Loved the instructor's style.,8.5
+U146,C53,5,0,21,8,56,2024-12-01,"Great course, learned a lot!",20.9
+U146,C70,2,0,43,9,3,2024-02-29,"Outdated content, needs refresh.",3.6999999999999997
+U147,C29,4,0,27,6,66,2024-05-20,Very interactive and engaging.,23.0
+U147,C32,5,1,48,9,90,2025-07-28,Needs more real-world examples.,31.3
+U147,C80,3,1,24,12,30,2025-08-08,Needs more real-world examples.,12.9
+U147,C57,5,1,5,23,17,2025-02-28,Needs more real-world examples.,12.2
+U147,C28,2,0,7,30,100,2024-02-11,"Outdated content, needs refresh.",37.0
+U147,C19,5,1,7,26,77,2024-12-08,Challenging but rewarding.,30.799999999999997
+U147,C2,3,0,30,9,73,2023-12-14,"Great course, learned a lot!",25.2
+U147,C38,4,1,32,19,55,2023-12-24,"Too basic, but good for beginners.",22.3
+U147,C79,2,0,36,15,71,2023-10-26,"Great course, learned a lot!",25.3
+U147,C3,3,1,56,23,18,2023-10-18,"Too basic, but good for beginners.",11.5
+U147,C62,3,0,47,9,72,2024-08-26,Loved the instructor's style.,24.9
+U147,C77,1,1,28,23,97,2025-07-14,Well-structured and practical.,34.199999999999996
+U148,C28,5,0,34,14,93,2023-10-04,Well-structured and practical.,33.2
+U148,C58,2,0,39,25,97,2025-06-01,Well-structured and practical.,35.099999999999994
+U148,C40,2,0,42,30,63,2025-02-11,"Too basic, but good for beginners.",25.9
+U148,C69,3,0,7,13,73,2025-03-13,Very interactive and engaging.,26.0
+U148,C39,4,1,45,16,17,2024-10-31,Needs more real-world examples.,10.3
+U148,C43,2,0,20,12,22,2024-03-16,Very interactive and engaging.,10.0
+U148,C30,3,1,6,6,33,2025-01-15,Very interactive and engaging.,12.600000000000001
+U148,C73,2,0,23,21,81,2025-08-11,"Too basic, but good for beginners.",29.5
+U148,C66,3,1,49,4,67,2025-07-07,Loved the instructor's style.,22.4
+U148,C53,1,0,36,2,87,2024-09-11,Needs more real-world examples.,26.999999999999996
+U148,C19,1,0,1,17,1,2024-03-03,"Great course, learned a lot!",4.2
+U148,C41,3,1,20,1,72,2024-02-02,Needs more real-world examples.,23.299999999999997
+U148,C1,1,0,13,21,79,2024-05-03,"Outdated content, needs refresh.",28.4
+U148,C7,2,0,23,4,87,2024-08-10,Well-structured and practical.,27.9
+U148,C46,5,1,37,6,56,2023-09-10,Well-structured and practical.,20.5
+U148,C16,5,0,53,27,56,2024-04-06,"Great course, learned a lot!",24.700000000000003
+U148,C10,5,0,60,18,15,2024-02-02,Loved the instructor's style.,10.6
+U149,C14,1,0,22,8,46,2024-04-21,Well-structured and practical.,15.899999999999999
+U149,C45,2,1,13,26,51,2024-07-29,"Great course, learned a lot!",21.5
+U149,C24,3,0,59,30,61,2025-04-22,"Too basic, but good for beginners.",25.8
+U149,C76,5,0,43,21,41,2024-01-18,Very interactive and engaging.,19.0
+U149,C67,5,0,19,11,17,2024-03-09,"Outdated content, needs refresh.",9.8
+U149,C22,2,1,41,14,51,2024-01-11,Very interactive and engaging.,19.099999999999998
+U149,C13,4,0,32,1,62,2025-08-02,"Too basic, but good for beginners.",20.799999999999997
+U149,C64,3,1,40,13,39,2024-03-17,"Outdated content, needs refresh.",15.799999999999999
+U149,C25,3,0,34,27,5,2024-04-16,Challenging but rewarding.,8.4
+U149,C20,1,1,58,19,95,2024-10-05,Well-structured and practical.,32.8
+U149,C44,3,0,35,1,6,2023-10-29,Loved the instructor's style.,3.5
+U149,C59,4,0,23,18,6,2025-02-11,Very interactive and engaging.,7.3999999999999995
+U149,C50,5,0,33,12,87,2024-11-19,"Great course, learned a lot!",31.0
+U149,C58,2,0,30,6,28,2025-04-28,Needs more real-world examples.,10.600000000000001
+U150,C27,2,0,60,10,0,2025-02-04,Challenging but rewarding.,3.0
+U150,C64,3,0,25,27,29,2024-11-14,Needs more real-world examples.,15.6
+U150,C80,4,0,10,5,76,2024-11-04,Challenging but rewarding.,25.8
+U150,C74,5,1,57,30,54,2023-11-14,Loved the instructor's style.,24.7
+U150,C2,2,1,27,23,1,2023-10-18,Very interactive and engaging.,5.9
+U150,C6,4,1,18,27,24,2024-04-25,"Outdated content, needs refresh.",14.6
+U150,C49,3,0,41,23,50,2024-02-18,"Great course, learned a lot!",21.1

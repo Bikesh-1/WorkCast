@@ -1,0 +1,81 @@
+course_id,title,topic,difficulty,duration_hours,provider,language,tags,cost_usd,mode,release_year,popularity,text_features
+C1,Computer Vision Mastery C1,Computer Vision,Advanced,0.8,Udemy,French,Machine Learning,0.5,Online,2019,0.7877813504823151,Computer Vision Mastery C1 Computer Vision Machine Learning
+C2,Cloud Mastery C2,Cloud,Intermediate,0.6133333333333334,Coursera,German,Cloud Computing,0.25,Hybrid,2019,0.0707395498392283,Cloud Mastery C2 Cloud Cloud Computing
+C3,Security Mastery C3,Security,Advanced,0.76,Pluralsight,Spanish,"Machine Learning, SQL, Java",0.5,Offline,2020,0.602357984994641,"Security Mastery C3 Security Machine Learning, SQL, Java"
+C4,Cloud Mastery C4,Cloud,Beginner,0.33333333333333337,Pluralsight,French,"Java, Python",0.0,Online,2020,0.872454448017149,"Cloud Mastery C4 Cloud Java, Python"
+C5,Data Engineering Mastery C5,Data Engineering,Advanced,0.7733333333333334,edX,French,"Deep Learning, Data Science, Mobile Dev",0.25,Online,2021,0.6666666666666667,"Data Engineering Mastery C5 Data Engineering Deep Learning, Data Science, Mobile Dev"
+C6,DevOps Mastery C6,DevOps,Intermediate,1.0000000000000002,Udemy,French,"Computer Vision, C++, Mobile Dev",0.25,Offline,2015,0.39442658092175775,"DevOps Mastery C6 DevOps Computer Vision, C++, Mobile Dev"
+C7,Cloud Mastery C7,Cloud,Advanced,0.18666666666666668,DataCamp,French,"Python, Mobile Dev",0.5,Offline,2025,0.8488745980707396,"Cloud Mastery C7 Cloud Python, Mobile Dev"
+C8,Big Data Mastery C8,Big Data,Advanced,0.9733333333333335,edX,English,"Computer Vision, SQL, Web Development",1.0,Offline,2017,0.8917470525187567,"Big Data Mastery C8 Big Data Computer Vision, SQL, Web Development"
+C9,Computer Vision Mastery C9,Computer Vision,Beginner,0.05333333333333334,Pluralsight,English,Python,0.5,Offline,2021,0.15648445873526257,Computer Vision Mastery C9 Computer Vision Python
+C10,Security Mastery C10,Security,Advanced,0.3466666666666667,DataCamp,French,"Computer Vision, Blockchain, NLP",0.0,Hybrid,2017,0.5594855305466239,"Security Mastery C10 Security Computer Vision, Blockchain, NLP"
+C11,ML Mastery C11,ML,Advanced,0.5466666666666667,Skillshare,German,"DevOps, Data Science, SQL",0.5,Hybrid,2020,0.5894962486602359,"ML Mastery C11 ML DevOps, Data Science, SQL"
+C12,Cloud Mastery C12,Cloud,Advanced,0.44,Pluralsight,German,Cybersecurity,0.25,Hybrid,2019,0.23687031082529475,Cloud Mastery C12 Cloud Cybersecurity
+C13,Web Dev Mastery C13,Web Dev,Intermediate,0.3466666666666667,Skillshare,German,"Computer Vision, Data Science",1.0,Hybrid,2019,0.3054662379421222,"Web Dev Mastery C13 Web Dev Computer Vision, Data Science"
+C14,SQL Mastery C14,SQL,Advanced,0.92,DataCamp,German,"Deep Learning, Computer Vision",0.0,Offline,2016,0.3697749196141479,"SQL Mastery C14 SQL Deep Learning, Computer Vision"
+C15,Data Engineering Mastery C15,Data Engineering,Advanced,0.4266666666666667,Skillshare,German,Cloud Computing,1.0,Offline,2023,0.7534833869239014,Data Engineering Mastery C15 Data Engineering Cloud Computing
+C16,Web Dev Mastery C16,Web Dev,Beginner,0.17333333333333334,Pluralsight,French,Cybersecurity,0.0,Hybrid,2023,0.23794212218649513,Web Dev Mastery C16 Web Dev Cybersecurity
+C17,Computer Vision Mastery C17,Computer Vision,Beginner,0.07999999999999999,Coursera,German,"Computer Vision, Java",0.1,Online,2023,0.16291532690246519,"Computer Vision Mastery C17 Computer Vision Computer Vision, Java"
+C18,Security Mastery C18,Security,Advanced,0.8,DataCamp,Hindi,"AI, Deep Learning",0.0,Online,2025,0.6195069667738479,"Security Mastery C18 Security AI, Deep Learning"
+C19,ML Mastery C19,ML,Advanced,0.05333333333333334,edX,German,Java,0.5,Offline,2017,0.8113612004287246,ML Mastery C19 ML Java
+C20,Web Dev Mastery C20,Web Dev,Beginner,0.013333333333333329,Udemy,French,"Machine Learning, NLP, Data Science",0.25,Offline,2025,0.5862808145766345,"Web Dev Mastery C20 Web Dev Machine Learning, NLP, Data Science"
+C21,Blockchain Mastery C21,Blockchain,Intermediate,0.22666666666666668,Pluralsight,German,"Cloud Computing, DevOps",0.0,Offline,2017,0.7920685959271169,"Blockchain Mastery C21 Blockchain Cloud Computing, DevOps"
+C22,Data Engineering Mastery C22,Data Engineering,Advanced,0.4266666666666667,Skillshare,Hindi,AI,0.25,Hybrid,2025,0.8210075026795284,Data Engineering Mastery C22 Data Engineering AI
+C23,ML Mastery C23,ML,Beginner,0.68,DataCamp,French,"SQL, Cloud Computing",0.0,Online,2017,0.5133976420150054,"ML Mastery C23 ML SQL, Cloud Computing"
+C24,Cloud Mastery C24,Cloud,Beginner,0.0,Udemy,German,NLP,0.25,Offline,2019,0.6291532690246517,Cloud Mastery C24 Cloud NLP
+C25,DevOps Mastery C25,DevOps,Advanced,0.013333333333333329,Udemy,Spanish,"Cybersecurity, Python, AI",0.0,Offline,2019,0.165058949624866,"DevOps Mastery C25 DevOps Cybersecurity, Python, AI"
+C26,Security Mastery C26,Security,Advanced,0.8533333333333334,Skillshare,Spanish,"Machine Learning, AI, Deep Learning",0.25,Hybrid,2018,0.23043944265809213,"Security Mastery C26 Security Machine Learning, AI, Deep Learning"
+C27,AI Mastery C27,AI,Intermediate,0.25333333333333335,DataCamp,French,"Blockchain, C++",1.0,Offline,2023,0.8703108252947481,"AI Mastery C27 AI Blockchain, C++"
+C28,Computer Vision Mastery C28,Computer Vision,Beginner,0.41333333333333333,Skillshare,French,NLP,1.0,Hybrid,2020,0.07502679528403002,Computer Vision Mastery C28 Computer Vision NLP
+C29,NLP Mastery C29,NLP,Beginner,0.09333333333333332,Pluralsight,French,Deep Learning,0.1,Offline,2023,0.47481243301178994,NLP Mastery C29 NLP Deep Learning
+C30,SQL Mastery C30,SQL,Advanced,0.3466666666666667,Skillshare,French,"SQL, NLP",1.0,Offline,2015,0.48767416934619506,"SQL Mastery C30 SQL SQL, NLP"
+C31,AI Mastery C31,AI,Advanced,0.7066666666666667,DataCamp,French,NLP,0.25,Hybrid,2015,0.42443729903536975,AI Mastery C31 AI NLP
+C32,Web Dev Mastery C32,Web Dev,Beginner,0.36000000000000004,Pluralsight,English,Blockchain,0.25,Hybrid,2016,0.5841371918542337,Web Dev Mastery C32 Web Dev Blockchain
+C33,Python Mastery C33,Python,Beginner,0.8,Coursera,Spanish,"Data Science, DevOps",0.1,Hybrid,2025,0.45123258306538044,"Python Mastery C33 Python Data Science, DevOps"
+C34,Cloud Mastery C34,Cloud,Intermediate,0.76,DataCamp,German,Deep Learning,0.25,Online,2017,0.579849946409432,Cloud Mastery C34 Cloud Deep Learning
+C35,Security Mastery C35,Security,Advanced,0.21333333333333332,Skillshare,Hindi,Python,0.25,Offline,2025,0.7792068595927117,Security Mastery C35 Security Python
+C36,Blockchain Mastery C36,Blockchain,Intermediate,0.9066666666666667,DataCamp,Hindi,NLP,0.25,Online,2019,0.19721329046087888,Blockchain Mastery C36 Blockchain NLP
+C37,DevOps Mastery C37,DevOps,Beginner,0.05333333333333334,Skillshare,German,"Python, Machine Learning, NLP",0.0,Online,2024,0.02679528403001072,"DevOps Mastery C37 DevOps Python, Machine Learning, NLP"
+C38,Data Engineering Mastery C38,Data Engineering,Advanced,0.07999999999999999,edX,English,"NLP, Machine Learning",1.0,Online,2015,0.14362272240085744,"Data Engineering Mastery C38 Data Engineering NLP, Machine Learning"
+C39,Blockchain Mastery C39,Blockchain,Intermediate,0.38666666666666666,Skillshare,French,"AI, Machine Learning",0.25,Online,2025,0.5616291532690247,"Blockchain Mastery C39 Blockchain AI, Machine Learning"
+C40,ML Mastery C40,ML,Intermediate,0.5066666666666667,Udemy,English,"Data Science, AI, NLP",0.5,Hybrid,2022,0.04180064308681672,"ML Mastery C40 ML Data Science, AI, NLP"
+C41,Cloud Mastery C41,Cloud,Advanced,0.64,Pluralsight,Spanish,"Blockchain, Cloud Computing, SQL",0.25,Offline,2017,0.8177920685959271,"Cloud Mastery C41 Cloud Blockchain, Cloud Computing, SQL"
+C42,Blockchain Mastery C42,Blockchain,Intermediate,0.4,edX,Spanish,"Deep Learning, DevOps, Cybersecurity",0.0,Hybrid,2021,0.4469453376205788,"Blockchain Mastery C42 Blockchain Deep Learning, DevOps, Cybersecurity"
+C43,Blockchain Mastery C43,Blockchain,Advanced,0.22666666666666668,DataCamp,Hindi,"Cloud Computing, Data Science",0.0,Offline,2020,0.09110396570203645,"Blockchain Mastery C43 Blockchain Cloud Computing, Data Science"
+C44,Blockchain Mastery C44,Blockchain,Advanced,0.32,Coursera,Spanish,"Java, Blockchain",0.0,Online,2024,0.7845659163987139,"Blockchain Mastery C44 Blockchain Java, Blockchain"
+C45,Computer Vision Mastery C45,Computer Vision,Advanced,0.36000000000000004,DataCamp,Hindi,"Mobile Dev, NLP",0.0,Online,2018,0.8038585209003216,"Computer Vision Mastery C45 Computer Vision Mobile Dev, NLP"
+C46,SQL Mastery C46,SQL,Advanced,0.8133333333333334,edX,French,"Cloud Computing, Computer Vision, Machine Learning",1.0,Offline,2019,0.4072883172561629,"SQL Mastery C46 SQL Cloud Computing, Computer Vision, Machine Learning"
+C47,Data Engineering Mastery C47,Data Engineering,Advanced,0.6,Udemy,Spanish,"Computer Vision, Cybersecurity",0.0,Hybrid,2022,0.8252947481243301,"Data Engineering Mastery C47 Data Engineering Computer Vision, Cybersecurity"
+C48,Cloud Mastery C48,Cloud,Beginner,0.6266666666666667,Udemy,German,Cybersecurity,0.1,Online,2019,0.5969989281886389,Cloud Mastery C48 Cloud Cybersecurity
+C49,NLP Mastery C49,NLP,Advanced,0.7066666666666667,Udemy,Hindi,AI,0.1,Offline,2024,0.9046087888531619,NLP Mastery C49 NLP AI
+C50,ML Mastery C50,ML,Intermediate,0.9333333333333333,Skillshare,Spanish,"Computer Vision, C++",0.5,Offline,2017,0.7942122186495177,"ML Mastery C50 ML Computer Vision, C++"
+C51,Big Data Mastery C51,Big Data,Intermediate,0.28,edX,French,"Data Science, NLP",1.0,Hybrid,2015,0.564844587352626,"Big Data Mastery C51 Big Data Data Science, NLP"
+C52,Python Mastery C52,Python,Beginner,0.07999999999999999,Coursera,German,Cybersecurity,0.0,Hybrid,2017,0.0,Python Mastery C52 Python Cybersecurity
+C53,ML Mastery C53,ML,Advanced,0.7733333333333334,Udemy,English,"Computer Vision, AI, Cybersecurity",0.0,Online,2023,0.594855305466238,"ML Mastery C53 ML Computer Vision, AI, Cybersecurity"
+C54,Security Mastery C54,Security,Beginner,0.026666666666666665,Pluralsight,Spanish,"Mobile Dev, Python, Web Development",0.5,Online,2016,0.9978563772775992,"Security Mastery C54 Security Mobile Dev, Python, Web Development"
+C55,SQL Mastery C55,SQL,Advanced,0.25333333333333335,edX,Hindi,"Web Development, Blockchain, Data Science",0.25,Offline,2016,0.3997856377277599,"SQL Mastery C55 SQL Web Development, Blockchain, Data Science"
+C56,Security Mastery C56,Security,Intermediate,0.9600000000000001,edX,Hindi,"SQL, AI",0.0,Online,2021,0.40621650589496244,"Security Mastery C56 Security SQL, AI"
+C57,Security Mastery C57,Security,Advanced,0.8,Coursera,English,"Data Science, Java, Cybersecurity",0.5,Hybrid,2020,0.6109324758842444,"Security Mastery C57 Security Data Science, Java, Cybersecurity"
+C58,SQL Mastery C58,SQL,Advanced,0.06666666666666668,edX,Hindi,"Computer Vision, Deep Learning, Python",0.0,Hybrid,2019,0.9764201500535905,"SQL Mastery C58 SQL Computer Vision, Deep Learning, Python"
+C59,Blockchain Mastery C59,Blockchain,Advanced,0.05333333333333334,edX,Spanish,Cloud Computing,1.0,Online,2021,0.07395498392282958,Blockchain Mastery C59 Blockchain Cloud Computing
+C60,Web Dev Mastery C60,Web Dev,Beginner,0.9600000000000001,edX,French,"AI, Cloud Computing",0.1,Hybrid,2016,0.5391211146838156,"Web Dev Mastery C60 Web Dev AI, Cloud Computing"
+C61,DevOps Mastery C61,DevOps,Intermediate,0.07999999999999999,Coursera,German,SQL,0.25,Hybrid,2024,0.6430868167202572,DevOps Mastery C61 DevOps SQL
+C62,Security Mastery C62,Security,Intermediate,0.04,Skillshare,Spanish,"Computer Vision, Machine Learning",0.25,Hybrid,2021,0.46409431939978557,"Security Mastery C62 Security Computer Vision, Machine Learning"
+C63,AI Mastery C63,AI,Advanced,0.9866666666666667,Skillshare,German,Mobile Dev,0.1,Hybrid,2016,0.08038585209003214,AI Mastery C63 AI Mobile Dev
+C64,Web Dev Mastery C64,Web Dev,Beginner,0.64,Skillshare,Hindi,"DevOps, Data Science, NLP",0.0,Online,2015,0.3279742765273312,"Web Dev Mastery C64 Web Dev DevOps, Data Science, NLP"
+C65,Data Engineering Mastery C65,Data Engineering,Intermediate,0.45333333333333337,Coursera,Hindi,Data Science,0.5,Offline,2023,0.5991425509110397,Data Engineering Mastery C65 Data Engineering Data Science
+C66,Blockchain Mastery C66,Blockchain,Intermediate,0.17333333333333334,Coursera,English,"SQL, Mobile Dev",1.0,Offline,2021,0.003215434083601282,"Blockchain Mastery C66 Blockchain SQL, Mobile Dev"
+C67,Web Dev Mastery C67,Web Dev,Intermediate,0.6533333333333333,Coursera,French,Data Science,0.5,Online,2017,0.285101822079314,Web Dev Mastery C67 Web Dev Data Science
+C68,Web Dev Mastery C68,Web Dev,Intermediate,0.8400000000000001,edX,English,Blockchain,0.25,Offline,2019,0.5209003215434084,Web Dev Mastery C68 Web Dev Blockchain
+C69,Big Data Mastery C69,Big Data,Beginner,0.6133333333333334,Udemy,Hindi,"Computer Vision, Mobile Dev, NLP",0.1,Offline,2016,0.1382636655948553,"Big Data Mastery C69 Big Data Computer Vision, Mobile Dev, NLP"
+C70,Web Dev Mastery C70,Web Dev,Beginner,0.6666666666666667,Udemy,French,"AI, Cybersecurity",0.25,Offline,2025,0.6420150053590569,"Web Dev Mastery C70 Web Dev AI, Cybersecurity"
+C71,AI Mastery C71,AI,Intermediate,0.5466666666666667,Pluralsight,Hindi,"AI, SQL",0.5,Offline,2019,0.7963558413719186,"AI Mastery C71 AI AI, SQL"
+C72,DevOps Mastery C72,DevOps,Advanced,0.8266666666666667,Pluralsight,Hindi,"DevOps, Deep Learning",0.5,Offline,2016,0.6087888531618435,"DevOps Mastery C72 DevOps DevOps, Deep Learning"
+C73,ML Mastery C73,ML,Advanced,0.92,edX,French,NLP,0.1,Offline,2019,0.902465166130761,ML Mastery C73 ML NLP
+C74,DevOps Mastery C74,DevOps,Beginner,0.6933333333333334,Skillshare,German,Mobile Dev,0.1,Offline,2025,0.15862808145766344,DevOps Mastery C74 DevOps Mobile Dev
+C75,DevOps Mastery C75,DevOps,Intermediate,0.64,Coursera,German,"Computer Vision, Mobile Dev, Cloud Computing",1.0,Hybrid,2021,0.5862808145766345,"DevOps Mastery C75 DevOps Computer Vision, Mobile Dev, Cloud Computing"
+C76,Python Mastery C76,Python,Intermediate,0.9066666666666667,Pluralsight,English,Cybersecurity,0.25,Online,2025,0.662379421221865,Python Mastery C76 Python Cybersecurity
+C77,Python Mastery C77,Python,Advanced,0.68,Udemy,German,Python,0.0,Offline,2018,0.54983922829582,Python Mastery C77 Python Python
+C78,DevOps Mastery C78,DevOps,Advanced,0.9466666666666667,Pluralsight,French,NLP,0.25,Offline,2022,0.8370846730975349,DevOps Mastery C78 DevOps NLP
+C79,Computer Vision Mastery C79,Computer Vision,Advanced,0.8533333333333334,edX,Spanish,Computer Vision,0.0,Offline,2021,1.0,Computer Vision Mastery C79 Computer Vision Computer Vision
+C80,SQL Mastery C80,SQL,Beginner,0.24,Udemy,Spanish,"NLP, DevOps",0.1,Hybrid,2022,0.37191854233654875,"SQL Mastery C80 SQL NLP, DevOps"

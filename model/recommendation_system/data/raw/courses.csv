@@ -1,0 +1,81 @@
+course_id,title,topic,difficulty,duration_hours,provider,language,tags,cost_usd,mode,release_year,popularity
+C1,Computer Vision Mastery C1,Computer Vision,Advanced,64,Udemy,French,Machine Learning,100,Online,2019,794
+C2,Cloud Mastery C2,Cloud,Intermediate,50,Coursera,German,Cloud Computing,50,Hybrid,2019,125
+C3,Security Mastery C3,Security,Advanced,61,Pluralsight,Spanish,"Machine Learning, SQL, Java",100,Offline,2020,621
+C4,Cloud Mastery C4,Cloud,Beginner,29,Pluralsight,French,"Java, Python",0,Online,2020,873
+C5,Data Engineering Mastery C5,Data Engineering,Advanced,62,edX,French,"Deep Learning, Data Science, Mobile Dev",50,Online,2021,681
+C6,DevOps Mastery C6,DevOps,Intermediate,79,Udemy,French,"Computer Vision, C++, Mobile Dev",50,Offline,2015,427
+C7,Cloud Mastery C7,Cloud,Advanced,18,DataCamp,French,"Python, Mobile Dev",100,Offline,2025,851
+C8,Big Data Mastery C8,Big Data,Advanced,77,edX,English,"Computer Vision, SQL, Web Development",200,Offline,2017,891
+C9,Computer Vision Mastery C9,Computer Vision,Beginner,8,Pluralsight,English,Python,100,Offline,2021,205
+C10,Security Mastery C10,Security,Advanced,30,DataCamp,French,"Computer Vision, Blockchain, NLP",0,Hybrid,2017,581
+C11,ML Mastery C11,ML,Advanced,45,Skillshare,German,"DevOps, Data Science, SQL",100,Hybrid,2020,609
+C12,Cloud Mastery C12,Cloud,Advanced,37,Pluralsight,German,Cybersecurity,50,Hybrid,2019,280
+C13,Web Dev Mastery C13,Web Dev,Intermediate,30,Skillshare,German,"Computer Vision, Data Science",200,Hybrid,2019,344
+C14,SQL Mastery C14,SQL,Advanced,73,DataCamp,German,"Deep Learning, Computer Vision",0,Offline,2016,404
+C15,Data Engineering Mastery C15,Data Engineering,Advanced,36,Skillshare,German,Cloud Computing,200,Offline,2023,762
+C16,Web Dev Mastery C16,Web Dev,Beginner,17,Pluralsight,French,Cybersecurity,0,Hybrid,2023,281
+C17,Computer Vision Mastery C17,Computer Vision,Beginner,10,Coursera,German,"Computer Vision, Java",20,Online,2023,211
+C18,Security Mastery C18,Security,Advanced,64,DataCamp,Hindi,"AI, Deep Learning",0,Online,2025,637
+C19,ML Mastery C19,ML,Advanced,8,edX,German,Java,100,Offline,2017,816
+C20,Web Dev Mastery C20,Web Dev,Beginner,5,Udemy,French,"Machine Learning, NLP, Data Science",50,Offline,2025,606
+C21,Blockchain Mastery C21,Blockchain,Intermediate,21,Pluralsight,German,"Cloud Computing, DevOps",0,Offline,2017,798
+C22,Data Engineering Mastery C22,Data Engineering,Advanced,36,Skillshare,Hindi,AI,50,Hybrid,2025,825
+C23,ML Mastery C23,ML,Beginner,55,DataCamp,French,"SQL, Cloud Computing",0,Online,2017,538
+C24,Cloud Mastery C24,Cloud,Beginner,4,Udemy,German,NLP,50,Offline,2019,646
+C25,DevOps Mastery C25,DevOps,Advanced,5,Udemy,Spanish,"Cybersecurity, Python, AI",0,Offline,2019,213
+C26,Security Mastery C26,Security,Advanced,68,Skillshare,Spanish,"Machine Learning, AI, Deep Learning",50,Hybrid,2018,274
+C27,AI Mastery C27,AI,Intermediate,23,DataCamp,French,"Blockchain, C++",200,Offline,2023,871
+C28,Computer Vision Mastery C28,Computer Vision,Beginner,35,Skillshare,French,NLP,200,Hybrid,2020,129
+C29,NLP Mastery C29,NLP,Beginner,11,Pluralsight,French,Deep Learning,20,Offline,2023,502
+C30,SQL Mastery C30,SQL,Advanced,30,Skillshare,French,"SQL, NLP",200,Offline,2015,514
+C31,AI Mastery C31,AI,Advanced,57,DataCamp,French,NLP,50,Hybrid,2015,455
+C32,Web Dev Mastery C32,Web Dev,Beginner,31,Pluralsight,English,Blockchain,50,Hybrid,2016,604
+C33,Python Mastery C33,Python,Beginner,64,Coursera,Spanish,"Data Science, DevOps",20,Hybrid,2025,480
+C34,Cloud Mastery C34,Cloud,Intermediate,61,DataCamp,German,Deep Learning,50,Online,2017,600
+C35,Security Mastery C35,Security,Advanced,20,Skillshare,Hindi,Python,50,Offline,2025,786
+C36,Blockchain Mastery C36,Blockchain,Intermediate,72,DataCamp,Hindi,NLP,50,Online,2019,243
+C37,DevOps Mastery C37,DevOps,Beginner,8,Skillshare,German,"Python, Machine Learning, NLP",0,Online,2024,84
+C38,Data Engineering Mastery C38,Data Engineering,Advanced,10,edX,English,"NLP, Machine Learning",200,Online,2015,193
+C39,Blockchain Mastery C39,Blockchain,Intermediate,33,Skillshare,French,"AI, Machine Learning",50,Online,2025,583
+C40,ML Mastery C40,ML,Intermediate,42,Udemy,English,"Data Science, AI, NLP",100,Hybrid,2022,98
+C41,Cloud Mastery C41,Cloud,Advanced,52,Pluralsight,Spanish,"Blockchain, Cloud Computing, SQL",50,Offline,2017,822
+C42,Blockchain Mastery C42,Blockchain,Intermediate,34,edX,Spanish,"Deep Learning, DevOps, Cybersecurity",0,Hybrid,2021,476
+C43,Blockchain Mastery C43,Blockchain,Advanced,21,DataCamp,Hindi,"Cloud Computing, Data Science",0,Offline,2020,144
+C44,Blockchain Mastery C44,Blockchain,Advanced,28,Coursera,Spanish,"Java, Blockchain",0,Online,2024,791
+C45,Computer Vision Mastery C45,Computer Vision,Advanced,31,DataCamp,Hindi,"Mobile Dev, NLP",0,Online,2018,809
+C46,SQL Mastery C46,SQL,Advanced,65,edX,French,"Cloud Computing, Computer Vision, Machine Learning",200,Offline,2019,439
+C47,Data Engineering Mastery C47,Data Engineering,Advanced,49,Udemy,Spanish,"Computer Vision, Cybersecurity",0,Hybrid,2022,829
+C48,Cloud Mastery C48,Cloud,Beginner,51,Udemy,German,Cybersecurity,20,Online,2019,616
+C49,NLP Mastery C49,NLP,Advanced,57,Udemy,Hindi,AI,20,Offline,2024,903
+C50,ML Mastery C50,ML,Intermediate,74,Skillshare,Spanish,"Computer Vision, C++",100,Offline,2017,800
+C51,Big Data Mastery C51,Big Data,Intermediate,25,edX,French,"Data Science, NLP",200,Hybrid,2015,586
+C52,Python Mastery C52,Python,Beginner,10,Coursera,German,Cybersecurity,0,Hybrid,2017,59
+C53,ML Mastery C53,ML,Advanced,62,Udemy,English,"Computer Vision, AI, Cybersecurity",0,Online,2023,614
+C54,Security Mastery C54,Security,Beginner,6,Pluralsight,Spanish,"Mobile Dev, Python, Web Development",100,Online,2016,990
+C55,SQL Mastery C55,SQL,Advanced,23,edX,Hindi,"Web Development, Blockchain, Data Science",50,Offline,2016,432
+C56,Security Mastery C56,Security,Intermediate,76,edX,Hindi,"SQL, AI",0,Online,2021,438
+C57,Security Mastery C57,Security,Advanced,64,Coursera,English,"Data Science, Java, Cybersecurity",100,Hybrid,2020,629
+C58,SQL Mastery C58,SQL,Advanced,9,edX,Hindi,"Computer Vision, Deep Learning, Python",0,Hybrid,2019,970
+C59,Blockchain Mastery C59,Blockchain,Advanced,8,edX,Spanish,Cloud Computing,200,Online,2021,128
+C60,Web Dev Mastery C60,Web Dev,Beginner,76,edX,French,"AI, Cloud Computing",20,Hybrid,2016,562
+C61,DevOps Mastery C61,DevOps,Intermediate,10,Coursera,German,SQL,50,Hybrid,2024,659
+C62,Security Mastery C62,Security,Intermediate,7,Skillshare,Spanish,"Computer Vision, Machine Learning",50,Hybrid,2021,492
+C63,AI Mastery C63,AI,Advanced,78,Skillshare,German,Mobile Dev,20,Hybrid,2016,134
+C64,Web Dev Mastery C64,Web Dev,Beginner,52,Skillshare,Hindi,"DevOps, Data Science, NLP",0,Online,2015,365
+C65,Data Engineering Mastery C65,Data Engineering,Intermediate,38,Coursera,Hindi,Data Science,100,Offline,2023,618
+C66,Blockchain Mastery C66,Blockchain,Intermediate,17,Coursera,English,"SQL, Mobile Dev",200,Offline,2021,62
+C67,Web Dev Mastery C67,Web Dev,Intermediate,53,Coursera,French,Data Science,100,Online,2017,325
+C68,Web Dev Mastery C68,Web Dev,Intermediate,67,edX,English,Blockchain,50,Offline,2019,545
+C69,Big Data Mastery C69,Big Data,Beginner,50,Udemy,Hindi,"Computer Vision, Mobile Dev, NLP",20,Offline,2016,188
+C70,Web Dev Mastery C70,Web Dev,Beginner,54,Udemy,French,"AI, Cybersecurity",50,Offline,2025,658
+C71,AI Mastery C71,AI,Intermediate,45,Pluralsight,Hindi,"AI, SQL",100,Offline,2019,802
+C72,DevOps Mastery C72,DevOps,Advanced,66,Pluralsight,Hindi,"DevOps, Deep Learning",100,Offline,2016,627
+C73,ML Mastery C73,ML,Advanced,73,edX,French,NLP,20,Offline,2019,901
+C74,DevOps Mastery C74,DevOps,Beginner,56,Skillshare,German,Mobile Dev,20,Offline,2025,207
+C75,DevOps Mastery C75,DevOps,Intermediate,52,Coursera,German,"Computer Vision, Mobile Dev, Cloud Computing",200,Hybrid,2021,606
+C76,Python Mastery C76,Python,Intermediate,72,Pluralsight,English,Cybersecurity,50,Online,2025,677
+C77,Python Mastery C77,Python,Advanced,55,Udemy,German,Python,0,Offline,2018,572
+C78,DevOps Mastery C78,DevOps,Advanced,75,Pluralsight,French,NLP,50,Offline,2022,840
+C79,Computer Vision Mastery C79,Computer Vision,Advanced,68,edX,Spanish,Computer Vision,0,Offline,2021,992
+C80,SQL Mastery C80,SQL,Beginner,22,Udemy,Spanish,"NLP, DevOps",20,Hybrid,2022,406
