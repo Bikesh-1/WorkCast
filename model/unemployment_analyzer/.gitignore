@@ -1,0 +1,17 @@
+Byte-compiled / optimized / DLL files
+pycache/
+*.pyc
+*.pyd
+*.pyo
+
+Virtual environment
+venv/
+.env
+
+Machine learning model file
+!unemployment_model.joblib
+
+Other common ignores
+.ipynb_checkpoints
+.vscode/
+

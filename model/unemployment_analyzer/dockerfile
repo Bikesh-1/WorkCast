@@ -1,0 +1,19 @@
+# Use Python 3.9 slim as base image
+FROM python:3.9-slim
+
+# Set the working directory inside the container
+WORKDIR /app
+
+# Copy requirements first (for better caching) and install dependencies
+COPY requirements.txt .
+RUN pip install --no-cache-dir -r requirements.txt
+
+# Copy model and app files into container
+COPY unemployment_model.joblib .
+COPY app.py .
+
+# Expose the port (Flask usually runs on 5000)
+EXPOSE 5000
+
+# Run the app
+CMD ["python", "app.py"]
