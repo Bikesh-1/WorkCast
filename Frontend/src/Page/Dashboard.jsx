@@ -1,9 +1,91 @@
-import React from 'react'
+import React from 'react';
+import { useAppContext } from '../context/AppContext';
 
 function Dashboard() {
+  const { user, logout } = useAppContext();
+
+  const userName = user?.fullName || user?.username || "User";
+  const userEmail = user?.email || "No email";
+  const userUsername = user?.username || "No username";
+  const userProfileImg = `https://ui-avatars.com/api/?name=${encodeURIComponent(userName)}&background=0D8ABC&color=fff`;
+
+  const handleLogout = async () => {
+    await logout();
+    window.location.href = "/login";
+  };
+
+  const handleCustomize = () => {
+    alert("Customize profile coming soon!");
+  };
+
   return (
-    <div>Dashboard</div>
-  )
+    <div className="min-h-screen bg-black text-white">
+      <nav className="w-full flex items-center justify-between px-8 py-4 bg-zinc-900 shadow-md">
+        <div className="flex items-center">
+          <a href="/">
+            <img
+              src="https://ik.imagekit.io/lxvqyrkjo/Group%201.svg?updatedAt=1757147618895"
+              alt="Logo"
+              className="h-12 w-auto"
+            />
+          </a>
+        </div>
+        <div className="flex items-center gap-4">
+          <img
+            src={userProfileImg}
+            alt="User Profile"
+            className="h-10 w-10 rounded-full border-2 border-indigo-500 object-cover"
+          />
+          <button
+            onClick={handleLogout}
+            className="bg-indigo-600 hover:bg-indigo-700 text-white px-4 py-2 rounded-lg font-medium transition"
+          >
+            Logout
+          </button>
+        </div>
+      </nav>
+      <div className="flex flex-row min-h-[calc(100vh-80px)]">
+        {/* Profile Card on the left */}
+        <div className="w-full max-w-xs bg-zinc-900 rounded-2xl shadow-lg p-8 m-8 flex flex-col items-center justify-between min-h-[400px]">
+          <div className="flex flex-col items-center w-full">
+            <img
+              src={userProfileImg}
+              alt="User Profile"
+              className="h-24 w-24 rounded-full border-4 border-indigo-500 object-cover mb-4"
+            />
+            <h2 className="text-xl font-bold mb-1">{userName}</h2>
+            <p className="text-gray-400 text-sm mb-1 break-all">{userEmail}</p>
+            <p className="text-gray-400 text-sm mb-4">Username: <span className="font-mono">{userUsername}</span></p>
+          </div>
+          <button
+            onClick={handleCustomize}
+            className="mt-8 w-full bg-indigo-600 hover:bg-indigo-700 text-white py-2 rounded-lg font-medium transition"
+          >
+            Customize
+          </button>
+        </div>
+        {/* Main Dashboard Content */}
+        <div className="flex-1 flex flex-col p-8">
+          <div className="flex flex-row gap-8 mb-8">
+            {/* Predict Unemployment Risks Card */}
+            <div className="flex-1 bg-zinc-900 rounded-2xl shadow-lg p-8 flex items-center justify-center min-h-[200px]">
+              <span className="text-lg text-center text-gray-200">
+                predict unemployment risks
+              </span>
+            </div>
+          </div>
+          <div className="flex flex-row gap-8">
+            {/* Recommend Personalized Skilling Courses Card */}
+            <div className="flex-1 bg-zinc-900 rounded-2xl shadow-lg p-8 flex items-center justify-center min-h-[150px]">
+              <span className="text-lg text-center text-gray-200">
+                based on their profiles, and recommend personalized skilling courses
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
 }
 
-export default Dashboard
+export default Dashboard;
