@@ -30,22 +30,34 @@ export default function Login() {
   };
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-50 px-4">
-      <div className="w-full max-w-md bg-white rounded-2xl shadow-lg p-8">
-        <h2 className="text-2xl font-bold text-gray-800 text-center">Login</h2>
-        <p className="text-sm text-gray-500 text-center mb-6">
+    <div className="min-h-screen flex items-center justify-center bg-black px-4 text-white relative">
+      {/* Logo on top left */}
+      <div className="absolute top-6 left-6">
+        <a href="/">
+          {/* Replace src with your logo path if needed */}
+          <img
+            src="https://ik.imagekit.io/lxvqyrkjo/Group%201.svg?updatedAt=1757147618895"
+            alt="Logo"
+            className="h-10 w-auto"
+            
+          />
+        </a>
+      </div>
+      <div className="w-full max-w-md bg-zinc-900 rounded-2xl shadow-lg p-8 text-white">
+        <h2 className="text-2xl font-bold text-white text-center">Login</h2>
+        <p className="text-sm text-gray-300 text-center mb-6">
           Welcome back! Please login to your account
         </p>
 
         {error && (
-          <div className="mb-4 p-3 rounded-lg bg-red-100 text-red-600 text-sm">
+          <div className="mb-4 p-3 rounded-lg bg-red-900 bg-opacity-30 text-red-300 text-sm">
             {error}
           </div>
         )}
 
         <form onSubmit={handleSubmit} className="space-y-5">
           <div>
-            <label className="block text-sm font-medium text-gray-700">
+            <label className="block text-sm font-medium text-gray-200">
               Email or Username
             </label>
             <input
@@ -55,12 +67,12 @@ export default function Login() {
               onChange={handleChange}
               placeholder="Enter email or username"
               required
-              className="mt-1 w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-indigo-500 focus:outline-none"
+              className="mt-1 w-full px-4 py-2 border border-gray-700 bg-black text-white rounded-lg focus:ring-2 focus:ring-indigo-500 focus:outline-none"
             />
           </div>
 
           <div>
-            <label className="block text-sm font-medium text-gray-700">
+            <label className="block text-sm font-medium text-gray-200">
               Password
             </label>
             <input
@@ -70,7 +82,7 @@ export default function Login() {
               onChange={handleChange}
               placeholder="Enter password"
               required
-              className="mt-1 w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-indigo-500 focus:outline-none"
+              className="mt-1 w-full px-4 py-2 border border-gray-700 bg-black text-white rounded-lg focus:ring-2 focus:ring-indigo-500 focus:outline-none"
             />
           </div>
 
@@ -83,9 +95,9 @@ export default function Login() {
           </button>
         </form>
 
-        <p className="mt-6 text-center text-sm text-gray-500">
+        <p className="mt-6 text-center text-sm text-gray-300">
           Don’t have an account?{" "}
-          <a href="/signup" className="text-indigo-600 font-medium hover:underline">
+          <a href="/signup" className="text-indigo-400 font-medium hover:underline">
             Sign up
           </a>
         </p>

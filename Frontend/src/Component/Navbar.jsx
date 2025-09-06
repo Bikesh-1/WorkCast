@@ -1,7 +1,14 @@
 import React from 'react'
 import { InteractiveHoverButton } from "../components/magicui/interactive-hover-button";
+import { useNavigate } from "react-router-dom";
 
 function Navbar() {
+  const navigate = useNavigate();
+
+  const handleLoginSignupClick = () => {
+    navigate("/login");
+  };
+
   return (
     <nav className="w-full px-8 py-4 flex justify-between items-center absolute top-0 left-0 z-50 bg-transparent">
 
@@ -58,7 +65,7 @@ function Navbar() {
 
       {/* Login/Signup Button */}
       <div className="flex space-x-4 items-center" style={{ minWidth: 0, flexShrink: 0, flexGrow: 0 }}>
-        <InteractiveHoverButton>Login/Signup</InteractiveHoverButton>
+        <InteractiveHoverButton onClick={handleLoginSignupClick}>Login/Signup</InteractiveHoverButton>
       </div>
     </nav>
   )

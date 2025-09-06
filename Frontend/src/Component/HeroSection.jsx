@@ -5,8 +5,15 @@ import Navbar from './Navbar.jsx';
 import CardSwap, { Card } from '../components/CardSwap.jsx';
 import { RainbowButton } from "../components/magicui/rainbow-button";
 import { ShinyButton } from "../components/magicui/shiny-button";
+import { useNavigate } from "react-router-dom";
 
 function HeroSection() {
+  const navigate = useNavigate();
+
+  const handleRedirectToLogin = () => {
+    navigate("/login");
+  };
+
   return (
     <div className="relative flex size-full items-center justify-center overflow-hidden bg-background bg-black w-[100vw] h-[100vh] ">
       <GridPattern
@@ -36,8 +43,8 @@ function HeroSection() {
           </p>
         </div>
         <div className="flex flex-row gap-4 relative z-20">
-          <ShinyButton>Get Started Free</ShinyButton>
-          <RainbowButton>Check Your Career Risk Score</RainbowButton>
+          <ShinyButton onClick={handleRedirectToLogin}>Get Started Free</ShinyButton>
+          <RainbowButton onClick={handleRedirectToLogin}>Check Your Career Risk Score</RainbowButton>
         </div>
       </div>
       <div style={{ height: '600px', position: 'relative' }}>
