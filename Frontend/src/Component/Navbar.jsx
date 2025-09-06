@@ -1,9 +1,9 @@
 import React from 'react'
-import { InteractiveHoverButton } from "..//components/magicui/interactive-hover-button";
+import { InteractiveHoverButton } from "../components/magicui/interactive-hover-button";
 
 function Navbar() {
   return (
-    <nav className="w-full px-8 py-4 flex justify-between items-center fixed top-0 left-0 z-50 bg-transparent">
+    <nav className="w-full px-8 py-4 flex justify-between items-center absolute top-0 left-0 z-50 bg-transparent">
 
       {/* Logo */}
       <div className="flex items-center" style={{ minWidth: 0 }}>

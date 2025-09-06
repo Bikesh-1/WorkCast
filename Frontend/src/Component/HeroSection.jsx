@@ -8,7 +8,7 @@ import { ShinyButton } from "../components/magicui/shiny-button";
 
 function HeroSection() {
   return (
-    <div className="relative flex size-full items-center justify-center overflow-hidden bg-background bg-black w-[100vw] h-[100vh]">
+    <div className="relative flex size-full items-center justify-center overflow-hidden bg-background bg-black w-[100vw] h-[100vh] ">
       <GridPattern
         width={40}
         height={40}
