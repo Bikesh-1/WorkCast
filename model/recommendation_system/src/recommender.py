@@ -1,3 +1,4 @@
+# src/recommender.py
 import pandas as pd
 
 # -------- Content-based --------
@@ -32,3 +33,17 @@ def hybrid_recommendations(user_id, users, courses, interactions, top_n=5):
     content["hybrid_score"] = (content["content_score"] + content["collab_score"]) / 2
     hybrid = content.sort_values("hybrid_score", ascending=False).head(top_n)
     return hybrid[["course_id", "title", "hybrid_score", "user_id"]]
+
+# -------- Wrapper Class --------
+class Recommender:
+    def __init__(self):
+        # Load your CSVs here (adjust paths if needed)
+        self.users = pd.read_csv("data/users.csv")
+        self.courses = pd.read_csv("data/courses.csv")
+        self.interactions = pd.read_csv("data/interactions.csv")
+
+    def recommend(self, user_id: int, skills: list[str] = [], past_courses: list[str] = [], top_n: int = 5):
+        # Right now: use hybrid method
+        recs = hybrid_recommendations(user_id, self.users, self.courses, self.interactions, top_n)
+        # Convert to dictionary list for API response
+        return recs.to_dict(orient="records")
