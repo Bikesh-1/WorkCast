@@ -1,0 +1,58 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.eggs/
+*.egg
+dist/
+build/
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+*.env
+*.venv
+
+# Jupyter
+.ipynb_checkpoints
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Docker
+*.pid
+*.tar
+*.lock
+docker-compose.override.yml
+
+# Models & artifacts
+*.pkl
+*.joblib
+artifacts/
+checkpoints/
+models/
+
+!resume_classifier_model.joblib
+!tfidf_vectorizer.joblib
+!label_encoder.joblib
+# Render/Heroku specific
+*.db
+*.sqlite3
+
+# Cache
+.cache/
+.mypy_cache/
+.pytest_cache/
