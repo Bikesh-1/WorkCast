@@ -1,17 +1,22 @@
 from fastapi import FastAPI
+import pickle
 from src.recommender import content_based_recommendations, hybrid_recommendations
-import pandas as pd
 
 app = FastAPI()
 
-# load data once
-users = pd.read_csv("data/raw/users.csv")
-courses = pd.read_csv("data/raw/courses.csv")
-interactions = pd.read_csv("data/raw/interactions.csv")
+# Load pre-saved objects
+with open("model/users.pkl", "rb") as f:
+    users = pickle.load(f)
+
+with open("model/courses.pkl", "rb") as f:
+    courses = pickle.load(f)
+
+with open("model/interactions.pkl", "rb") as f:
+    interactions = pickle.load(f)
 
 @app.get("/")
 def home():
-    return {"msg": "Recommendation API is running!"}
+    return {"msg": "Recommendation API is running with Pickle!"}
 
 @app.get("/recommendations/content/{user_id}")
 def get_content_recs(user_id: int, top_n: int = 5):

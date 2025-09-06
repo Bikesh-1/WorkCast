@@ -1,8 +1,5 @@
-pandas
-scikit-learn
-streamlit
-numpy
 fastapi
 uvicorn
 pandas
-pydantic
+scikit-learn
+pickle5
