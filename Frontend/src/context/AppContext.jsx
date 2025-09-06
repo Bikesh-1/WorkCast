@@ -1,5 +1,5 @@
-// src/context/AppContext.jsx
 import { createContext, useContext, useEffect, useState } from "react";
+import axios from "axios";
 
 const AppContext = createContext();
 
@@ -7,65 +7,53 @@ export const AppProvider = ({ children }) => {
   const [user, setUser] = useState(null);
   const [loading, setLoading] = useState(true);
 
-  const BASE_URL = "http://localhost:5000/api/v1/users";
+  // Axios instance with the full backend URL
+  const api = axios.create({
+    baseURL: "http://localhost:3000/api/v1/users",
+    withCredentials: true,
+    headers: {
+      "Content-Type": "application/json",
+    },
+  });
 
+  // fetch current user on load
   const fetchCurrentUser = async () => {
     try {
-      const res = await fetch(`${BASE_URL}/current-user`, {
-        method: "GET",
-        credentials: "include", 
-      });
-
-      if (!res.ok) throw new Error("Not authenticated");
-      const data = await res.json();
-      setUser(data.data); 
-    } catch (error) {
+      const { data } = await api.get("/current-user");
+      setUser(data.data);
+    } catch (err) {
       setUser(null);
     } finally {
       setLoading(false);
     }
   };
 
-  const signup = async (formData) => {
-    const res = await fetch(`${BASE_URL}/register`, {
-      method: "POST",
-      credentials: "include",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify(formData),
-    });
-
-    const data = await res.json();
-    if (res.ok) {
-      setUser(data.data);
-    } else {
-      throw new Error(data.message || "Signup failed");
-    }
-  };
-
-  // ✅ Login function
   const login = async (formData) => {
-    const res = await fetch(`${BASE_URL}/login`, {
-      method: "POST",
-      credentials: "include",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify(formData),
-    });
-
-    const data = await res.json();
-    if (res.ok) {
+    try {
+      const { data } = await api.post("/login", formData);
       setUser(data.data.user);
-    } else {
-      throw new Error(data.message || "Login failed");
+    } catch (err) {
+      throw new Error(err.response?.data?.message || "Login failed");
     }
   };
 
-  // ✅ Logout function
+  const signup = async (formData) => {
+    try {
+      const { data } = await api.post("/register", formData);
+      // Corrected: Set user from the nested 'user' object in the response
+      setUser(data.data.user);
+    } catch (err) {
+      throw new Error(err.response?.data?.message || "Signup failed");
+    }
+  };
+
   const logout = async () => {
-    await fetch(`${BASE_URL}/logout`, {
-      method: "POST",
-      credentials: "include",
-    });
-    setUser(null);
+    try {
+      await api.post("/logout");
+      setUser(null);
+    } catch (err) {
+      console.error("Logout failed", err);
+    }
   };
 
   useEffect(() => {
@@ -73,12 +61,11 @@ export const AppProvider = ({ children }) => {
   }, []);
 
   return (
-    <AppContext.Provider
-      value={{ user, loading, login, signup, logout }}
-    >
+    <AppContext.Provider value={{ user, loading, login, signup, logout }}>
       {children}
     </AppContext.Provider>
   );
 };
 
 export const useAppContext = () => useContext(AppContext);
+

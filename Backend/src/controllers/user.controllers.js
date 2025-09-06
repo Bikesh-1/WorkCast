@@ -43,16 +43,6 @@ const registerUser = asyncHandler(async(req,res)=>{
         throw new ApiError(409, "User with email or username already exists")
     }
 
-    // const profilePhotoLocalPath = req.file?.path;
-    // if(!profilePhotoLocalPath){
-    //     throw new ApiError(400, "Profile photo is required")
-    // }
-
-    // const profilePhoto = await uploadOnCloudinary(profilePhotoLocalPath)
-    // if(!profilePhoto){
-    //     throw new ApiError(500, "Failed to upload profile photo")
-    // }
-
     const user = await User.create({
         fullName,
         email,
@@ -60,14 +50,29 @@ const registerUser = asyncHandler(async(req,res)=>{
         password,
     })
 
-    const createdUser = await User.findById(user._id).select(
-        "-password -refreshToken"
-    )
-    if(!createdUser){
+    if(!user){
         throw new ApiError(500, "Something went wrong while registring the user")
     }
-    return res.status(201).json(
-        new ApiResponse(200, createdUser, "User registered successfully")
+
+    // After creating the user, generate tokens to log them in
+    const { accessToken, refreshToken } = await generateAccessAndRefereshTokens(user._id);
+
+    const loggedInUser = await User.findById(user._id).select(
+        "-password -refreshToken"
+    )
+
+    const options = {
+        httpOnly: true,
+        secure: true
+    }
+
+    return res.status(201)
+    .cookie("accessToken", accessToken, options)
+    .cookie("refreshToken", refreshToken, options)
+    .json(
+        new ApiResponse(200, {
+            user: loggedInUser, accessToken, refreshToken
+        }, "User registered successfully")
     )
 })
 
@@ -86,7 +91,7 @@ const loginUser = asyncHandler(async(req, res)=>{
         throw new ApiError(404, "User does not exists")
     }
 
-    const isPasswordValid = await user.isPasswordValid(password)
+    const isPasswordValid = await user.isPasswordCorrect(password)
 
     if(!isPasswordValid){
         throw new ApiError(401, "Invalid user cradentials")
@@ -122,7 +127,7 @@ const loggedOut = asyncHandler(async(req, res)=>{
         req.user._id,
         {
             $unset: {
-                refreshToken: 1
+                refreshToken: 1 // this removes the field from document
             }
         },
         {
@@ -135,8 +140,8 @@ const loggedOut = asyncHandler(async(req, res)=>{
     }
     return res
     .status(200)
-    // .cookie("accessToken", accessToken)
-    // .cookie("refreshToken", refreshToken)
+    .clearCookie("accessToken", options)
+    .clearCookie("refreshToken", options)
     .json(new ApiResponse(200, {}, "User logged out successfully"))
 })
 

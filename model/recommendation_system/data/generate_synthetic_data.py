@@ -1,3 +1,4 @@
+#data/generate_synthetic_data.py
 import pandas as pd
 import numpy as np
 import random

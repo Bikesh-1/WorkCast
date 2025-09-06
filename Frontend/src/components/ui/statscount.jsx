@@ -170,7 +170,7 @@ export default function StatsCount({
           </div>
         </h2>
       </motion.div>
-      <div className={cn("w-full max-w-6xl mx-auto")}>\n        <div
+      <div className={cn("w-full max-w-6xl mx-auto")}>     <div
         className={cn(
           "flex flex-row items-stretch justify-between gap-2 sm:gap-4 lg:gap-8 w-full min-h-[120px] sm:min-h-[140px]"
         )}>
