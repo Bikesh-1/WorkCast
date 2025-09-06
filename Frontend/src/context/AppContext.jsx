@@ -7,7 +7,7 @@ export const AppProvider = ({ children }) => {
   const [user, setUser] = useState(null);
   const [loading, setLoading] = useState(true);
 
-  const BASE_URL = "http://localhost:5000/api/v1/users";
+  const BASE_URL = "http://localhost:3000/api/v1/users";
 
   const fetchCurrentUser = async () => {
     try {
