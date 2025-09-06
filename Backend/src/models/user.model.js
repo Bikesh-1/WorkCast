@@ -36,8 +36,8 @@ const userSchema = new Schema({
         type: String
     },
     linkedinProfile: {
-        type: String,
-    },
+  type: String,
+},
     qualification: {
         type: String,
     },
