@@ -189,6 +189,45 @@ const updateUserProfile = asyncHandler(async(req, res)=>{
     .json(new ApiResponse(200, user, "profile update successfully"))
 })
 
+const predictUnemploymentRate = asyncHandler(async (req, res) => {
+    const {
+        Region,
+        Date,
+        Frequency,
+        EstimatedEmployed,
+        EstimatedLabourParticipationRate,
+        Area
+    } = req.body;
+
+    if (!Region || !Date || !Frequency) {
+        throw new ApiError(400, "All required fields must be provided.");
+    }
+
+    try {
+        const pythonApiResponse = await axios.post('https://unemployment-analyzer.onrender.com', {
+            'Region': Region,
+            'Date': Date,
+            'Frequency': Frequency,
+            'Estimated Employed': EstimatedEmployed,
+            'Estimated Labour Participation Rate': EstimatedLabourParticipationRate,
+            'Area': Area
+        });
+
+        const predictionResult = pythonApiResponse.data.prediction;
+
+        return res.status(200).json(
+            new ApiResponse(
+                200,
+                { prediction: predictionResult },
+                "Prediction successful"
+            )
+        );
+
+    } catch (error) {
+        console.error("Error calling prediction service:", error.message);
+        throw new ApiError(500, "Failed to get prediction from AI service.");
+    }
+});
 
 
 
@@ -198,5 +237,6 @@ export {
     loginUser,
     loggedOut,
     getCurrentUser,
-    updateUserProfile
+    updateUserProfile,
+    predictUnemploymentRate
 }
