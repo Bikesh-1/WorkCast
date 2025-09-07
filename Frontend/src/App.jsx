@@ -3,6 +3,7 @@ import Home from './Page/Home';
 import Login from './Page/Login';
 import Signup from './Page/Signup';
 import Dashboard from './Page/Dashboard';
+import Prediction from './Component/PredictionModal';
 import { AppProvider, useAppContext } from '../../Frontend/src/context/AppContext';
 
 // A special component to protect routes that require authentication
@@ -31,6 +32,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/login" element={<Login />} />
           <Route path="/signup" element={<Signup />} />
+          <Route path="/predict" element={<Prediction />} />
           <Route
             path="/dashboard"
             element={
