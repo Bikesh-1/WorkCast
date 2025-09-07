@@ -26,7 +26,7 @@ const ResumeModal = ({ isOpen, onClose, onResult }) => {
 
     try {
       const response = await axios.post(
-        'http://localhost:3000/api/v1/users/analyze-resume',
+        'https://workcast-bxn0.onrender.com/api/v1/users/analyze-resume',
         { resume_text: resumeText }
       );
 

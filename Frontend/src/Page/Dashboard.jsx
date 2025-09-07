@@ -33,7 +33,7 @@ function Dashboard() {
 
       try {
         const response = await fetch(
-          `http://localhost:3000/api/v1/users/recommendations/${user._id}?top_n=5`
+          `https://workcast-bxn0.onrender.com/api/v1/users/recommendations/${user._id}?top_n=5`
         );
 
         if (!response.ok) {

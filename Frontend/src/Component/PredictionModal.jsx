@@ -58,7 +58,7 @@ const PredictionModal = ({ isOpen, onClose, onPrediction }) => {
     setLoading(true);
     try {
       const response = await axios.post(
-        'http://localhost:3000/api/v1/users/predict',
+        'https://workcast-bxn0.onrender.com/api/v1/users/predict',
         formData
       );
       setPrediction(response.data.predicted_probability);
