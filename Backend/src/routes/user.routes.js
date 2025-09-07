@@ -49,6 +49,7 @@ router.route("/analyze-resume").post(async (req, res) => {
 });
 
 // Recommendations
+// Recommendations Route
 router.route("/recommendations/:userId").get(async (req, res) => {
     try {
       const { userId } = req.params;
@@ -56,15 +57,19 @@ router.route("/recommendations/:userId").get(async (req, res) => {
   
       console.log("Fetching recommendations for userId:", userId, "top_n:", top_n);
   
-      // Check if user exists in DB
-      const user = await User.findOne({ recommenderId: parseInt(userId) });
+      // Find user by MongoDB _id
+      const user = await User.findById(userId);
       if (!user) {
         return res.status(404).json({ error: `User ${userId} not found in DB.` });
       }
   
-      // Call WorkCast API
+      // Now call external WorkCast API using recommenderId
+      if (!user.recommenderId) {
+        return res.status(400).json({ error: "User does not have a recommenderId." });
+      }
+  
       const response = await axios.get(
-        `https://workcast-qizn.onrender.com/recommendations/${userId}?top_n=${top_n}`
+        `https://workcast-qizn.onrender.com/recommendations/${user.recommenderId}?top_n=${top_n}`
       );
   
       res.status(200).json(response.data);
@@ -77,6 +82,7 @@ router.route("/recommendations/:userId").get(async (req, res) => {
       });
     }
   });
+
   
   
 

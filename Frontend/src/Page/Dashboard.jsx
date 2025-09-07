@@ -7,15 +7,18 @@ import RecommendedCourses from '../Component/RecommendedCourses';
 function Dashboard() {
   const { user, logout } = useAppContext();
 
+  // Modal visibility
   const [isPredictionOpen, setIsPredictionOpen] = useState(false);
   const [isResumeModalOpen, setIsResumeModalOpen] = useState(false);
 
+  // Data states
   const [predictionResult, setPredictionResult] = useState(null);
   const [resumeResult, setResumeResult] = useState(null);
   const [recommendations, setRecommendations] = useState([]);
   const [loadingRecommendations, setLoadingRecommendations] = useState(true);
   const [recommendationError, setRecommendationError] = useState('');
 
+  // User info
   const userName = user?.fullName || user?.username || "User";
   const userEmail = user?.email || "No email available";
   const userUsername = user?.username || "N/A";
@@ -23,7 +26,7 @@ function Dashboard() {
     userName
   )}&background=0D8ABC&color=fff`;
 
-  // --- DATA FETCHING ---
+  // --- Fetch Recommendations ---
   useEffect(() => {
     const fetchRecommendations = async () => {
       if (!user?._id) {
@@ -39,14 +42,12 @@ function Dashboard() {
           `http://localhost:3000/api/v1/users/recommendations/${user._id}?top_n=5`
         );
 
-        // Handle HTTP errors
         if (!response.ok) {
           const errText = await response.text();
           console.error("Raw error response:", errText);
           throw new Error(`HTTP error! status: ${response.status}`);
         }
 
-        // Attempt to parse JSON
         const data = await response.json();
 
         if (data.error) {
@@ -69,7 +70,7 @@ function Dashboard() {
     fetchRecommendations();
   }, [user]);
 
-  // --- EVENT HANDLERS ---
+  // --- Event Handlers ---
   const handleLogout = async () => {
     await logout();
     window.location.href = "/login";
