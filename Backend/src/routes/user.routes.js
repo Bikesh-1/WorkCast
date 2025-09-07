@@ -11,6 +11,7 @@ import { verifyJWT } from "../middlewares/auth.middleware.js";
 import axios from "axios";
 import { spawn } from "child_process";
 import path from "path";
+import { User } from "../models/user.model.js"; // adjust the path if needed
 
 const router = Router();
 
@@ -50,26 +51,26 @@ router.route("/analyze-resume").post(async (req, res) => {
 
 // Recommendations
 // Recommendations Route
-router.route("/recommendations/:userId").get(async (req, res) => {
+router.get("/recommendations/:userId", async (req, res) => {
     try {
       const { userId } = req.params;
       const top_n = req.query.top_n || 5;
   
       console.log("Fetching recommendations for userId:", userId, "top_n:", top_n);
   
-      // Find user by MongoDB _id
+      // Look up MongoDB user by _id
       const user = await User.findById(userId);
       if (!user) {
         return res.status(404).json({ error: `User ${userId} not found in DB.` });
       }
   
-      // Now call external WorkCast API using recommenderId
       if (!user.recommenderId) {
-        return res.status(400).json({ error: "User does not have a recommenderId." });
+        return res.status(400).json({ error: "User does not have a recommenderId" });
       }
   
+      // Call external WorkCast API with recommenderId
       const response = await axios.get(
-        `https://workcast-qizn.onrender.com/recommendations/${user.recommenderId}?top_n=${top_n}`
+        `https://workcast-qizn.onrender.com/recommendations/${user._id}?top_n=${top_n}`
       );
   
       res.status(200).json(response.data);
@@ -82,10 +83,4 @@ router.route("/recommendations/:userId").get(async (req, res) => {
       });
     }
   });
-
-  
-  
-
-
-
 export default router;
