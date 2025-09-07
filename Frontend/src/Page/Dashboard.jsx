@@ -1,12 +1,16 @@
 import React, { useState } from 'react';
 import { useAppContext } from '../context/AppContext';
-import PredictionModal from '../Component/PredictionModal'; 
+import PredictionModal from '../Component/PredictionModal';
 import ResumeModal from '../Component/ResumeModal';
 
 function Dashboard() {
   const { user, logout } = useAppContext();
   const [isPredictionOpen, setIsPredictionOpen] = useState(false);
   const [isResumeModalOpen, setIsResumeModalOpen] = useState(false);
+
+  // Store results
+  const [predictionResult, setPredictionResult] = useState(null);
+  const [resumeResult, setResumeResult] = useState(null);
 
   // User info
   const userName = user?.fullName || user?.username || "User";
@@ -27,6 +31,17 @@ function Dashboard() {
 
   const openPredictionModal = () => setIsPredictionOpen(true);
   const closePredictionModal = () => setIsPredictionOpen(false);
+
+  // Callbacks from modals
+  const handleResumeResult = (data) => {
+    setResumeResult(data);
+    setIsResumeModalOpen(false);
+  };
+
+  const handlePredictionResult = (data) => {
+    setPredictionResult(data);
+    setIsPredictionOpen(false);
+  };
 
   return (
     <div className="min-h-screen bg-black text-white">
@@ -91,10 +106,28 @@ function Dashboard() {
               >
                 Predict Unemployment Risk
               </button>
+              {predictionResult && (
+                <div className="mt-4 text-center">
+                  <h3 className="text-lg font-semibold">Prediction Result</h3>
+                  <p className="text-gray-300 mt-2 text-lg">{(predictionResult * 100).toFixed(2)}</p>
+                </div>
+              )}
             </div>
           </div>
 
           <div className="flex flex-row gap-8">
+            {/* Resume Analysis Result */}
+            <div className="flex-1 bg-zinc-900 rounded-2xl shadow-lg p-8 min-h-[150px]">
+              <h3 className="text-lg font-semibold mb-2">Resume Analysis</h3>
+              {resumeResult ? (
+                <p className="text-gray-300 text-sm whitespace-pre-wrap">
+                  {resumeResult}
+                </p>
+              ) : (
+                <span className="text-gray-500">No analysis yet.</span>
+              )}
+            </div>
+
             {/* Recommend Personalized Skilling Courses Card */}
             <div className="flex-1 bg-zinc-900 rounded-2xl shadow-lg p-8 flex items-center justify-center min-h-[150px]">
               <span className="text-lg text-center text-gray-200">
@@ -105,9 +138,17 @@ function Dashboard() {
         </div>
       </div>
 
-      {/* Modals (kept outside main content for proper overlay) */}
-      <ResumeModal isOpen={isResumeModalOpen} onClose={handleCloseResumeModal} />
-      <PredictionModal isOpen={isPredictionOpen} onClose={closePredictionModal} />
+      {/* Modals */}
+      <ResumeModal
+        isOpen={isResumeModalOpen}
+        onClose={handleCloseResumeModal}
+        onResult={handleResumeResult} // pass callback
+      />
+      <PredictionModal
+        isOpen={isPredictionOpen}
+        onClose={closePredictionModal}
+        onPrediction={handlePredictionResult} // pass callback
+      />
     </div>
   );
 }
