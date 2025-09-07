@@ -8,7 +8,7 @@ export const AppProvider = ({ children }) => {
   const [loading, setLoading] = useState(true);
 
   const api = axios.create({
-    baseURL: "http://localhost:3000/api/v1/users",
+    baseURL: "hhttps://workcast-bxn0.onrender.com/api/v1/users",
     withCredentials: true,
     headers: {
       "Content-Type": "application/json",
