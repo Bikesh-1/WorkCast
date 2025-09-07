@@ -1,52 +1,100 @@
 import React, { useState } from 'react';
-import PredictionModal from '../Component/PredictionModal';
+import { useAppContext } from '../context/AppContext';
+import PredictionModal from '../Component/PredictionModal'; 
 
-const Dashboard = () => {
-  const [isModalOpen, setIsModalOpen] = useState(false);
+function Dashboard() {
+  const { user, logout } = useAppContext();
+  const [isPredictionOpen, setIsPredictionOpen] = useState(false);
 
-  const handleOpenModal = () => setIsModalOpen(true);
-  const handleCloseModal = () => setIsModalOpen(false);
+  const userName = user?.fullName || user?.username || "User";
+  const userEmail = user?.email || "No email";
+  const userUsername = user?.username || "No username";
+  const userProfileImg = `https://ui-avatars.com/api/?name=${encodeURIComponent(userName)}&background=0D8ABC&color=fff`;
+
+  const handleLogout = async () => {
+    await logout();
+    window.location.href = "/login";
+  };
+
+  const handleCustomize = () => {
+    alert("Customize profile coming soon!");
+  };
+
+  const openPredictionModal = () => setIsPredictionOpen(true);
+  const closePredictionModal = () => setIsPredictionOpen(false);
 
   return (
-    <div className="min-h-screen bg-gray-100">
-      <div className="container mx-auto p-4 sm:p-6 lg:p-8">
-        <div className="flex flex-col lg:flex-row lg:space-x-8">
-          {/* Main Content */}
-          <div className="flex-1">
-            <div className="bg-white shadow rounded-lg p-6 mb-8">
-              <h1 className="text-3xl font-bold text-gray-800">Dashboard</h1>
-              <p className="mt-2 text-gray-600">Welcome to your dashboard!</p>
+    <div className="min-h-screen bg-black text-white">
+      <nav className="w-full flex items-center justify-between px-8 py-4 bg-zinc-900 shadow-md">
+        <div className="flex items-center">
+          <a href="/">
+            <img
+              src="https://ik.imagekit.io/lxvqyrkjo/Group%201.svg?updatedAt=1757147618895"
+              alt="Logo"
+              className="h-12 w-auto"
+            />
+          </a>
+        </div>
+        <div className="flex items-center gap-4">
+          <img
+            src={userProfileImg}
+            alt="User Profile"
+            className="h-10 w-10 rounded-full border-2 border-indigo-500 object-cover"
+          />
+          <button
+            onClick={handleLogout}
+            className="bg-indigo-600 hover:bg-indigo-700 text-white px-4 py-2 rounded-lg font-medium transition"
+          >
+            Logout
+          </button>
+        </div>
+      </nav>
+      <div className="flex flex-row min-h-[calc(100vh-80px)]">
+        {/* Profile Card on the left */}
+        <div className="w-full max-w-xs bg-zinc-900 rounded-2xl shadow-lg p-8 m-8 flex flex-col items-center justify-between min-h-[400px]">
+          <div className="flex flex-col items-center w-full">
+            <img
+              src={userProfileImg}
+              alt="User Profile"
+              className="h-24 w-24 rounded-full border-4 border-indigo-500 object-cover mb-4"
+            />
+            <h2 className="text-xl font-bold mb-1">{userName}</h2>
+            <p className="text-gray-400 text-sm mb-1 break-all">{userEmail}</p>
+            <p className="text-gray-400 text-sm mb-4">Username: <span className="font-mono">{userUsername}</span></p>
+          </div>
+          <button
+            onClick={handleCustomize}
+            className="mt-8 w-full bg-indigo-600 hover:bg-indigo-700 text-white py-2 rounded-lg font-medium transition"
+          >
+            Customize
+          </button>
+        </div>
+        {/* Main Dashboard Content */}
+        <div className="flex-1 flex flex-col p-8">
+          <div className="flex flex-row gap-8 mb-8">
+            {/* Predict Unemployment Risks Card */}
+            <div className="flex-1 bg-zinc-900 rounded-2xl shadow-lg p-8 flex flex-col items-center justify-center min-h-[200px]">
+              <button
+                onClick={openPredictionModal}
+                className="mb-4 bg-gradient-to-r from-blue-600 to-blue-400 text-white px-6 py-3 rounded-lg font-semibold shadow hover:from-blue-700 hover:to-blue-500 transition"
+              >
+                Predict Unemployment Risk
+              </button>
+              <PredictionModal isOpen={isPredictionOpen} onClose={closePredictionModal} />
             </div>
-
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-              {/* Card 1 */}
-              <div className="bg-white shadow rounded-lg p-6">
-                <h2 className="text-xl font-semibold text-gray-700">Analytics</h2>
-                <p className="mt-2 text-gray-600">View your key metrics and performance indicators.</p>
-              </div>
-              {/* Card 2 */}
-              <div className="bg-white shadow rounded-lg p-6">
-                <h2 className="text-xl font-semibold text-gray-700">Reports</h2>
-                <p className="mt-2 text-gray-600">Access and download your generated reports.</p>
-              </div>
-              {/* Predictor Card */}
-              <div className="bg-white shadow rounded-lg p-6">
-                <h2 className="text-xl font-semibold text-gray-700">Unemployment Predictor</h2>
-                <p className="mt-2 text-gray-600">Click the button to predict the unemployment rate.</p>
-                <button
-                  onClick={handleOpenModal}
-                  className="mt-4 w-full bg-blue-500 text-white py-2 px-4 rounded-md hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
-                >
-                  Predict
-                </button>
-              </div>
+          </div>
+          <div className="flex flex-row gap-8">
+            {/* Recommend Personalized Skilling Courses Card */}
+            <div className="flex-1 bg-zinc-900 rounded-2xl shadow-lg p-8 flex items-center justify-center min-h-[150px]">
+              <span className="text-lg text-center text-gray-200">
+                based on their profiles, and recommend personalized skilling courses
+              </span>
             </div>
           </div>
         </div>
       </div>
-      <PredictionModal isOpen={isModalOpen} onClose={handleCloseModal} />
     </div>
   );
-};
+}
 
 export default Dashboard;

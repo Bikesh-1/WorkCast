@@ -9,6 +9,7 @@ import {
 } from "../controllers/user.controllers.js";
 import { upload } from "../middlewares/multer.middleware.js";
 import { verifyJWT } from "../middlewares/auth.middleware.js";
+import axios from "axios";
 
 const router = Router();
 
