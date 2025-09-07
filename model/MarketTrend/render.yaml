@@ -1,0 +1,16 @@
+services:
+  - type: web
+    name: job-trends-streamlit
+    env: docker
+    plan: free
+    autoDeploy: true
+    healthCheckPath: /_stcore/health
+    # If Dockerfile is not at repo root, set dockerfilePath
+    # dockerfilePath: ./Dockerfile
+    # Optional: override command; here we use Dockerfile CMD
+    # dockerCommand: "streamlit run app.py --server.port=8501 --server.address=0.0.0.0"
+    envVars:
+      - key: STREAMLIT_SERVER_PORT
+        value: "8501"
+      - key: STREAMLIT_SERVER_ADDRESS
+        value: "0.0.0.0"

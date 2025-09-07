@@ -1,0 +1,41 @@
+# syntax=docker/dockerfile:1
+FROM python:3.11-slim
+
+# Prevents python from writing .pyc files and enables unbuffered logs
+ENV PYTHONDONTWRITEBYTECODE=1 \
+    PYTHONUNBUFFERED=1
+
+WORKDIR /app
+
+# System deps (curl for healthcheck; build tools for some wheels; locales optional)
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    build-essential curl ca-certificates locales \
+ && rm -rf /var/lib/apt/lists/*
+
+# Set UTF-8 locale (optional but helps with text processing)
+RUN sed -i '/en_US.UTF-8/s/^# //g' /etc/locale.gen && locale-gen
+ENV LANG=en_US.UTF-8 \
+    LC_ALL=en_US.UTF-8
+
+# Copy dependency list and install early to leverage caching
+COPY requirements.txt .
+RUN pip install --no-cache-dir -r requirements.txt
+
+# Copy app code
+COPY . .
+
+# Create writable dirs used at runtime
+RUN mkdir -p data results && chmod -R 777 data results
+
+# Streamlit config to bind to 0.0.0.0
+ENV STREAMLIT_SERVER_PORT=8501 \
+    STREAMLIT_SERVER_ADDRESS=0.0.0.0 \
+    STREAMLIT_BROWSER_GATHER_USAGE_STATS=false
+
+EXPOSE 8501
+
+# Healthcheck uses Streamlit health endpoint
+HEALTHCHECK --interval=30s --timeout=3s --retries=3 CMD curl --fail http://localhost:8501/_stcore/health || exit 1
+
+# Default command
+CMD ["streamlit", "run", "app.py", "--server.port=8501", "--server.address=0.0.0.0"]

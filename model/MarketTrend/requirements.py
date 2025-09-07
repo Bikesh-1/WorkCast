@@ -1,0 +1,12 @@
+pandas
+numpy
+scikit-learn
+nltk
+spacy
+matplotlib
+networkx
+prophet
+bertopic
+selenium
+beautifulsoup4
+streamlit
