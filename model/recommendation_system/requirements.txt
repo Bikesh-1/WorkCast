@@ -2,4 +2,3 @@ fastapi
 uvicorn
 pandas
 scikit-learn
-pickle5
