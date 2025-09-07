@@ -4,26 +4,35 @@ import requests
 import pandas as pd
 
 # Base URL of your deployed API
-API_URL = "https://workcast-qizn.onrender.com/recommendations/${userId}?top_n=${top_n}"  # Change this to your Render URL once deployed
+BASE_URL = "https://workcast-qizn.onrender.com"
 
 st.title("WorkCast Course Recommendations")
 
 # Input user ID
-user_id = st.text_input("Enter your User ID:")
+user_id = st.text_input("Enter your User ID (e.g., user_1):")
+# Input number of recommendations
+top_n = st.number_input("How many recommendations?", min_value=1, max_value=20, value=5)
 
 if st.button("Get Recommendations"):
     if not user_id:
-        st.warning("Please enter a user ID")
+        st.warning("⚠️ Please enter a user ID")
     else:
         try:
-            response = requests.post(API_URL, json={"user_id": user_id})
+            # Build API URL
+            api_url = f"{BASE_URL}/recommendations/{user_id}?top_n={top_n}"
+
+            # GET request to FastAPI backend
+            response = requests.get(api_url)
             response.raise_for_status()
+
             recs = response.json()
-            if recs:
-                df = pd.DataFrame(recs)
-                st.subheader("Top Course Recommendations")
+
+            if recs and "recommendations" in recs:
+                df = pd.DataFrame(recs["recommendations"])
+                st.subheader(f"📚 Top {recs['top_n']} Recommendations for {recs['user_id']}")
                 st.dataframe(df)
             else:
-                st.info("No recommendations found for this user.")
+                st.info("ℹ️ No recommendations found for this user.")
+
         except requests.exceptions.RequestException as e:
-            st.error(f"Error connecting to API: {e}")
+            st.error(f"❌ Error connecting to API: {e}")
