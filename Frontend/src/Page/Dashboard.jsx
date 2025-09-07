@@ -1,30 +1,36 @@
 import React, { useState } from 'react';
 import { useAppContext } from '../context/AppContext';
 import PredictionModal from '../Component/PredictionModal'; 
+import ResumeModal from '../Component/ResumeModal';
 
 function Dashboard() {
   const { user, logout } = useAppContext();
   const [isPredictionOpen, setIsPredictionOpen] = useState(false);
+  const [isResumeModalOpen, setIsResumeModalOpen] = useState(false);
 
+  // User info
   const userName = user?.fullName || user?.username || "User";
   const userEmail = user?.email || "No email";
   const userUsername = user?.username || "No username";
-  const userProfileImg = `https://ui-avatars.com/api/?name=${encodeURIComponent(userName)}&background=0D8ABC&color=fff`;
+  const userProfileImg = `https://ui-avatars.com/api/?name=${encodeURIComponent(
+    userName
+  )}&background=0D8ABC&color=fff`;
 
+  // Handlers
   const handleLogout = async () => {
     await logout();
     window.location.href = "/login";
   };
 
-  const handleCustomize = () => {
-    alert("Customize profile coming soon!");
-  };
+  const handleOpenResumeModal = () => setIsResumeModalOpen(true);
+  const handleCloseResumeModal = () => setIsResumeModalOpen(false);
 
   const openPredictionModal = () => setIsPredictionOpen(true);
   const closePredictionModal = () => setIsPredictionOpen(false);
 
   return (
     <div className="min-h-screen bg-black text-white">
+      {/* Navbar */}
       <nav className="w-full flex items-center justify-between px-8 py-4 bg-zinc-900 shadow-md">
         <div className="flex items-center">
           <a href="/">
@@ -49,8 +55,10 @@ function Dashboard() {
           </button>
         </div>
       </nav>
+
+      {/* Dashboard Body */}
       <div className="flex flex-row min-h-[calc(100vh-80px)]">
-        {/* Profile Card on the left */}
+        {/* Profile Card */}
         <div className="w-full max-w-xs bg-zinc-900 rounded-2xl shadow-lg p-8 m-8 flex flex-col items-center justify-between min-h-[400px]">
           <div className="flex flex-col items-center w-full">
             <img
@@ -60,15 +68,18 @@ function Dashboard() {
             />
             <h2 className="text-xl font-bold mb-1">{userName}</h2>
             <p className="text-gray-400 text-sm mb-1 break-all">{userEmail}</p>
-            <p className="text-gray-400 text-sm mb-4">Username: <span className="font-mono">{userUsername}</span></p>
+            <p className="text-gray-400 text-sm mb-4">
+              Username: <span className="font-mono">{userUsername}</span>
+            </p>
           </div>
           <button
-            onClick={handleCustomize}
-            className="mt-8 w-full bg-indigo-600 hover:bg-indigo-700 text-white py-2 rounded-lg font-medium transition"
+            onClick={handleOpenResumeModal}
+            className="mt-4 bg-indigo-600 hover:bg-indigo-700 text-white px-4 py-2 rounded-lg font-medium transition"
           >
-            Customize
+            Analyze Resume
           </button>
         </div>
+
         {/* Main Dashboard Content */}
         <div className="flex-1 flex flex-col p-8">
           <div className="flex flex-row gap-8 mb-8">
@@ -80,19 +91,23 @@ function Dashboard() {
               >
                 Predict Unemployment Risk
               </button>
-              <PredictionModal isOpen={isPredictionOpen} onClose={closePredictionModal} />
             </div>
           </div>
+
           <div className="flex flex-row gap-8">
             {/* Recommend Personalized Skilling Courses Card */}
             <div className="flex-1 bg-zinc-900 rounded-2xl shadow-lg p-8 flex items-center justify-center min-h-[150px]">
               <span className="text-lg text-center text-gray-200">
-                based on their profiles, and recommend personalized skilling courses
+                Based on their profiles, recommend personalized skilling courses
               </span>
             </div>
           </div>
         </div>
       </div>
+
+      {/* Modals (kept outside main content for proper overlay) */}
+      <ResumeModal isOpen={isResumeModalOpen} onClose={handleCloseResumeModal} />
+      <PredictionModal isOpen={isPredictionOpen} onClose={closePredictionModal} />
     </div>
   );
 }

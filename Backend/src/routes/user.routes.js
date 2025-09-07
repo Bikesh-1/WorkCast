@@ -10,6 +10,7 @@ import {
 import { upload } from "../middlewares/multer.middleware.js";
 import { verifyJWT } from "../middlewares/auth.middleware.js";
 import axios from "axios";
+import FormData from 'form-data';
 
 const router = Router();
 
@@ -28,6 +29,30 @@ router.route("/predict").post(async (req, res) => {
         res.json(response.data);
     } catch (error) {
         res.status(500).json({ error: "An error occurred while making the prediction." });
+    }
+});
+router.route("/analyze-resume").post(upload.single('resume'), async (req, res) => {
+    if (!req.file) {
+        return res.status(400).json({ error: "No resume file uploaded." });
+    }
+
+    try {
+        const form = new FormData();
+        form.append('resume', req.file.buffer, {
+            filename: req.file.originalname,
+            contentType: req.file.mimetype,
+        });
+
+        const response = await axios.post("https://resume-analyzer-fszg.onrender.com/predict", form, {
+            headers: {
+                ...form.getHeaders()
+            }
+        });
+
+        res.json(response.data);
+    } catch (error) {
+        console.error("Error in resume analysis route:", error);
+        res.status(500).json({ error: "An error occurred during resume analysis." });
     }
 });
 
