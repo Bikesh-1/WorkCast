@@ -7,7 +7,6 @@ export const AppProvider = ({ children }) => {
   const [user, setUser] = useState(null);
   const [loading, setLoading] = useState(true);
 
-  // Axios instance with the full backend URL
   const api = axios.create({
     baseURL: "http://localhost:3000/api/v1/users",
     withCredentials: true,
@@ -16,7 +15,6 @@ export const AppProvider = ({ children }) => {
     },
   });
 
-  // fetch current user on load
   const fetchCurrentUser = async () => {
     try {
       const { data } = await api.get("/current-user");
@@ -40,7 +38,6 @@ export const AppProvider = ({ children }) => {
   const signup = async (formData) => {
     try {
       const { data } = await api.post("/register", formData);
-      // Corrected: Set user from the nested 'user' object in the response
       setUser(data.data.user);
     } catch (err) {
       throw new Error(err.response?.data?.message || "Signup failed");
@@ -68,4 +65,3 @@ export const AppProvider = ({ children }) => {
 };
 
 export const useAppContext = () => useContext(AppContext);
-
