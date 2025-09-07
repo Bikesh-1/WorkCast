@@ -56,11 +56,19 @@ router.route("/recommendations/:userId").get(async (req, res) => {
   
       console.log("Fetching recommendations for userId:", userId, "top_n:", top_n);
   
+      // Check if user exists in DB
+      const user = await User.findOne({ recommenderId: parseInt(userId) });
+      if (!user) {
+        return res.status(404).json({ error: `User ${userId} not found in DB.` });
+      }
+  
+      // Call WorkCast API
       const response = await axios.get(
         `https://workcast-qizn.onrender.com/recommendations/${userId}?top_n=${top_n}`
       );
-      
+  
       res.status(200).json(response.data);
+  
     } catch (error) {
       console.error("Recommendation fetch error:", error.response?.data || error.message);
       res.status(error.response?.status || 500).json({

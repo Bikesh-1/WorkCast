@@ -5,49 +5,69 @@ import ResumeModal from '../Component/ResumeModal';
 import RecommendedCourses from '../Component/RecommendedCourses';
 
 function Dashboard() {
-  const { user, logout, apiPrefix } = useAppContext();
+  const { user, logout } = useAppContext();
 
-  // Modal visibility states
   const [isPredictionOpen, setIsPredictionOpen] = useState(false);
   const [isResumeModalOpen, setIsResumeModalOpen] = useState(false);
 
-  // Data and result states
   const [predictionResult, setPredictionResult] = useState(null);
   const [resumeResult, setResumeResult] = useState(null);
   const [recommendations, setRecommendations] = useState([]);
   const [loadingRecommendations, setLoadingRecommendations] = useState(true);
+  const [recommendationError, setRecommendationError] = useState('');
 
-  // User information
   const userName = user?.fullName || user?.username || "User";
   const userEmail = user?.email || "No email available";
   const userUsername = user?.username || "N/A";
-  const userProfileImg = `https://ui-avatars.com/api/?name=${encodeURIComponent(userName)}&background=0D8ABC&color=fff`;
+  const userProfileImg = `https://ui-avatars.com/api/?name=${encodeURIComponent(
+    userName
+  )}&background=0D8ABC&color=fff`;
 
   // --- DATA FETCHING ---
   useEffect(() => {
     const fetchRecommendations = async () => {
-      if (user && user._id) {
-        setLoadingRecommendations(true);
-        try {
-          const response = await fetch(
-            `http://localhost:3000/api/v1/users/recommendations/${user._id}?top_n=5`
-          );
-          if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
-          const data = await response.json();
-          console.log("Recommendations API response:", data);
-          setRecommendations(data.recommendations || data.data || []);
-        } catch (error) {
-          console.error("Error fetching recommendations:", error);
-          setRecommendations([]);
-        } finally {
-          setLoadingRecommendations(false);
+      if (!user?._id) {
+        setLoadingRecommendations(false);
+        setRecommendationError("No user logged in");
+        return;
+      }
+
+      setLoadingRecommendations(true);
+      setRecommendationError('');
+      try {
+        const response = await fetch(
+          `http://localhost:3000/api/v1/users/recommendations/${user._id}?top_n=5`
+        );
+
+        // Handle HTTP errors
+        if (!response.ok) {
+          const errText = await response.text();
+          console.error("Raw error response:", errText);
+          throw new Error(`HTTP error! status: ${response.status}`);
         }
-      } else if (user === null) {
+
+        // Attempt to parse JSON
+        const data = await response.json();
+
+        if (data.error) {
+          console.error("API returned error:", data.error);
+          setRecommendationError(data.error || "Failed to fetch recommendations");
+          setRecommendations([]);
+        } else {
+          setRecommendations(data.recommendations || data.data || []);
+        }
+
+      } catch (error) {
+        console.error("Error fetching recommendations:", error);
+        setRecommendationError(error.message || "Failed to fetch recommendations");
+        setRecommendations([]);
+      } finally {
         setLoadingRecommendations(false);
       }
     };
+
     fetchRecommendations();
-  }, [user, apiPrefix]);
+  }, [user]);
 
   // --- EVENT HANDLERS ---
   const handleLogout = async () => {
@@ -156,16 +176,20 @@ function Dashboard() {
             {/* Recommended Courses */}
             <div className="bg-zinc-900 rounded-2xl shadow-lg p-8 min-h-[220px]">
               <h3 className="mb-2 text-lg font-semibold">Recommended Courses For You</h3>
-              <RecommendedCourses
-                recommendations={recommendations}
-                loading={loadingRecommendations}
-              />
+              {recommendationError ? (
+                <p className="text-red-400">{recommendationError}</p>
+              ) : (
+                <RecommendedCourses
+                  recommendations={recommendations}
+                  loading={loadingRecommendations}
+                />
+              )}
             </div>
           </div>
         </section>
       </main>
 
-      {/* --- Modals --- */}
+      {/* Modals */}
       <ResumeModal
         isOpen={isResumeModalOpen}
         onClose={() => setIsResumeModalOpen(false)}

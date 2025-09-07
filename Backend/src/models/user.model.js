@@ -57,6 +57,10 @@ const userSchema = new Schema(
         pastExperience: {
             type: String,
         },
+        recommenderId: {
+            type: Number, // must be an integer for your recommender API
+            required: false,
+          },
         refreshToken: {
             type: String
         }
