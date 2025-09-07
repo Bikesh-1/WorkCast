@@ -42,12 +42,13 @@ const registerUser = asyncHandler(async(req,res)=>{
     if(existedUser){
         throw new ApiError(409, "User with email or username already exists")
     }
-
+    const userCount = await User.countDocuments();
     const user = await User.create({
         fullName,
         email,
         username,
         password,
+        recommenderId: userCount + 1,
     })
 
     if(!user){

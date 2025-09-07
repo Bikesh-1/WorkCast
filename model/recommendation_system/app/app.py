@@ -4,7 +4,7 @@ import requests
 import pandas as pd
 
 # Base URL of your deployed API
-API_URL = "http://localhost:8000/recommendations"  # Change this to your Render URL once deployed
+API_URL = "https://workcast-qizn.onrender.com/recommendations/${userId}?top_n=${top_n}"  # Change this to your Render URL once deployed
 
 st.title("WorkCast Course Recommendations")
 
