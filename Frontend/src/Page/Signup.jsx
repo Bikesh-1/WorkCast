@@ -42,7 +42,7 @@ export default function Signup() {
       <div className="absolute top-6 left-6">
         <a href="/">
           <img
-            src="https://ik.imagekit.io/lxvqyrkjo/Group%201.svg?updatedAt=1757147618895"
+            src="https://ik.imagekit.io/lxvqyrkjo/Group%201.svg?updatedAt=1757267388277"
             alt="Logo"
             className="h-10 w-auto"
           />

@@ -15,7 +15,7 @@ function Navbar() {
       {/* Logo */}
       <div className="flex items-center" style={{ minWidth: 0 }}>
         <img
-          src="https://ik.imagekit.io/lxvqyrkjo/Group%201.svg?updatedAt=1757147618895"
+          src="https://ik.imagekit.io/lxvqyrkjo/Group%201.svg?updatedAt=1757267388277"
           alt="WorkCast Logo"
           className="h-20 w-20 mr-3 object-contain"
           style={{ flexShrink: 0, flexGrow: 0 }}

@@ -36,7 +36,7 @@ export default function Login() {
         <a href="/">
           {/* Replace src with your logo path if needed */}
           <img
-            src="https://ik.imagekit.io/lxvqyrkjo/Group%201.svg?updatedAt=1757147618895"
+            src="https://ik.imagekit.io/lxvqyrkjo/Group%201.svg?updatedAt=1757267388277"
             alt="Logo"
             className="h-10 w-auto"
             
@@ -58,7 +58,7 @@ export default function Login() {
         <form onSubmit={handleSubmit} className="space-y-5">
           <div>
             <label className="block text-sm font-medium text-gray-200">
-              Email or Username
+              Email 
             </label>
             <input
               type="text"
