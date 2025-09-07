@@ -2,66 +2,59 @@ import React, { useState, useEffect } from 'react';
 import { useAppContext } from '../context/AppContext';
 import PredictionModal from '../Component/PredictionModal';
 import ResumeModal from '../Component/ResumeModal';
-import CertificateModal from '../Component/VerifyCertificateModal';
-import VerifyCertificateModal from '../Component/VerifyCertificateModal';
-import axios from 'axios';
+import RecommendedCourses from '../Component/RecommendedCourses';
 
 function Dashboard() {
-  const { user, logout } = useAppContext();
+  const { user, logout, apiPrefix } = useAppContext();
+
+  // Modal visibility states
   const [isPredictionOpen, setIsPredictionOpen] = useState(false);
   const [isResumeModalOpen, setIsResumeModalOpen] = useState(false);
-  const [isCertificateModalOpen, setIsCertificateModalOpen] = useState(false);
-  const [isVerifyCertificateModalOpen, setIsVerifyCertificateModalOpen] = useState(false);
 
-  // Store results
+  // Data and result states
   const [predictionResult, setPredictionResult] = useState(null);
   const [resumeResult, setResumeResult] = useState(null);
-  const [certificates, setCertificates] = useState([]);
+  const [recommendations, setRecommendations] = useState([]);
+  const [loadingRecommendations, setLoadingRecommendations] = useState(true);
 
-  // User info
+  // User information
   const userName = user?.fullName || user?.username || "User";
-  const userEmail = user?.email || "No email";
-  const userUsername = user?.username || "No username";
-  const userProfileImg = `https://ui-avatars.com/api/?name=${encodeURIComponent(
-    userName
-  )}&background=0D8ABC&color=fff`;
+  const userEmail = user?.email || "No email available";
+  const userUsername = user?.username || "N/A";
+  const userProfileImg = `https://ui-avatars.com/api/?name=${encodeURIComponent(userName)}&background=0D8ABC&color=fff`;
 
+  // --- DATA FETCHING ---
   useEffect(() => {
-    const fetchCertificates = async () => {
-      if (user && user.walletAddress) {
+    const fetchRecommendations = async () => {
+      if (user && user._id) {
+        setLoadingRecommendations(true);
         try {
-          const response = await axios.get(`https://work-cast.vercel.app/api/v1/certificates/get-certificates?studentWallet=${user.walletAddress}`, {
-            headers: {
-              'Authorization': `Bearer ${localStorage.getItem('accessToken')}`
-            }
-          });
-          setCertificates(response.data.data);
+          const response = await fetch(
+            `http://localhost:3000/api/v1/users/recommendations/${user._id}?top_n=5`
+          );
+          if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
+          const data = await response.json();
+          console.log("Recommendations API response:", data);
+          setRecommendations(data.recommendations || data.data || []);
         } catch (error) {
-          console.error("Failed to fetch certificates", error);
+          console.error("Error fetching recommendations:", error);
+          setRecommendations([]);
+        } finally {
+          setLoadingRecommendations(false);
         }
+      } else if (user === null) {
+        setLoadingRecommendations(false);
       }
     };
-    fetchCertificates();
-  }, [user]);
+    fetchRecommendations();
+  }, [user, apiPrefix]);
 
-  // Handlers
+  // --- EVENT HANDLERS ---
   const handleLogout = async () => {
     await logout();
     window.location.href = "/login";
   };
 
-  const handleOpenResumeModal = () => setIsResumeModalOpen(true);
-  const handleCloseResumeModal = () => setIsResumeModalOpen(false);
-
-  const openPredictionModal = () => setIsPredictionOpen(true);
-  const closePredictionModal = () => setIsPredictionOpen(false);
-  
-
-
-  const openVerifyCertificateModal = () => setIsVerifyCertificateModalOpen(true);
-  const closeVerifyCertificateModal = () => setIsVerifyCertificateModalOpen(false);
-
-  // Callbacks from modals
   const handleResumeResult = (data) => {
     setResumeResult(data);
     setIsResumeModalOpen(false);
@@ -71,20 +64,16 @@ function Dashboard() {
     setPredictionResult(data);
     setIsPredictionOpen(false);
   };
-  
-  const handleCertificateIssued = (newCertificate) => {
-    setCertificates(prev => [...prev, newCertificate]);
-  };
 
   return (
     <div className="min-h-screen text-white bg-black">
       {/* Navbar */}
-      <nav className="flex justify-between items-center px-8 py-4 w-full shadow-md bg-zinc-900">
+      <nav className="flex sticky top-0 z-40 justify-between items-center px-8 py-4 w-full shadow-lg bg-zinc-900">
         <div className="flex items-center">
           <a href="/">
             <img
               src="https://ik.imagekit.io/lxvqyrkjo/Group%201.svg?updatedAt=1757147618895"
-              alt="Logo"
+              alt="WorkCast Logo"
               className="w-auto h-12"
             />
           </a>
@@ -97,7 +86,7 @@ function Dashboard() {
           />
           <button
             onClick={handleLogout}
-            className="px-4 py-2 font-medium text-white bg-indigo-600 rounded-lg transition hover:bg-indigo-700"
+            className="px-4 py-2 font-medium text-white bg-indigo-600 rounded-lg transition-transform transform hover:bg-indigo-700 hover:scale-105"
           >
             Logout
           </button>
@@ -105,10 +94,10 @@ function Dashboard() {
       </nav>
 
       {/* Dashboard Body */}
-      <div className="flex flex-row min-h-[calc(100vh-80px)]">
-        {/* Profile Card */}
-        <div className="w-full max-w-xs bg-zinc-900 rounded-2xl shadow-lg p-8 m-8 flex flex-col items-center justify-between min-h-[400px]">
-          <div className="flex flex-col items-center w-full">
+      <main className="flex flex-col md:flex-row min-h-[calc(100vh-88px)]">
+        {/* Sidebar */}
+        <aside className="flex flex-col justify-between items-center self-start p-8 m-8 w-full rounded-2xl shadow-lg md:w-1/4 bg-zinc-900">
+          <div className="flex flex-col items-center w-full text-center">
             <img
               src={userProfileImg}
               alt="User Profile"
@@ -116,108 +105,76 @@ function Dashboard() {
             />
             <h2 className="mb-1 text-xl font-bold">{userName}</h2>
             <p className="mb-1 text-sm text-gray-400 break-all">{userEmail}</p>
-            <p className="mb-4 text-sm text-gray-400">
+            <p className="mb-6 text-sm text-gray-400">
               Username: <span className="font-mono">{userUsername}</span>
             </p>
           </div>
           <div className="flex flex-col gap-4 w-full">
             <button
-              onClick={handleOpenResumeModal}
-              className="px-4 py-2 font-medium text-white bg-indigo-600 rounded-lg transition hover:bg-indigo-700"
+              onClick={() => setIsResumeModalOpen(true)}
+              className="px-4 py-2 w-full font-medium text-white bg-indigo-600 rounded-lg transition hover:bg-indigo-700"
             >
               Analyze Resume
             </button>
-            
-            <button
-              onClick={openVerifyCertificateModal}
-              className="px-4 py-2 font-medium text-white bg-yellow-600 rounded-lg transition hover:bg-yellow-700"
-            >
-              Verify Certificate
-            </button>
           </div>
-        </div>
+        </aside>
 
-        {/* Main Dashboard Content */}
-        <div className="flex flex-col flex-1 p-8">
-          <div className="flex flex-row gap-8 mb-8">
-            {/* Predict Unemployment Risks Card */}
-            <div className="flex-1 bg-zinc-900 rounded-2xl shadow-lg p-8 flex flex-col items-center justify-center min-h-[200px]">
+        {/* Main Content */}
+        <section className="flex-1 p-8">
+          <div className="grid grid-cols-1 gap-8 lg:grid-cols-2">
+            {/* Unemployment Risk */}
+            <div className="bg-zinc-900 rounded-2xl shadow-lg p-8 flex flex-col items-center justify-center min-h-[220px]">
+              <h3 className="mb-4 text-lg font-semibold">Unemployment Risk</h3>
               <button
-                onClick={openPredictionModal}
-                className="px-6 py-3 mb-4 font-semibold text-white bg-gradient-to-r from-blue-600 to-blue-400 rounded-lg shadow transition hover:from-blue-700 hover:to-blue-500"
+                onClick={() => setIsPredictionOpen(true)}
+                className="px-6 py-3 font-semibold text-white bg-gradient-to-r from-blue-600 to-blue-400 rounded-lg shadow transition hover:from-blue-700 hover:to-blue-500"
               >
-                Predict Unemployment Risk
+                Predict Risk
               </button>
-              {predictionResult && (
+              {predictionResult !== null && (
                 <div className="mt-4 text-center">
-                  <h3 className="text-lg font-semibold">Prediction Result</h3>
-                  <p className="mt-2 text-lg text-gray-300">{(predictionResult * 100).toFixed(2)}</p>
+                  <p className="mt-2 text-2xl font-bold text-gray-300">
+                    {(predictionResult * 100).toFixed(2)}%
+                  </p>
+                  <p className="text-sm text-gray-500">Estimated Risk</p>
                 </div>
               )}
             </div>
-          </div>
 
-          <div className="grid grid-cols-1 gap-8 md:grid-cols-2">
-            {/* Resume Analysis Result */}
-            <div className="p-8 rounded-2xl shadow-lg bg-zinc-900">
+            {/* Resume Analysis */}
+            <div className="bg-zinc-900 rounded-2xl shadow-lg p-8 min-h-[220px]">
               <h3 className="mb-2 text-lg font-semibold">Resume Analysis</h3>
               {resumeResult ? (
-                <p className="text-sm text-gray-300 whitespace-pre-wrap">
-                  {resumeResult}
-                </p>
+                <p className="text-sm text-gray-300 whitespace-pre-wrap">{resumeResult}</p>
               ) : (
-                <span className="text-gray-500">No analysis yet.</span>
+                <span className="text-gray-500">
+                  Analyze your resume to see insights here.
+                </span>
               )}
             </div>
 
-            {/* Recommend Personalized Skilling Courses Card */}
-            <div className="p-8 rounded-2xl shadow-lg bg-zinc-900">
-              <h3 className="mb-2 text-lg font-semibold">
-                Personalized Skilling Courses
-              </h3>
-              <span className="text-gray-500">
-                Recommendations will appear here.
-              </span>
-            </div>
-
-            {/* Issued Certificates */}
-            <div className="p-8 rounded-2xl shadow-lg md:col-span-2 bg-zinc-900">
-              <h3 className="mb-4 text-lg font-semibold">My Certificates</h3>
-              <div className="space-y-4">
-                {certificates.length > 0 ? (
-                  certificates.map((cert) => (
-                    <div key={cert._id} className="p-4 rounded-lg bg-zinc-800">
-                      <h4 className="font-bold text-md">{cert.courseName}</h4>
-                      <p className="text-sm text-gray-400">Issued by: {cert.institution}</p>
-                       <a href={`https://explorer.solana.com/tx/${cert.transactionId}?cluster=devnet`} target="_blank" rel="noopener noreferrer" className="text-xs text-blue-400 hover:underline">
-                        View on Solana Explorer
-                      </a>
-                    </div>
-                  ))
-                ) : (
-                  <p className="text-gray-500">No certificates found.</p>
-                )}
-              </div>
+            {/* Recommended Courses */}
+            <div className="bg-zinc-900 rounded-2xl shadow-lg p-8 min-h-[220px]">
+              <h3 className="mb-2 text-lg font-semibold">Recommended Courses For You</h3>
+              <RecommendedCourses
+                recommendations={recommendations}
+                loading={loadingRecommendations}
+              />
             </div>
           </div>
-        </div>
-      </div>
+        </section>
+      </main>
 
-      {/* Modals */}
+      {/* --- Modals --- */}
       <ResumeModal
         isOpen={isResumeModalOpen}
-        onClose={handleCloseResumeModal}
+        onClose={() => setIsResumeModalOpen(false)}
         onResult={handleResumeResult}
       />
       <PredictionModal
         isOpen={isPredictionOpen}
-        onClose={closePredictionModal}
+        onClose={() => setIsPredictionOpen(false)}
         onPrediction={handlePredictionResult}
-      />
-      
-      <VerifyCertificateModal
-        isOpen={isVerifyCertificateModalOpen}
-        onClose={closeVerifyCertificateModal}
       />
     </div>
   );
